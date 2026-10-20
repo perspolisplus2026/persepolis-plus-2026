@@ -1,53 +1,5026 @@
-
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>پرسپولیس پلاس ۲۰۲۶</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#101012">
+<title>پرسپولیس پلاس</title>
 <style>
+:root{--bg:#101012;--panel:#19191d;--red:#ed1738;--text:#f7f5f6;--muted:#99979f;--line:#303036}
 *{box-sizing:border-box}
-body{margin:0;background:#f4f4f4;font-family:Tahoma,Arial,sans-serif;color:#222}
-header{background:#b40019;color:white;text-align:center;padding:25px 12px}
-header h1{margin:0 0 8px;font-size:27px}
-header p{margin:0;font-size:13px}
-nav{display:flex;justify-content:space-around;background:#fff;padding:15px 3px;box-shadow:0 2px 6px #ddd}
-nav a{color:#a00018;text-decoration:none;font-size:13px;font-weight:bold}
-main{padding:16px;max-width:650px;margin:auto}
-h2{font-size:19px}
-.card{background:white;padding:18px;margin:12px 0;border-radius:12px;box-shadow:0 2px 7px #ddd}
-.card p{font-size:14px;line-height:2;color:#555}
-footer{text-align:center;padding:25px;color:#777;font-size:12px}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Tahoma,Arial,sans-serif;font-size:14px;line-height:1.8}
+button{font:inherit;cursor:pointer}
+.app{max-width:520px;margin:auto;min-height:100vh;padding-bottom:90px}
+header{padding:24px 20px 20px;background:radial-gradient(ellipse at 100% 0%,#701427,transparent 55%),#151518;border-bottom:1px solid #302027}
+.top{display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:11px}
+.crest{width:51px;height:51px;border-radius:17px;display:grid;place-items:center;background:linear-gradient(145deg,#ff3653,#b60827);box-shadow:0 8px 25px #e817383d;font-size:26px}
+.brand h1{font-size:19px;margin:0;font-weight:900}
+.brand p{margin:0;color:#d0a9b0;font-size:11px}
+.icon-btn{border:1px solid #ffffff18;background:#ffffff0a;color:white;border-radius:13px;width:43px;height:43px;font-size:19px}
+.kicker{color:#ff7187;font-size:11px;font-weight:bold;margin-top:26px}
+.hero-title{font-size:29px;line-height:1.5;margin:5px 0;font-weight:900}
+.hero-title span{color:#ff3653}
+.hero-desc{font-size:12px;color:#c1b9bd;margin:0 0 17px}
+.hero-actions{display:flex;gap:9px}
+.btn{border:0;border-radius:13px;padding:11px 16px;font-weight:bold;font-size:12px;transition:.2s}
+.btn:active{transform:scale(.97)}
+.primary{background:linear-gradient(120deg,#ff3653,#cf092b);color:white;box-shadow:0 7px 20px #ed17382c}
+.secondary{background:#ffffff0b;color:white;border:1px solid #ffffff1c}
+main{padding:18px 16px}
+.section{margin-bottom:25px;scroll-margin-top:15px}
+.section-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:13px}
+.section-head h2{font-size:16px;margin:0;font-weight:900}
+.section-head small{color:var(--muted);font-size:11px}
+.link{background:none;border:0;color:#ff637c;font-size:11px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:19px;overflow:hidden}
+.match-feature{padding:17px;background:radial-gradient(ellipse at 50% 0%,#61202f66,transparent 70%),var(--panel)}
+.match-label{display:flex;align-items:center;justify-content:space-between;color:var(--muted);font-size:11px}
+.tag{background:#ed17381c;color:#ff6c83;padding:4px 9px;border-radius:8px;font-size:10px}
+.teams{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;text-align:center;padding:18px 0 12px;gap:7px}
+.team-symbol{margin:0 auto 7px;width:57px;height:57px;border-radius:18px;display:grid;place-items:center;font-size:25px;font-weight:900;background:linear-gradient(145deg,#ed1738,#8c0920)}
+.team-symbol.opponent{background:linear-gradient(145deg,#34343c,#202026)}
+.team-name{font-size:12px;font-weight:bold}
+.team-sub{font-size:10px;color:var(--muted)}
+.vs{font-weight:900;font-size:17px;color:#77737b}
+.match-note{border-top:1px solid var(--line);padding-top:11px;text-align:center;color:var(--muted);font-size:10px}
+.quick-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px}
+.quick{border:1px solid var(--line);background:var(--panel);border-radius:16px;padding:13px 3px;text-align:center;color:var(--text)}
+.quick .emoji{font-size:22px;display:block;margin-bottom:4px}
+.quick span:last-child{font-size:10px;font-weight:bold}
+.quick:active{background:#302027}
+.news-card{display:grid;grid-template-columns:82px 1fr;gap:12px;padding:12px}
+.news-art{min-height:93px;border-radius:13px;display:grid;place-items:center;font-size:31px;background:linear-gradient(145deg,#501222,#24151c)}
+.news-art.gold{background:linear-gradient(145deg,#55401d,#272016)}
+.news-art.blue{background:linear-gradient(145deg,#243d50,#171d26)}
+.news-copy{min-width:0}
+.news-copy .category{color:#ff637c;font-size:10px;font-weight:bold}
+.news-copy h3{font-size:12px;line-height:1.9;margin:3px 0 5px}
+.news-copy p{color:var(--muted);font-size:10px;margin:0}
+.news-list{display:grid;gap:10px}
+.filters{display:flex;gap:8px;overflow:auto;padding-bottom:11px}
+.filter{white-space:nowrap;border:1px solid var(--line);background:var(--panel);color:#b6b3bb;border-radius:11px;padding:7px 13px;font-size:11px}
+.filter.active{background:var(--red);border-color:var(--red);color:white}
+.table-row{display:grid;grid-template-columns:30px 1fr 40px 40px;align-items:center;gap:8px;padding:12px 13px;border-bottom:1px solid var(--line);font-size:11px}
+.table-row:last-child{border-bottom:0}
+.table-row.head{color:var(--muted);font-size:10px;background:#ffffff04}
+.table-row .club{font-weight:bold}
+.rank{width:24px;height:24px;border-radius:8px;background:#ffffff0b;display:grid;place-items:center}
+.our-rank{background:#ed17382b;color:#ff7187}
+.points{text-align:center;font-weight:bold}
+.form-note{padding:10px 13px;color:var(--muted);font-size:10px}
+.newsletter{padding:18px;border-radius:19px;background:linear-gradient(125deg,#671328,#28141b);border:1px solid #6b2939}
+.newsletter h2{margin:0 0 5px;font-size:16px}
+.newsletter p{margin:0 0 13px;font-size:11px;color:#e2bdc5}
+.bottom-nav{position:fixed;z-index:10;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:520px;display:grid;grid-template-columns:repeat(4,1fr);padding:10px 9px calc(10px + env(safe-area-inset-bottom));background:#151518f2;backdrop-filter:blur(18px);border-top:1px solid #343037}
+.nav-item{background:none;border:0;color:#88858e;font-size:10px;padding:3px 0}
+.nav-item b{display:block;font-size:20px;line-height:1.5;font-weight:normal}
+.nav-item.active{color:#ff4764}
+footer{text-align:center;color:#6f6c74;font-size:10px;padding:5px 0 20px}
+.toast{position:fixed;bottom:94px;left:50%;transform:translate(-50%,15px);background:#29292f;color:white;border:1px solid #45454e;border-radius:12px;padding:10px 16px;font-size:11px;opacity:0;pointer-events:none;transition:.25s;z-index:20;width:max-content;max-width:90%}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+[hidden]{display:none!important}
+
+/* PERSPOLIS PRO MAX THEME */
+:root {
+  --red: #ed1745;
+  --red-light: #ff4569;
+  --bg: #08090d;
+  --panel: #14151d;
+  --line: rgba(255,255,255,.09);
+  --muted: #a3a7b5;
+}
+html { scroll-behavior: smooth; }
+body {
+  background:
+    radial-gradient(ellipse at 95% 0%, rgba(237,23,69,.16), transparent 32rem),
+    radial-gradient(ellipse at 0% 45%, rgba(110,20,48,.10), transparent 28rem),
+    var(--bg) !important;
+  color: #f8f8fc;
+  font-family: Tahoma, Arial, sans-serif;
+}
+header, .topbar {
+  background: rgba(10,11,16,.88) !important;
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(18px);
+}
+h1, h2, h3, .section-title {
+  letter-spacing: -.35px;
+}
+h1 {
+  text-shadow: 0 0 28px rgba(237,23,69,.2);
+}
+a { color: inherit; }
+button, .filter, .nav-item, .quick-link {
+  transition: transform .2s ease, background .2s ease,
+              border-color .2s ease, box-shadow .2s ease;
+}
+button:active, .filter:active, .nav-item:active,
+.quick-link:active { transform: scale(.97); }
+.hero, .match-card, .newsletter, .table-wrap {
+  border: 1px solid var(--line) !important;
+  border-radius: 22px !important;
+  box-shadow: 0 14px 40px rgba(0,0,0,.22);
+}
+.hero {
+  background:
+    radial-gradient(ellipse at 100% 0%, rgba(237,23,69,.28), transparent 55%),
+    linear-gradient(135deg,#19121a,#101118 65%,#171018) !important;
+  overflow: hidden;
+  position: relative;
+}
+.match-card {
+  background: linear-gradient(135deg,#20121a,#15151d 65%,#111219) !important;
+  position: relative;
+  overflow: hidden;
+}
+.match-card::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 3px;
+  background: linear-gradient(transparent,var(--red),transparent);
+}
+.quick-link, .news-card, .table-wrap, .newsletter {
+  background: linear-gradient(145deg,#181922,#111219) !important;
+  border: 1px solid var(--line) !important;
+  border-radius: 18px !important;
+}
+.quick-link:hover, .news-card:hover {
+  border-color: rgba(237,23,69,.45) !important;
+  box-shadow: 0 12px 28px rgba(0,0,0,.25);
+  transform: translateY(-3px);
+}
+.news-card {
+  overflow: hidden;
+  transition: transform .22s ease, border-color .22s ease;
+}
+.news-card img {
+  display: block;
+  max-width: 100%;
+}
+.news-card h3, .news-card h4 {
+  line-height: 1.9;
+}
+.section-title {
+  position: relative;
+  padding-right: 13px;
+}
+.section-title::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 20%;
+  height: 60%;
+  width: 4px;
+  border-radius: 5px;
+  background: var(--red);
+  box-shadow: 0 0 12px rgba(237,23,69,.5);
+}
+button, .filter {
+  border-radius: 12px;
+}
+.filter.active, .nav-item.active {
+  color: #fff !important;
+  background: linear-gradient(135deg,#ed1745,#a90d30) !important;
+  border-color: transparent !important;
+  box-shadow: 0 5px 18px rgba(237,23,69,.23);
+}
+.badge, .tag {
+  border-radius: 7px;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+}
+th {
+  color: #ff6b86;
+  background: rgba(237,23,69,.09);
+}
+td, th {
+  border-bottom: 1px solid var(--line);
+  padding: 12px 9px;
+}
+tr:last-child td { border-bottom: 0; }
+.bottom-nav {
+  background: rgba(12,13,19,.94) !important;
+  border-top: 1px solid rgba(255,255,255,.10) !important;
+  backdrop-filter: blur(20px);
+  box-shadow: 0 -10px 30px rgba(0,0,0,.2);
+}
+.nav-item.active { border-radius: 13px; }
+input, select, textarea {
+  background: #0d0e14 !important;
+  color: #fff !important;
+  border: 1px solid #30313c !important;
+  border-radius: 12px !important;
+}
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--red) !important;
+  box-shadow: 0 0 0 3px rgba(237,23,69,.12);
+}
+.toast {
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 14px;
+  box-shadow: 0 12px 35px rgba(0,0,0,.4);
+}
+::selection { background: #ed1745; color: white; }
+@media (max-width: 600px) {
+  body { font-size: 14px; }
+  .hero, .match-card { border-radius: 18px !important; }
+  .news-card { border-radius: 15px !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    transition: none !important;
+  }
+}
+
+
+/* PERSPOLIS LUXURY HEADER */
+.pp-brandbar {
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 20px 16px;
+  margin: 0 0 20px;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.20);
+  border-radius: 0 0 25px 25px;
+  background:
+    radial-gradient(ellipse at 8% 10%,rgba(255,34,79,.32),transparent 55%),
+    linear-gradient(135deg,rgba(255,255,255,.10),rgba(255,255,255,.025));
+  box-shadow: 0 14px 35px rgba(0,0,0,.25), inset 0 1px rgba(255,255,255,.12);
+  backdrop-filter: blur(22px);
+}
+.pp-brandbar::after {
+  content:"";
+  position:absolute;
+  bottom:0;
+  right:10%;
+  width:80%;
+  height:1px;
+  background:linear-gradient(90deg,transparent,#ff315a,transparent);
+}
+.pp-crest {
+  width:66px;
+  min-width:66px;
+  filter:drop-shadow(0 5px 13px rgba(237,23,69,.38));
+}
+.pp-crest svg { display:block;width:100%;height:auto; }
+.pp-brandtext { min-width:0; flex:1; }
+.pp-fa-title {
+  color:#fff;
+  font-family:Tahoma,"Noto Sans Arabic",sans-serif;
+  font-size:clamp(23px,6vw,32px);
+  font-weight:900;
+  line-height:1.6;
+  letter-spacing:-1px;
+  text-shadow:0 2px 20px rgba(255,255,255,.12);
+}
+.pp-fa-title span {
+  color:#ff4569;
+  text-shadow:0 0 18px rgba(255,40,83,.32);
+}
+.pp-en-title {
+  direction:ltr;
+  text-align:right;
+  color:rgba(255,255,255,.78);
+  font:700 10px/1.8 Arial,sans-serif;
+  letter-spacing:2.2px;
+}
+.pp-en-title b { color:#ff4569; }
+.pp-tagline {
+  color:rgba(255,255,255,.48);
+  font-size:9px;
+  margin-top:3px;
+}
+.pp-live-mark {
+  align-self:flex-start;
+  white-space:nowrap;
+  font-size:9px;
+  color:#fff;
+  padding:7px 9px;
+  border:1px solid rgba(255,255,255,.24);
+  border-radius:30px;
+  background:rgba(255,255,255,.08);
+  backdrop-filter:blur(12px);
+}
+.pp-live-mark i {
+  display:inline-block;
+  width:6px;height:6px;
+  border-radius:50%;
+  background:#ff315a;
+  box-shadow:0 0 10px #ff315a;
+  margin-left:4px;
+}
+button, .filter, .quick-link, .nav-item {
+  border:1px solid rgba(255,255,255,.38) !important;
+  background:linear-gradient(135deg,rgba(255,255,255,.17),rgba(255,255,255,.045)) !important;
+  color:#fff !important;
+  backdrop-filter:blur(16px);
+  box-shadow:inset 0 1px rgba(255,255,255,.14),0 5px 15px rgba(0,0,0,.12);
+}
+.filter.active, .nav-item.active {
+  background:linear-gradient(135deg,#ff4569,#b70d35) !important;
+  border-color:rgba(255,255,255,.6) !important;
+  box-shadow:0 5px 22px rgba(237,23,69,.35),inset 0 1px rgba(255,255,255,.3);
+}
+@media(max-width:380px) {
+  .pp-brandbar {gap:9px;padding:17px 11px}
+  .pp-crest {width:54px;min-width:54px}
+  .pp-live-mark {font-size:8px;padding:6px}
+  .pp-en-title {letter-spacing:1.4px;font-size:9px}
+}
+
+
+.pp-crest{width:68px;min-width:68px;filter:drop-shadow(0 5px 14px rgba(237,23,69,.35))}
+.pp-crest img{display:block;width:100%;height:auto;object-fit:contain}
+
+/* PREMIUM REALISTIC BUTTONS */
+button, .nav-item, .filter, a.button {
+  -webkit-tap-highlight-color: transparent;
+  transition: transform .18s ease, box-shadow .18s ease,
+              background .18s ease, border-color .18s ease;
+}
+button, .nav-item, .filter {
+  cursor: pointer;
+}
+.nav-item, .filter {
+  border: 1px solid rgba(255,255,255,.16);
+  box-shadow: 0 4px 12px rgba(0,0,0,.20),
+              inset 0 1px 0 rgba(255,255,255,.22);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+button:active, .nav-item:active, .filter:active, a.button:active {
+  transform: scale(.96);
+}
+.nav-item.active, .filter.active {
+  border-color: rgba(255,255,255,.55);
+  box-shadow: 0 5px 18px rgba(220,20,60,.28),
+              inset 0 1px 0 rgba(255,255,255,.35);
+}
+button:focus-visible, .nav-item:focus-visible,
+.filter:focus-visible, a.button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+
+
+/* PERSPOLIS PLUS ELITE HEADER */
+.pp-brandbar {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 20px 16px;
+  border-radius: 24px;
+  border: 1px solid rgba(233,185,91,.42);
+  background:
+    radial-gradient(ellipse at 5% 0%, rgba(210,25,65,.34), transparent 52%),
+    radial-gradient(ellipse at 100% 100%, rgba(100,15,43,.52), transparent 55%),
+    linear-gradient(135deg,#100B10 0%,#24101B 48%,#0C0B10 100%);
+  box-shadow:
+    0 12px 30px rgba(0,0,0,.38),
+    inset 0 1px 0 rgba(255,255,255,.09),
+    inset 0 -1px 0 rgba(233,185,91,.12);
+}
+.pp-brandbar::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 150px;
+  height: 150px;
+  right: -55px;
+  top: -85px;
+  border-radius: 50%;
+  background: rgba(233,185,91,.10);
+  filter: blur(24px);
+}
+.pp-brandbar::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 8%;
+  right: 8%;
+  height: 2px;
+  border-radius: 100%;
+  background: linear-gradient(90deg,transparent,#8F263F,#E9B95B,#8F263F,transparent);
+  opacity: .9;
+}
+.pp-crest {
+  flex-shrink: 0;
+  padding: 8px;
+  border: 1px solid rgba(233,185,91,.42);
+  border-radius: 18px;
+  background: linear-gradient(145deg,rgba(255,255,255,.12),rgba(255,255,255,.025));
+  box-shadow: 0 5px 18px rgba(0,0,0,.28), inset 0 1px 0 rgba(255,255,255,.12);
+}
+.pp-crest img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.pp-fa-title {
+  color: #FFF8F5;
+  font-weight: 900;
+  letter-spacing: -.5px;
+  text-shadow: 0 2px 14px rgba(233,185,91,.12);
+}
+.pp-fa-title span {
+  color: #E9B95B;
+}
+.pp-en-title {
+  color: #F4E8E7;
+  letter-spacing: 2px;
+  font-weight: 800;
+}
+.pp-en-title b {
+  color: #E9B95B;
+}
+.pp-tagline {
+  color: #CBB8BE;
+  letter-spacing: .2px;
+}
+.pp-live-mark {
+  color: #F7EDE9;
+  border: 1px solid rgba(233,185,91,.28);
+  border-radius: 999px;
+  background: rgba(255,255,255,.055);
+  padding: 7px 10px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.07);
+}
+.pp-live-mark i {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  margin-left: 5px;
+  border-radius: 50%;
+  background: #E9B95B;
+  box-shadow: 0 0 10px rgba(233,185,91,.65);
+}
+@media (max-width:420px) {
+  .pp-brandbar {gap:10px;padding:16px 11px;border-radius:20px}
+  .pp-crest {padding:6px}
+  .pp-live-mark {font-size:10px;padding:6px 7px}
+}
+
+
+/* PERSPOLIS ELITE CINEMATIC HEADER */
+.pp-brandbar {
+  direction: rtl;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 22px 16px;
+  margin: 0 0 22px;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  border: 1px solid rgba(231,185,93,.48);
+  border-radius: 0 0 28px 28px;
+  background:
+    radial-gradient(ellipse at 4% 0%,rgba(255,25,65,.30),transparent 48%),
+    radial-gradient(ellipse at 95% 100%,rgba(119,13,43,.48),transparent 52%),
+    linear-gradient(135deg,#0b090d 0%,#24101a 48%,#100b11 100%);
+  box-shadow: 0 15px 38px rgba(0,0,0,.42),
+              inset 0 1px 0 rgba(255,255,255,.12);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+.pp-brandbar::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 170px;
+  height: 170px;
+  top: -100px;
+  right: 22%;
+  border-radius: 50%;
+  background: rgba(231,185,93,.13);
+  filter: blur(32px);
+}
+.pp-brandbar::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 7%;
+  width: 86%;
+  height: 2px;
+  border-radius: 50%;
+  background: linear-gradient(90deg,transparent,#9d233e,#e7b95d,#ff526b,#9d233e,transparent);
+  box-shadow: 0 0 12px rgba(231,185,93,.25);
+}
+.pp-crest {
+  box-sizing: border-box;
+  width: 76px;
+  min-width: 76px;
+  padding: 8px;
+  border: 1px solid rgba(231,185,93,.58);
+  border-radius: 20px;
+  background: linear-gradient(145deg,rgba(255,255,255,.13),rgba(255,255,255,.025));
+  box-shadow: 0 8px 22px rgba(0,0,0,.36),
+              inset 0 1px 0 rgba(255,255,255,.16),
+              0 0 18px rgba(190,28,62,.12);
+  filter: drop-shadow(0 4px 12px rgba(237,23,69,.24));
+}
+.pp-crest img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+.pp-crest svg {display:block;width:100%;height:auto}
+.pp-brandtext {min-width:0;flex:1}
+.pp-fa-title {
+  color: #fffaf7;
+  font-family: Tahoma,"Noto Sans Arabic",sans-serif;
+  font-size: clamp(23px,6vw,32px);
+  font-weight: 900;
+  line-height: 1.55;
+  letter-spacing: -.8px;
+  text-shadow: 0 2px 18px rgba(255,255,255,.09);
+}
+.pp-fa-title span {
+  color: #e7b95d;
+  text-shadow: 0 0 18px rgba(231,185,93,.24);
+}
+.pp-en-title {
+  direction: ltr;
+  text-align: right;
+  color: #f0dfe3;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 2.2px;
+}
+.pp-en-title b {color:#e7b95d}
+.pp-tagline {
+  margin-top: 5px;
+  color: #cdb9c0;
+  font-size: 11px;
+}
+.pp-live-mark {
+  border: 1px solid rgba(231,185,93,.32);
+  border-radius: 999px;
+  background: rgba(255,255,255,.055);
+  color: #fff6ef;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.09);
+}
+@media (max-width:420px) {
+  .pp-brandbar {gap:10px;padding:18px 11px}
+  .pp-crest {width:62px;min-width:62px;padding:6px;border-radius:16px}
+  .pp-en-title {letter-spacing:1.2px;font-size:9px}
+  .pp-tagline {font-size:10px}
+}
+
+
+/* PERSPOLIS STADIUM SIGNATURE */
+.app > .pp-brandbar {
+  min-height: 160px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 0 -12px 25px;
+  padding: 25px 18px 30px;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  direction: rtl;
+  border: 0;
+  border-bottom: 2px solid #D9AE58;
+  border-radius: 0 0 30px 30px;
+  background:
+    radial-gradient(ellipse at 12% 20%,rgba(255,30,65,.46),transparent 42%),
+    radial-gradient(ellipse at 95% 95%,rgba(126,12,40,.62),transparent 50%),
+    linear-gradient(120deg,#08090D 0%,#260A16 48%,#100A10 100%);
+  box-shadow: 0 18px 38px rgba(0,0,0,.42);
+}
+.app > .pp-brandbar::before {
+  content: "PERS";
+  position: absolute;
+  z-index: -1;
+  left: -12px;
+  bottom: -30px;
+  font-family: Arial,sans-serif;
+  font-weight: 900;
+  font-size: clamp(85px,22vw,150px);
+  letter-spacing: -8px;
+  color: rgba(255,255,255,.035);
+  line-height: 1;
+}
+.app > .pp-brandbar::after {
+  content: "اصالت، افتخار، پرسپولیس";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  min-height: 27px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #F3DCA9;
+  background: linear-gradient(90deg,#050505,#211A0A 25%,#080808 50%,#211A0A 75%,#050505);
+  border-top: 1px solid #9A762D;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+  color: #FFD875;
+  -webkit-text-stroke: .5px #8C6420;
+  text-shadow: 0 1px 0 #6E4A10, 0 2px 0 #171008, 0 3px 4px #000, 0 0 8px rgba(255,196,65,.5);
+  padding: 4px 8px;
+}
+.app > .pp-brandbar .pp-crest {
+  width: 86px;
+  min-width: 86px;
+  box-sizing: border-box;
+  padding: 9px;
+  border: 1px solid rgba(235,194,111,.78);
+  border-radius: 24px;
+  background: linear-gradient(145deg,#FFF5D8,#B98236 48%,#F6D99B 52%,#6D421D);
+  box-shadow: 0 0 0 4px rgba(232,190,104,.09),
+              0 8px 24px rgba(0,0,0,.55),
+              0 0 28px rgba(255,35,70,.22);
+}
+.app > .pp-brandbar .pp-crest img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 12px;
+}
+.app > .pp-brandbar .pp-brandtext {
+  flex: 1;
+  min-width: 0;
+}
+.app > .pp-brandbar .pp-fa-title {
+  color: #FFF9F5;
+  font-size: clamp(24px,7vw,35px);
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: -.7px;
+  text-shadow: 0 3px 18px rgba(255,30,65,.35);
+}
+.app > .pp-brandbar .pp-fa-title span {
+  color: #F0C66F;
+  text-shadow: 0 0 18px rgba(240,198,111,.3);
+}
+.app > .pp-brandbar .pp-en-title {
+  color: #F4E7E9;
+  font-size: 10px;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.app > .pp-brandbar .pp-en-title b {
+  color: #F0C66F;
+}
+.app > .pp-brandbar .pp-tagline {
+  margin-top: 7px;
+  color: #D9BAC4;
+  font-size: 11px;
+}
+.app > .pp-brandbar .pp-live-mark {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  padding: 6px 10px;
+  border: 1px solid rgba(240,198,111,.36);
+  border-radius: 999px;
+  background: rgba(10,5,10,.48);
+  color: #F7E6C3;
+  font-size: 10px;
+  backdrop-filter: blur(10px);
+}
+@media(max-width:420px) {
+  .app > .pp-brandbar {
+    min-height: 145px;
+    gap: 11px;
+    padding: 22px 12px 31px;
+  }
+  .app > .pp-brandbar .pp-crest {
+    width: 70px;
+    min-width: 70px;
+    padding: 7px;
+    border-radius: 19px;
+  }
+  .app > .pp-brandbar .pp-tagline {font-size: 10px}
+  .app > .pp-brandbar .pp-en-title {font-size: 9px;letter-spacing: 1.2px}
+}
+
+
+/* RED STADIUM HEADER */
+.app > .pp-brandbar {
+  position: relative !important;
+  overflow: hidden !important;
+  isolation: isolate;
+  background:
+    radial-gradient(ellipse at 8% 0%, rgba(255,25,45,.75), transparent 38%),
+    radial-gradient(ellipse at 92% 0%, rgba(255,25,45,.65), transparent 35%),
+    radial-gradient(ellipse at 50% 115%, rgba(130,0,15,.85), transparent 60%),
+    repeating-linear-gradient(170deg, transparent 0 17px, rgba(255,255,255,.025) 18px 19px),
+    linear-gradient(145deg, #080808, #300008 52%, #090909) !important;
+  border-bottom: 3px solid #d5ad58 !important;
+  box-shadow: 0 10px 35px rgba(180,0,25,.35);
+}
+.app > .pp-brandbar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    linear-gradient(115deg, transparent 10%, rgba(255,30,50,.13) 35%, transparent 48%),
+    radial-gradient(ellipse at 50% 100%, rgba(255,0,30,.2), transparent 65%);
+}
+.app > .pp-brandbar .pp-crest {
+  position: relative !important;
+  padding: 6px !important;
+  border: 2px solid rgba(255,255,255,.95) !important;
+  border-radius: 18px !important;
+  background: linear-gradient(135deg,rgba(255,255,255,.42),rgba(255,255,255,.06) 50%,rgba(255,255,255,.28)) !important;
+  box-shadow: 0 0 15px rgba(255,255,255,.45), inset 0 0 12px rgba(255,255,255,.3) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.app > .pp-brandbar .pp-crest img {
+  filter: drop-shadow(0 0 4px rgba(255,255,255,.7));
+}
+.app > .pp-brandbar .pp-fa-title {
+  text-shadow: 0 0 18px rgba(255,30,50,.45);
+}
+
+
+.app > .pp-brandbar .pp-crest img {
+  opacity: 1 !important;
+  filter: contrast(1.3) saturate(1.2) brightness(1.08) !important;
+  image-rendering: auto;
+}
+.app > .pp-brandbar .pp-crest {
+  background: rgba(255,255,255,.10) !important;
+}
+
+
+/* BOLD LUXURY PERSEPOLIS TAGLINE */
+.app > .pp-brandbar .pp-tagline {
+  font-size: 17px !important;
+  font-weight: 900 !important;
+  letter-spacing: .3px !important;
+  color: #ffe3a0 !important;
+  text-shadow:
+    0 1px 0 #7a4b12,
+    0 2px 0 #4a2705,
+    0 0 8px rgba(255,210,110,.45) !important;
+  opacity: 1 !important;
+}
+
+
+/* LUXURY PERSEPOLIS SLOGAN */
+.app > .pp-brandbar .pp-tagline,
+.app > .pp-brandbar .pp-tagline * {
+  font-size: 21px !important;
+  font-weight: 900 !important;
+  color: #fff0bd !important;
+  letter-spacing: .5px !important;
+  line-height: 1.8 !important;
+  -webkit-text-stroke: .45px #f0c76b;
+  text-shadow:
+    0 1px 0 #8e5c19,
+    0 2px 0 #6b3c0b,
+    0 0 5px rgba(255,220,140,.85),
+    0 0 13px rgba(255,180,55,.55),
+    2px 3px 5px rgba(0,0,0,.95) !important;
+  opacity: 1 !important;
+}
+
+/* ===== LUXURY LIGHT THEME ===== */
+:root {
+  --lux-bg: #F4F5F8;
+  --lux-card: #FFFFFF;
+  --lux-ink: #18243A;
+  --lux-muted: #718096;
+  --lux-gold: #B58A3B;
+  --lux-line: #E4E8EF;
+}
+
+body {
+  background: #F4F5F8 !important;
+  color: var(--lux-ink) !important;
+}
+
+.app {
+  background: linear-gradient(180deg,#FFFFFF 0%,#F3F5F9 48%,#EAEEF4 100%) !important;
+  color: var(--lux-ink) !important;
+}
+
+.app .panel,
+.app article.news-card,
+.app .newsletter {
+  background: linear-gradient(145deg,#FFFFFF,#F9FAFC) !important;
+  color: #18243A !important;
+  border: 1px solid #E1E6EF !important;
+  border-radius: 19px !important;
+  box-shadow: 0 7px 22px rgba(24,36,58,.075),
+              0 1px 3px rgba(24,36,58,.04) !important;
+}
+
+.app h1,
+.app h2,
+.app h3,
+.app .section-head,
+.app .club {
+  color: #192943 !important;
+}
+
+.app p,
+.app .news-copy p {
+  color: #738096 !important;
+}
+
+.app button.quick {
+  background: linear-gradient(145deg,#FFFFFF,#EEF2F8) !important;
+  color: #1B2B46 !important;
+  border: 1px solid #DDE4EF !important;
+  border-radius: 18px !important;
+  box-shadow: 0 5px 13px rgba(26,43,70,.08) !important;
+  transition: transform .18s ease, box-shadow .18s ease !important;
+}
+
+.app button.quick .emoji {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 13px;
+  background: linear-gradient(145deg,#FFF4D9,#F0D9A4);
+  padding: 9px;
+}
+
+.app button.quick:active {
+  transform: scale(.97);
+}
+
+.app button.filter {
+  background: #FFFFFF !important;
+  color: #53627A !important;
+  border: 1px solid #E0E5ED !important;
+  border-radius: 999px !important;
+}
+
+.app button.filter.active {
+  background: linear-gradient(135deg,#203653,#111C30) !important;
+  color: #FFFFFF !important;
+  border-color: #203653 !important;
+  box-shadow: 0 4px 12px rgba(24,40,65,.2) !important;
+}
+
+.app .news-art {
+  border-radius: 15px !important;
+  background: linear-gradient(145deg,#FCE8E8,#F6D4D8) !important;
+}
+
+.app .news-art.blue {
+  background: linear-gradient(145deg,#E1ECFA,#C8D9F0) !important;
+}
+
+.app .news-art.gold {
+  background: linear-gradient(145deg,#FFF3D7,#EED7A3) !important;
+}
+
+.app .category {
+  color: #A47A2C !important;
+}
+
+.app .table-row {
+  border-color: #E5E9F0 !important;
+}
+
+.app .table-row.head {
+  background: #EDF1F7 !important;
+  color: #52627A !important;
+}
+
+.app .our-rank {
+  color: #B58A3B !important;
+  font-weight: 900 !important;
+}
+
+.app button.btn.primary {
+  background: linear-gradient(135deg,#243B5A,#142238) !important;
+  color: #FFFFFF !important;
+  border: 1px solid #314967 !important;
+  border-radius: 14px !important;
+  box-shadow: 0 6px 15px rgba(24,40,65,.2) !important;
+}
+
+.app .bottom-nav {
+  background: rgba(255,255,255,.96) !important;
+  border-top: 1px solid #E0E5ED !important;
+  box-shadow: 0 -6px 24px rgba(24,36,58,.08) !important;
+  backdrop-filter: blur(16px);
+}
+
+.app .bottom-nav .nav-item {
+  color: #78859A !important;
+}
+
+.app .bottom-nav .nav-item.active {
+  color: #A47A2C !important;
+  font-weight: 900 !important;
+}
+
+.app .link {
+  color: #A47A2C !important;
+}
+
+.app input,
+.app select {
+  background: #FFFFFF !important;
+  color: #18243A !important;
+  border-color: #DDE4EF !important;
+}
+
+
+
+/* LUXURY LAVENDER THEME */
+body {
+  background: #E8E0F0 !important;
+  color: #302541 !important;
+}
+
+.app {
+  background: linear-gradient(180deg,#F0EAF7 0%,#E6DCEF 55%,#DCD0E9 100%) !important;
+  color: #302541 !important;
+}
+
+.app .panel,
+.app article.news-card,
+.app .newsletter {
+  background: linear-gradient(145deg,#F8F4FC,#EDE4F5) !important;
+  color: #302541 !important;
+  border-color: #D6C5E6 !important;
+  box-shadow: 0 7px 20px rgba(76,48,105,.10) !important;
+}
+
+.app h1,
+.app h2,
+.app h3,
+.app .section-head,
+.app .club {
+  color: #39264F !important;
+}
+
+.app p,
+.app .news-copy p {
+  color: #786789 !important;
+}
+
+.app button.quick {
+  background: linear-gradient(145deg,#F9F5FC,#E8DDF2) !important;
+  color: #39264F !important;
+  border-color: #D8C7E8 !important;
+  box-shadow: 0 5px 14px rgba(76,48,105,.10) !important;
+}
+
+.app button.quick .emoji {
+  background: linear-gradient(145deg,#F1E4FA,#D9C3ED) !important;
+}
+
+.app button.filter {
+  background: #F7F2FB !important;
+  color: #655176 !important;
+  border-color: #D8C8E6 !important;
+}
+
+.app button.filter.active {
+  background: linear-gradient(135deg,#73528F,#4C3267) !important;
+  color: #FFFFFF !important;
+  border-color: #73528F !important;
+}
+
+.app .news-art {
+  background: linear-gradient(145deg,#F5E3F0,#EBD2E7) !important;
+}
+
+.app .news-art.blue {
+  background: linear-gradient(145deg,#E7E2F8,#D3C9EE) !important;
+}
+
+.app .news-art.gold {
+  background: linear-gradient(145deg,#F8EED8,#EAD9B5) !important;
+}
+
+.app .category,
+.app .link {
+  color: #8864A5 !important;
+}
+
+.app .table-row {
+  border-color: #DFD3EA !important;
+}
+
+.app .table-row.head {
+  background: #E5D9F0 !important;
+  color: #655176 !important;
+}
+
+.app button.btn.primary {
+  background: linear-gradient(135deg,#73528F,#432A5C) !important;
+  color: #FFFFFF !important;
+  border-color: #8D6BAB !important;
+  box-shadow: 0 6px 15px rgba(76,48,105,.22) !important;
+}
+
+.app .bottom-nav {
+  background: rgba(244,238,250,.97) !important;
+  border-top-color: #D5C4E5 !important;
+  box-shadow: 0 -6px 22px rgba(76,48,105,.10) !important;
+}
+
+.app .bottom-nav .nav-item {
+  color: #8A7A9B !important;
+}
+
+.app .bottom-nav .nav-item.active {
+  color: #73528F !important;
+}
+
+.app input,
+.app select {
+  background: #F9F5FC !important;
+  color: #39264F !important;
+  border-color: #D8C7E8 !important;
+}
+
+
+
+
+
+/* ROYAL PERSIAN BRAND TITLE */
+.app .pp-fa-title {
+  font-size: clamp(27px, 7vw, 35px) !important;
+  font-weight: 1000 !important;
+  letter-spacing: .4px !important;
+  line-height: 1.65 !important;
+  color: #59327F !important;
+  -webkit-text-stroke: .45px #75499A;
+  text-shadow:
+    0 1px 0 #FFFFFF,
+    0 2px 0 #D3B9EC,
+    0 3px 0 #B59AD5,
+    0 4px 7px rgba(65,35,92,.35),
+    0 0 14px rgba(164,120,213,.3) !important;
+}
+
+.app .pp-fa-title span {
+  color: #8552B6 !important;
+  font-weight: 1000 !important;
+  -webkit-text-stroke: .35px #A27BC7;
+  text-shadow:
+    0 1px 0 #FFFFFF,
+    0 2px 0 #D6BCEB,
+    0 3px 5px rgba(70,35,105,.35) !important;
+}
+
+
+
+/* BLACK GOLD GLASS TITLE */
+.app .pp-fa-title {
+  display: inline-block !important;
+  box-sizing: border-box !important;
+  padding: 10px 18px !important;
+  margin: 5px auto 8px !important;
+  border: 1px solid rgba(226,185,91,.85) !important;
+  border-radius: 16px !important;
+  background: linear-gradient(
+    135deg,
+    rgba(10,10,12,.94),
+    rgba(43,33,17,.88),
+    rgba(8,8,10,.96)
+  ) !important;
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,.22),
+    inset 0 0 15px rgba(219,174,75,.12),
+    0 5px 18px rgba(0,0,0,.3),
+    0 0 12px rgba(207,163,65,.2) !important;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  font-size: clamp(27px,7vw,35px) !important;
+  font-weight: 1000 !important;
+  letter-spacing: .4px !important;
+  line-height: 1.7 !important;
+  color: #F5D58A !important;
+  -webkit-text-stroke: .35px #A77A28;
+  text-shadow:
+    0 1px 0 #FFF0C4,
+    0 2px 0 #9C7025,
+    0 4px 5px #000,
+    0 0 12px rgba(255,205,91,.35) !important;
+}
+
+.app .pp-fa-title span {
+  color: #FFE5A1 !important;
+  font-weight: 1000 !important;
+  -webkit-text-stroke: .3px #B58A3B;
+  text-shadow:
+    0 1px 0 #FFF4D3,
+    0 2px 0 #8C6420,
+    0 4px 5px #000,
+    0 0 10px rgba(255,211,112,.4) !important;
+}
+
+
+/* FINAL 3D GOLD TITLE */
+.app .pp-brandbar .pp-brandtext .pp-fa-title {
+  display: inline-block !important;
+  border: none !important;
+  outline: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+  color: #E8C36F !important;
+  -webkit-text-fill-color: #E8C36F !important;
+  -webkit-text-stroke: .4px #8D6425 !important;
+  font-size: clamp(29px, 7.5vw, 38px) !important;
+  font-weight: 1000 !important;
+  letter-spacing: 0 !important;
+  text-shadow:
+    0 -1px 0 #FFF8DF,
+    0 1px 0 #F5D990,
+    0 2px 0 #C99B42,
+    0 3px 0 #9B702B,
+    0 4px 0 #634316,
+    0 6px 8px rgba(0,0,0,.7) !important;
+}
+.app .pp-brandbar .pp-brandtext .pp-fa-title span {
+  color: #FFE8AE !important;
+  -webkit-text-fill-color: #FFE8AE !important;
+  -webkit-text-stroke: .4px #9B702B !important;
+  text-shadow:
+    0 -1px 0 #FFFFFF,
+    0 1px 0 #F3D58B,
+    0 2px 0 #C4973E,
+    0 3px 0 #81581B,
+    0 5px 7px rgba(0,0,0,.7) !important;
+}
+
+
+/* TITLE FIX */
+.app .pp-brandbar .pp-brandtext .pp-fa-title {
+  display: inline-block !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 8px 0 !important;
+  font-size: clamp(30px, 8vw, 40px) !important;
+  font-weight: 900 !important;
+  line-height: 1.7 !important;
+  color: #f5d778 !important;
+  -webkit-text-fill-color: #f5d778 !important;
+  -webkit-text-stroke: 0.7px #49300b !important;
+  text-shadow: 0 1px 0 #fff1b0, 0 2px 0 #c69a32, 0 4px 0 #765015, 0 6px 8px #000 !important;
+}
+.app .pp-brandbar .pp-brandtext .pp-fa-title span {
+  color: #ffe9a0 !important;
+  -webkit-text-fill-color: #ffe9a0 !important;
+  text-shadow: 0 1px 0 #fff8d5, 0 2px 0 #d3a846, 0 4px 0 #765015, 0 6px 8px #000 !important;
+}
+
+
+
+/* LUXURY LAVENDER MENUS AND BUTTONS */
+.app button,
+.app .btn,
+.app a.btn,
+.app .menu-btn,
+.app .tab-btn,
+.app .nav-item,
+.app nav a,
+.app nav button {
+  border-radius: 15px !important;
+  font-family: Tahoma, sans-serif !important;
+  font-weight: 700 !important;
+  transition: background .2s ease, box-shadow .2s ease, transform .2s ease !important;
+}
+
+.app button,
+.app .btn,
+.app .menu-btn,
+.app .tab-btn {
+  background: linear-gradient(145deg, #ffffff, #eee8ff) !important;
+  color: #50358b !important;
+  border: 1px solid #d8cafa !important;
+  box-shadow: 0 4px 10px rgba(91, 63, 145, .13),
+              inset 0 1px 0 #ffffff !important;
+  padding: 11px 16px !important;
+}
+
+.app button:active,
+.app .btn:active,
+.app .menu-btn:active,
+.app .tab-btn:active {
+  transform: scale(.97) !important;
+}
+
+.app .active,
+.app .selected,
+.app .nav-item.active,
+.app nav a.active,
+.app nav button.active {
+  background: linear-gradient(135deg, #8060c7, #6242a5) !important;
+  color: #ffffff !important;
+  border-color: #7251b5 !important;
+  box-shadow: 0 4px 12px rgba(91, 63, 145, .24) !important;
+}
+
+.app .bottom-nav,
+.app .pp-bottom-nav,
+.app .top-nav,
+.app .pp-nav {
+  background: rgba(250, 247, 255, .97) !important;
+  border-color: #e1d7f5 !important;
+  box-shadow: 0 -3px 15px rgba(83, 59, 130, .08) !important;
+  backdrop-filter: blur(12px);
+}
+
+.app .bottom-nav a,
+.app .bottom-nav button,
+.app .pp-bottom-nav a,
+.app .pp-bottom-nav button,
+.app .nav-item {
+  border-radius: 13px !important;
+  padding: 9px 8px !important;
+}
+
+.app .card,
+.app .menu-card,
+.app .news-card,
+.app .pp-card {
+  border: 1px solid #e5dcf7 !important;
+  border-radius: 18px !important;
+  box-shadow: 0 5px 16px rgba(83, 59, 130, .08) !important;
+}
+
+.app input,
+.app select,
+.app textarea {
+  border: 1px solid #d8cafa !important;
+  border-radius: 12px !important;
+  background: #ffffff !important;
+  color: #35264e !important;
+}
+
+.app button:focus-visible,
+.app a:focus-visible {
+  outline: 2px solid #9274d1 !important;
+  outline-offset: 3px !important;
+}
+
+
+
+/* GLASS BOTTOM NAV */
+.app .bottom-nav,
+.app .pp-bottom-nav,
+.app .bottom-navigation,
+.app .app-bottom-nav {
+  background: rgba(248, 243, 255, .76) !important;
+  backdrop-filter: blur(18px) saturate(160%) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(160%) !important;
+  border: 1px solid rgba(255,255,255,.85) !important;
+  border-radius: 25px !important;
+  box-shadow: 0 8px 25px rgba(91, 63, 145, .16),
+              inset 0 1px 0 rgba(255,255,255,.95) !important;
+}
+
+.app .bottom-nav a,
+.app .bottom-nav button,
+.app .pp-bottom-nav a,
+.app .pp-bottom-nav button,
+.app .bottom-navigation a,
+.app .bottom-navigation button,
+.app .app-bottom-nav a,
+.app .app-bottom-nav button {
+  border-radius: 20px !important;
+  background: linear-gradient(145deg,
+    rgba(255,255,255,.88),
+    rgba(224,211,250,.62)) !important;
+  border: 1px solid rgba(255,255,255,.95) !important;
+  box-shadow: 0 4px 12px rgba(91,63,145,.12),
+              inset 0 1px 2px rgba(255,255,255,.95) !important;
+  color: #6849a2 !important;
+  font-weight: 800 !important;
+  transition: all .2s ease !important;
+}
+
+.app .bottom-nav a.active,
+.app .bottom-nav button.active,
+.app .pp-bottom-nav a.active,
+.app .pp-bottom-nav button.active,
+.app .bottom-navigation a.active,
+.app .bottom-navigation button.active {
+  background: linear-gradient(135deg,
+    rgba(143,111,207,.94),
+    rgba(103,75,169,.94)) !important;
+  color: #fff !important;
+  border: 1px solid rgba(255,255,255,.65) !important;
+  box-shadow: 0 5px 14px rgba(91,63,145,.3),
+              inset 0 1px 2px rgba(255,255,255,.35) !important;
+}
+
+
+/* آیکون‌های رنگی بزرگ در نوار پایین */
+.bottom-nav .nav-item span {
+  font-size: 17px !important;
+  font-weight: 800 !important;
+}
+.bottom-nav .nav-item {
+  font-size: 17px !important;
+  min-height: 68px !important;
+}
+
+
+.bottom-nav .nav-item span {
+  font-size: 14px !important;
+  font-weight: 700 !important;
+}
+.bottom-nav .nav-item {
+  min-height: 60px !important;
+}
+.bottom-nav .nav-item svg {
+  width: 18px !important;
+  height: 18px !important;
+}
+
+
+/* PERSPOLIS CREST PREMIUM LOOK */
+#pp-top-team-photo img[alt="لوگوی پرسپولیس"] {
+  filter: saturate(1.22) contrast(1.10)
+    drop-shadow(0 3px 3px #000c)
+    drop-shadow(0 0 5px #d5ad58aa);
+  image-rendering: auto;
+}
+
+
+/* REMOVE LOWER BRAND BOX */
+.app > .pp-brandbar {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+.app > .pp-brandbar::before,
+.app > .pp-brandbar::after {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+/* HIDE LOWER BRAND TEXT */
+.app > .pp-brandbar .pp-brandtext,
+.app > .pp-brandbar .pp-live-mark {
+  display: none !important;
+}
+
+
+/* CENTER PERSPOLIS HONOR FRAME */
+.app [class*="honor"],
+.app [class*="origin"],
+.app [class*="legacy"],
+.app [class*="slogan"] {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+
+/* REMOVE ENTIRE LOWER PERSPOLIS BRAND FRAME */
+.app > .pp-brandbar {
+  display: none !important;
+}
+
+</style>
+
+<style id="pp-premium-plus">
+.pp-premium-plus{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:30px;
+  height:30px;
+  margin:0 5px;
+  border-radius:50%;
+  color:#fff;
+  font-size:25px;
+  font-weight:900;
+  line-height:1;
+  vertical-align:middle;
+  background:linear-gradient(145deg,#ff4356,#b80025);
+  border:1px solid #ff9aa8;
+  box-shadow:0 0 12px #ff173955,inset 0 1px 3px #ffffff66;
+  text-shadow:0 1px 4px #700016;
+}
+</style>
+
+
+<style id="pp-plus-top-style">
+.pp-plus-top{
+  position:absolute;
+  top:8px;
+  right:12px;
+  z-index:20;
+  width:34px;
+  height:34px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  color:white;
+  font-size:27px;
+  font-weight:900;
+  line-height:1;
+  background:linear-gradient(145deg,#ff5267,#b80028);
+  border:1px solid #ffd0d7;
+  box-shadow:0 0 14px #ff1739aa, inset 0 1px 3px #ffffff77;
+}
+</style>
+
+
+<style id="pp-plus-title-final">
+.pp-title-plus{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  margin-right:4px;
+  color:#fff;
+  font-size:1.12em;
+  font-weight:1000;
+  text-shadow:0 0 8px #ffffffaa;
+  vertical-align:middle;
+}
+</style>
+
+
+<style id="pp-gold-plus-symbol">
+.pp-gold-plus-symbol{
+  display:inline-block;
+  margin-right:5px;
+  color:#ffd84d;
+  font-family:Arial,sans-serif;
+  font-size:1.15em;
+  font-weight:1000;
+  line-height:1;
+  -webkit-text-stroke:.5px #9c6900;
+  text-shadow:
+    2px 3px 1px #000,
+    0 0 5px #ffc92899,
+    0 -1px 0 #fff2a8;
+  vertical-align:middle;
+}
+</style>
+
+
+<style id="pp-pro-five-menu-style">
+#pp-pro-five-menu{
+  direction:rtl;
+  display:grid;
+  grid-template-columns:repeat(5,minmax(0,1fr));
+  gap:6px;
+  width:calc(100% - 20px);
+  margin:10px auto 16px;
+  padding:8px;
+  box-sizing:border-box;
+  position:relative;
+  z-index:100;
+  background:linear-gradient(145deg,#191016,#080808 75%);
+  border:1px solid #70202d;
+  border-radius:17px;
+  box-shadow:0 7px 20px #0008,inset 0 1px 0 #ffffff12;
+}
+#pp-pro-five-menu .pp-pro-item{
+  appearance:none;
+  -webkit-appearance:none;
+  min-width:0;
+  min-height:65px;
+  padding:8px 2px 7px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:6px;
+  border:1px solid #ffffff12;
+  border-radius:12px;
+  background:linear-gradient(155deg,#2b171d,#151013);
+  color:#f6e9ec;
+  font-family:inherit;
+  font-size:clamp(9px,2.7vw,12px);
+  font-weight:850;
+  line-height:1.5;
+  white-space:nowrap;
+  cursor:pointer;
+  transition:transform .18s ease,background .18s ease,box-shadow .18s ease;
+}
+#pp-pro-five-menu .pp-pro-icon{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:27px;
+  height:27px;
+  border-radius:9px;
+  color:#fff;
+  background:linear-gradient(145deg,#f52b48,#a90027);
+  box-shadow:0 3px 8px #ed173955,inset 0 1px 2px #ffffff55;
+  font-size:16px;
+  line-height:1;
+}
+#pp-pro-five-menu .pp-pro-item.pp-pro-active{
+  color:#fff;
+  border-color:#ed334b;
+  background:linear-gradient(145deg,#701126,#2a0c15);
+  box-shadow:0 0 13px #ed173933,inset 0 1px 0 #ffffff18;
+}
+#pp-pro-five-menu .pp-pro-item:active{
+  transform:scale(.96);
+}
+#pp-pro-five-menu .pp-pro-item:focus-visible{
+  outline:2px solid #ffcf55;
+  outline-offset:2px;
+}
+@media(min-width:600px){
+  #pp-pro-five-menu{max-width:680px;gap:10px;padding:10px}
+  #pp-pro-five-menu .pp-pro-item{min-height:72px;font-size:13px}
+}
+</style>
+
+<style id="pp-cinematic-menu-upgrade">
+#pp-pro-five-menu{
+direction:rtl!important;display:grid!important;
+grid-template-columns:repeat(5,minmax(0,1fr))!important;
+gap:7px!important;width:calc(100% - 20px)!important;
+max-width:760px!important;margin:12px auto 16px!important;
+padding:10px!important;box-sizing:border-box!important;
+position:relative!important;z-index:50!important;
+background:linear-gradient(145deg,#1b1b1b,#050505,#202020)!important;
+border:1px solid #b08b43!important;border-radius:19px!important;
+box-shadow:0 8px 24px #000b,inset 0 1px 0 #ffffff18,0 0 14px #d0002420!important;
+}
+#pp-pro-five-menu .pp-pro-item{
+display:flex!important;flex-direction:column!important;
+align-items:center!important;justify-content:center!important;
+gap:7px!important;min-width:0!important;min-height:74px!important;
+padding:9px 2px!important;color:#eee!important;
+background:linear-gradient(160deg,#252525,#101010)!important;
+border:1px solid #414141!important;border-radius:13px!important;
+font-family:inherit!important;font-size:clamp(10px,2.8vw,13px)!important;
+font-weight:800!important;line-height:1.4!important;
+white-space:normal!important;overflow-wrap:anywhere!important;
+box-shadow:inset 0 1px 0 #ffffff0c,0 3px 7px #0008!important;
+transition:transform .18s ease,border-color .18s ease!important;
+}
+#pp-pro-five-menu .pp-pro-icon{
+display:flex!important;align-items:center!important;justify-content:center!important;
+width:30px!important;height:30px!important;margin:0!important;
+color:#e6c477!important;background:linear-gradient(145deg,#302719,#12100c)!important;
+border:1px solid #80612f!important;border-radius:10px!important;
+font-size:20px!important;line-height:1!important;
+}
+#pp-pro-five-menu .pp-pro-item.pp-pro-active{
+color:#fff!important;background:linear-gradient(150deg,#54101a,#23080d,#111)!important;
+border-color:#d5ad58!important;box-shadow:0 0 13px #e0003029!important;
+}
+#pp-pro-five-menu .pp-pro-item.pp-pro-active .pp-pro-icon{
+color:#ffe2a0!important;background:linear-gradient(145deg,#6e1421,#25090e)!important;
+border-color:#e0b85c!important;box-shadow:0 0 12px #e0003040!important;
+}
+#pp-pro-five-menu .pp-pro-item:active{transform:scale(.96)!important}
+@media(max-width:380px){
+#pp-pro-five-menu{gap:5px!important;padding:7px!important}
+#pp-pro-five-menu .pp-pro-item{min-height:66px!important;gap:5px!important}
+#pp-pro-five-menu .pp-pro-icon{width:26px!important;height:26px!important;font-size:18px!important}
+}
 </style>
 </head>
 <body>
-<header>
-<h1>🔴 پرسپولیس پلاس</h1>
-<p>آخرین اخبار سرخ‌پوشان ایران</p>
-</header>
-<nav>
-<a href="#news">اخبار</a>
-<a href="#matches">بازی‌ها</a>
-<a href="#table">جدول</a>
+<nav id="pp-pro-five-menu" aria-label="منوی اصلی پرسپولیس پلاس">
+  <button type="button" class="pp-pro-item pp-pro-active" data-pp-menu="خانه">
+    <span class="pp-pro-icon">⌂</span><span>خانه</span>
+  </button>
+  <button type="button" class="pp-pro-item" data-pp-menu="اخبار">
+    <span class="pp-pro-icon">▤</span><span>اخبار</span>
+  </button>
+  <button type="button" class="pp-pro-item" data-pp-menu="مسابقات">
+    <span class="pp-pro-icon">⚽</span><span>مسابقات</span>
+  </button>
+  <button type="button" class="pp-pro-item" data-pp-menu="جدول لیگ">
+    <span class="pp-pro-icon">▦</span><span>جدول لیگ</span>
+  </button>
+  <button type="button" class="pp-pro-item" data-pp-menu="نقل‌وانتقالات">
+    <span class="pp-pro-icon">⇄</span><span>نقل‌وانتقالات</span>
+  </button>
 </nav>
+
+
+
+
+
+<script id="pp-pro-five-menu-script">
+(function(){
+  const nav = document.getElementById('pp-pro-five-menu');
+  if(!nav || nav.dataset.ready === '1') return;
+  nav.dataset.ready = '1';
+
+  const clean = value => (value || '')
+    .replace(/ي/g,'ی').replace(/ك/g,'ک')
+    .replace(/[\u200c\s‌]+/g,'')
+    .replace(/[ـ:：]/g,'')
+    .trim().toLowerCase();
+
+  const aliases = {
+    'خانه':['خانه','صفحه اصلی','خانه سرخ'],
+    'اخبار':['اخبار','آخرین اخبار','اتاق خبر','خبرها'],
+    'مسابقات':['مسابقات','بازی‌ها','بازیها','مرکز بازی‌ها','مرکز مسابقات'],
+    'جدول لیگ':['جدول لیگ','جدول','جدول رقابت‌ها'],
+    'نقل‌وانتقالات':['نقل‌وانتقالات','نقل و انتقالات','انتقالات']
+  };
+
+  nav.addEventListener('click', function(event){
+    const item = event.target.closest('[data-pp-menu]');
+    if(!item) return;
+
+    nav.querySelectorAll('.pp-pro-item').forEach(button=>{
+      button.classList.toggle('pp-pro-active', button === item);
+    });
+
+    const label = item.dataset.ppMenu;
+    if(label === 'خانه'){
+      window.scrollTo({top:0,behavior:'smooth'});
+      return;
+    }
+
+    const wanted = aliases[label] || [label];
+    const existing = Array.from(document.querySelectorAll(
+      'button,a,[role="tab"],[role="button"],.nav-link'
+    )).filter(el => !nav.contains(el) && !el.closest('#pp-pro-five-menu'));
+
+    let match = existing.find(el=>{
+      const t = clean(el.innerText || el.textContent || el.getAttribute('aria-label'));
+      return wanted.some(name => t === clean(name));
+    });
+
+    if(match){
+      match.click();
+      return;
+    }
+
+    const headings = Array.from(document.querySelectorAll(
+      'h1,h2,h3,h4,[id],section'
+    )).filter(el=>!nav.contains(el));
+
+    match = headings.find(el=>{
+      const t = clean(el.innerText || el.textContent || el.getAttribute('aria-label'));
+      return wanted.some(name => t.includes(clean(name)));
+    });
+
+    if(match) match.scrollIntoView({behavior:'smooth',block:'start'});
+  });
+})();
+</script>
+
+
+<div class="app">
+
+<div style="position:relative"></div>
+
+
+<div class="pp-brandbar">
+  
+  <div class="pp-brandtext">
+    <div class="pp-fa-title">پرسپولیس <span>پلاس</span></div>
+    
+    
+  </div>
+  <div class="pp-live-mark"><i></i> سرخِ همیشه</div>
+</div>
+
 <main>
-<section id="news">
-<h2>📰 آخرین اخبار پرسپولیس</h2>
-<div class="card">
-<strong>به پرسپولیس پلاس خوش آمدید!</strong>
-<p>اخبار و نقل‌وانتقالات پرسپولیس را در این بخش دنبال کنید.</p>
+<section class="section" id="matches">
+<div class="section-head"><h2>⚽ بازی‌ها</h2><small>مرور مسابقات</small></div>
+<div class="panel match-feature">
+<div class="match-label"><span>مسابقه منتخب</span><span class="tag">اطلاعات نمایشی</span></div>
+<div class="teams">
+<div><div class="team-symbol">پ</div><div class="team-name">پرسپولیس</div><div class="team-sub">سرخ‌پوشان</div></div>
+<div class="vs">VS</div>
+<div><div class="team-symbol opponent">⚽</div><div class="team-name">حریف</div><div class="team-sub">تیم مقابل</div></div>
+</div>
+<div class="match-note">زمان و نتیجه واقعی پس از اتصال به منبع داده نمایش داده می‌شود.</div>
 </div>
 </section>
-<section id="matches">
-<h2>⚽ بازی‌های پرسپولیس</h2>
-<div class="card"><p>اطلاعات بازی‌های آینده در این بخش نمایش داده خواهد شد.</p></div>
+<section class="section">
+<div class="section-head"><h2>دسترسی سریع</h2><small>همه‌چیز دم دست تو</small></div>
+<div class="quick-grid">
+<button class="quick" onclick="go('news')"><span class="emoji">🗞️</span><span>اخبار 📰</span></button>
+<button class="quick" onclick="go('matches')"><span class="emoji">🏟️</span><span>بازی‌ها ⚽</span></button>
+<button class="quick" onclick="go('table')"><span class="emoji">📊</span><span>جدول 📊</span></button>
+<button class="quick" onclick="notify('بخش نقل‌وانتقالات در انتظار اتصال به منبع خبر است.')"><span class="emoji">🔄</span><span>نقل‌وانتقال</span></button>
+</div>
 </section>
-<section id="table">
-<h2>🏆 جدول لیگ</h2>
-<div class="card"><p>جدول لیگ پس از اتصال منبع اطلاعات به‌روزرسانی خواهد شد.</p></div>
+<section class="section" id="news">
+<div class="section-head"><h2>🔥 تازه‌های سرخ</h2><button class="link" onclick="notify('این خبرها نمونه نمایشی هستند؛ برای اخبار زنده باید منبع خبری وصل شود.')">درباره اخبار</button></div>
+<div class="filters">
+<button class="filter active" data-filter="all">همه</button><button class="filter" data-filter="team">تیم</button><button class="filter" data-filter="match">مسابقات</button><button class="filter" data-filter="market">نقل‌وانتقالات</button>
+</div>
+
+<section class="section" id="pp-stadium-players">
+<style>
+#pp-stadium-players .pp-stadium{
+border-radius:18px;overflow:hidden;position:relative;
+padding:25px 15px;text-align:center;color:white;
+background:linear-gradient(0deg,#090909,#780015,#160006);
+border:1px solid #d5ad58;box-shadow:0 8px 25px #85001855}
+#pp-stadium-players .pp-stadium .field{font-size:64px}
+#pp-stadium-players .pp-stadium h2{color:#ffdf9a;margin:8px}
+#pp-stadium-players .pp-stadium p{margin:6px;color:#eee}
+#pp-stadium-players .pp-squad{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}
+#pp-stadium-players .pp-player{background:linear-gradient(145deg,#300008,#111);border:1px solid #a52b39;border-radius:14px;padding:16px 8px;text-align:center;color:white}
+#pp-stadium-players .pp-player .shirt{font-size:34px}
+#pp-stadium-players .pp-player b{display:block;color:#ffd98b;margin-top:5px}
+#pp-stadium-players .pp-player small{color:#ddd}
+</style>
+<div class="section-head"><h2>🏟️ خانه سرخ‌ها</h2><small>پرسپولیس پلاس</small></div>
+<div class="pp-stadium">
+<div class="field">🏟️</div>
+<h2>ورزشگاه سرخ‌ها</h2>
+<p>جایی برای شور و هیجان هواداران پرسپولیس ❤️</p>
+</div>
+<div class="section-head"><h2>⚽ ستاره‌های پرسپولیس</h2><small>کارت بازیکنان</small></div>
+<div class="pp-squad">
+<div class="pp-player"><div class="shirt">👕</div><b>دروازه‌بان</b><small>ترکیب تیم</small></div>
+<div class="pp-player"><div class="shirt">👕</div><b>مدافع</b><small>ترکیب تیم</small></div>
+<div class="pp-player"><div class="shirt">👕</div><b>هافبک</b><small>ترکیب تیم</small></div>
+<div class="pp-player"><div class="shirt">👕</div><b>مهاجم</b><small>ترکیب تیم</small></div>
+</div>
+<p style="font-size:12px;color:#aaa;text-align:center">این طرح نمایشی است؛ برای نمایش عکس و نام بازیکنان واقعی باید اطلاعات و تصاویر به‌روز اضافه شوند.</p>
 </section>
+
+<section class="section" id="pp-real-stadium">
+<style>
+#pp-real-stadium .stadium-photo{width:100%;height:210px;object-fit:cover;border-radius:16px;border:2px solid #b50020}
+#pp-real-stadium .players{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+#pp-real-stadium .player{background:#200006;border:1px solid #b50020;border-radius:14px;padding:8px;text-align:center;color:white}
+#pp-real-stadium .player img{width:100%;height:145px;object-fit:cover;border-radius:10px}
+#pp-real-stadium h2{color:#e5bd68}
+</style>
+<h2>🏟️ ورزشگاه پرسپولیس</h2>
+<img class="stadium-photo" src="https://assets.the-afc.com/migration/l/u/luyinknxc8ftdwmubheq.jpg" alt="استادیوم فوتبال">
+<h2>🔴 بازیکنان پرسپولیس</h2>
+<div class="players" style="grid-template-columns:1fr">
+<div class="player">
+<img src="https://static2.panjereh.news/thumbnail/lR7jGOGV7i9h/a0nN7pHg-pNU5J0hqBsSbIN1QSvgAAMGGfTgksCXoTZgzCHfIJ2s2sDMab-HGi8B/%D8%AA%D8%B1%DA%A9%DB%8C%D8%A8%2B%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3.jpg" alt="عکس گروهی بازیکنان پرسپولیس">
+<b>بازیکنان پرسپولیس ❤️</b>
+</div>
+</div>
+
+
+</div>
+</section>
+<div class="news-list">
+<article class="panel news-card" data-category="team"><div class="news-art">📰</div><div class="news-copy"><div class="category">اخبار تیم</div><h3>آخرین وضعیت پرسپولیس؛ خبرهای تیم را دنبال کن</h3><p>نمونه طراحی · خبر زنده نیست</p></div></article>
+<article class="panel news-card" data-category="match"><div class="news-art blue">🏆</div><div class="news-copy"><div class="category">مسابقات</div><h3>برنامه مسابقات و نتایج؛ یک‌جا و مرتب</h3><p>نمونه طراحی · نیازمند منبع نتایج</p></div></article>
+<article class="panel news-card" data-category="market"><div class="news-art gold">🔁</div><div class="news-copy"><div class="category">نقل‌وانتقالات</div><h3>پیگیر خبرهای نقل‌وانتقالاتی سرخ‌ها باش</h3><p>نمونه طراحی · خبر زنده نیست</p></div></article>
+</div>
+</section>
+<section class="section" id="table">
+<div class="section-head"><h2>جدول لیگ</h2><small>نمونه چیدمان</small></div>
+<div class="panel">
+<div class="table-row head"><span>رتبه</span><span>تیم</span><span class="points">بازی</span><span class="points">امتیاز</span></div>
+<div class="table-row"><span class="rank our-rank">—</span><span class="club">🔴 پرسپولیس</span><span class="points">—</span><span class="points">—</span></div>
+<div class="table-row"><span class="rank">—</span><span class="club">تیم دوم</span><span class="points">—</span><span class="points">—</span></div>
+<div class="table-row"><span class="rank">—</span><span class="club">تیم سوم</span><span class="points">—</span><span class="points">—</span></div>
+<div class="form-note">آمار واقعی نمایش داده نمی‌شود تا منبع معتبر جدول متصل شود.</div>
+</div>
+</section>
+<section class="section"><div class="newsletter"><h2>❤️ همیشه کنار سرخ‌ها</h2><p>برای خبرها و نتایج خودکار باید سرویس داده به برنامه متصل شود.</p><button class="btn primary" onclick="notify('قدم بعدی: اتصال منبع خبری و نتایج واقعی.')">مرحله بعدی ←</button></div></section>
+<footer>پرسپولیس پلاس · ساخته‌شده برای هواداران سرخ</footer>
 </main>
-<footer>پرسپولیس پلاس ۲۰۲۶</footer>
+<nav class="bottom-nav" aria-label="منوی اصلی">
+<button class="nav-item active" data-go="home"><span>خانه 🏠</span></button>
+<button class="nav-item" data-go="news"><span>اخبار 📰</span></button>
+<button class="nav-item" data-go="matches"><span>بازی‌ها ⚽</span></button>
+<button class="nav-item" data-go="table"><span>جدول 📊</span></button>
+</nav>
+<div class="toast" id="toast" role="status"></div>
+</div>
+<script>
+function go(id){const el=document.getElementById(id);if(el)el.scrollIntoView({behavior:'smooth',block:'start'});document.querySelectorAll('.nav-item').forEach(b=>b.classList.toggle('active',b.dataset.go===id))}
+document.querySelectorAll('.nav-item').forEach(b=>b.addEventListener('click',()=>go(b.dataset.go)));
+document.querySelectorAll('.filter').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.filter').forEach(x=>x.classList.remove('active'));b.classList.add('active');document.querySelectorAll('.news-card').forEach(c=>c.hidden=b.dataset.filter!=='all'&&c.dataset.category!==b.dataset.filter)}));
+let toastTimer;
+function notify(message){const t=document.getElementById('toast');t.textContent=message;t.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>t.classList.remove('show'),2800)}
+</script>
+
+<style>
+/* PERSPOLIS GLASS PLAYER CARDS */
+#pp-real-stadium .player,
+#pp-stadium-players .pp-player {
+  background: linear-gradient(135deg,
+    rgba(255,255,255,.13),
+    rgba(100,0,20,.30),
+    rgba(10,10,16,.72)) !important;
+  border: 1px solid rgba(255,90,115,.48) !important;
+  border-radius: 18px !important;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 8px 28px rgba(0,0,0,.35),
+              inset 0 1px 1px rgba(255,255,255,.18),
+              0 0 14px rgba(200,0,35,.12);
+  overflow: hidden;
+}
+#pp-real-stadium .player img {
+  border: 1px solid rgba(255,255,255,.24);
+  border-radius: 13px;
+  box-shadow: 0 5px 18px rgba(0,0,0,.35);
+}
+#pp-real-stadium .player b,
+#pp-stadium-players .pp-player b {
+  color: #ffe0a0;
+  text-shadow: 0 2px 8px #000;
+}
+</style>
+\n
+<!-- PERSPOLIS PLUS PRO V1 -->
+<style>
+#ppx-app {
+  direction: rtl;
+  color: #fff;
+  margin: 26px 0 90px;
+  font-family: inherit;
+}
+#ppx-app * { box-sizing: border-box; }
+#ppx-app .ppx-heading {
+  display:flex; justify-content:space-between;
+  align-items:center; gap:10px; margin:22px 0 14px;
+}
+#ppx-app h2 { margin:0; font-size:20px; color:#ffe0a0; }
+#ppx-app .ppx-muted { color:#bcb4ba; font-size:12px; }
+#ppx-app .ppx-nav {
+  display:flex; gap:8px; overflow-x:auto; padding:4px 0 12px;
+}
+#ppx-app .ppx-nav a {
+  flex-shrink:0; color:#fff; text-decoration:none;
+  padding:10px 14px; border-radius:30px;
+  background:rgba(255,255,255,.07);
+  border:1px solid rgba(255,255,255,.12); font-size:13px;
+}
+#ppx-app .ppx-hero {
+  padding:20px; border-radius:22px;
+  background:linear-gradient(135deg,rgba(180,0,35,.75),rgba(15,5,12,.94));
+  border:1px solid rgba(255,120,140,.35);
+  box-shadow:0 12px 35px #0005;
+}
+#ppx-app .ppx-kicker { color:#ffd47d; font-size:12px; }
+#ppx-app .ppx-hero h2 { font-size:25px; margin:8px 0; }
+#ppx-app .ppx-stats {
+  display:grid; grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:8px; margin-top:18px;
+}
+#ppx-app .ppx-stat {
+  text-align:center; padding:12px 4px; border-radius:14px;
+  background:rgba(0,0,0,.25); border:1px solid #ffffff18;
+}
+#ppx-app .ppx-stat b { display:block; font-size:20px; color:#ffe0a0; }
+#ppx-app .ppx-stat span { font-size:11px; color:#ddd; }
+#ppx-app .ppx-glass {
+  background:linear-gradient(140deg,rgba(255,255,255,.12),
+    rgba(120,0,25,.23),rgba(12,9,15,.82));
+  border:1px solid rgba(255,100,125,.28);
+  border-radius:18px; backdrop-filter:blur(14px);
+  -webkit-backdrop-filter:blur(14px);
+  box-shadow:0 8px 25px #0004,inset 0 1px #ffffff15;
+}
+#ppx-app .ppx-filters {
+  display:flex; gap:7px; overflow-x:auto; margin-bottom:12px;
+}
+#ppx-app .ppx-filter {
+  color:#fff; background:#251017; border:1px solid #67303d;
+  padding:8px 12px; border-radius:24px; white-space:nowrap;
+}
+#ppx-app .ppx-filter.active { background:#b6002c; border-color:#ff8098; }
+#ppx-app .ppx-player-grid {
+  display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:11px;
+}
+#ppx-app .ppx-player { padding:10px; min-width:0; }
+#ppx-app .ppx-player-art {
+  height:112px; border-radius:13px; display:flex;
+  align-items:center; justify-content:center; flex-direction:column;
+  background:radial-gradient(circle at 50% 25%,#9e1636,#2b0712 70%);
+  border:1px solid #ffffff20; margin-bottom:10px;
+}
+#ppx-app .ppx-player-art .shirt { font-size:40px; }
+#ppx-app .ppx-player-art small { color:#ffe0a0; font-size:10px; }
+#ppx-app .ppx-player h3 { margin:5px 0; font-size:14px; }
+#ppx-app .ppx-player p { margin:0; font-size:11px; color:#c8bdc2; }
+#ppx-app .ppx-number { color:#ffe0a0; font-size:12px; }
+#ppx-app .ppx-match {
+  padding:16px; margin-bottom:10px;
+}
+#ppx-app .ppx-match-top {
+  display:flex; justify-content:space-between; gap:8px;
+  font-size:12px; color:#cfc3c8;
+}
+#ppx-app .ppx-score {
+  display:flex; align-items:center; justify-content:space-around;
+  text-align:center; gap:8px; padding:17px 0;
+}
+#ppx-app .ppx-team { flex:1; font-size:13px; }
+#ppx-app .ppx-team strong { display:block; font-size:15px; margin-top:8px; }
+#ppx-app .ppx-score-main { font-size:27px; font-weight:bold; color:#ffe0a0; }
+#ppx-app .ppx-pill {
+  display:inline-block; border-radius:30px; padding:5px 9px;
+  background:#ffffff10; color:#f3d5db; font-size:10px;
+}
+#ppx-app .ppx-table-wrap { overflow-x:auto; }
+#ppx-app .ppx-table {
+  width:100%; border-collapse:collapse; font-size:12px; min-width:280px;
+}
+#ppx-app .ppx-table th,#ppx-app .ppx-table td {
+  padding:12px 7px; text-align:center; border-bottom:1px solid #ffffff12;
+}
+#ppx-app .ppx-table th { color:#e9c16f; font-weight:600; }
+#ppx-app .ppx-table .our-team { background:#a600292e; color:#fff; }
+#ppx-app .ppx-note {
+  padding:12px; margin-top:10px; font-size:11px;
+  color:#c8bdc2; line-height:1.9;
+}
+#ppx-app .ppx-button {
+  border:0; border-radius:12px; padding:11px 14px;
+  background:#b6002c; color:white; font-weight:bold;
+}
+#ppx-app .ppx-countdown {
+  display:grid; grid-template-columns:repeat(4,1fr); gap:7px; margin-top:12px;
+}
+#ppx-app .ppx-time {
+  text-align:center; padding:10px 2px; border-radius:12px;
+  background:#0003; border:1px solid #ffffff12;
+}
+#ppx-app .ppx-time b { display:block; font-size:19px; color:#ffe0a0; }
+#ppx-app .ppx-time span { font-size:10px; color:#ddd; }
+@media(min-width:600px) {
+  #ppx-app .ppx-player-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+  #ppx-app .ppx-player-art { height:145px; }
+}
+</style>
+
+<section id="ppx-app">
+  <nav class="ppx-nav">
+    <a href="#ppx-players">بازیکنان</a>
+    <a href="#ppx-matches">مسابقات</a>
+    <a href="#ppx-league">جدول لیگ</a>
+    <a href="#ppx-next">بازی بعدی</a>
+  </nav>
+
+  <div class="ppx-hero">
+    <span class="ppx-kicker">PERSEPOLIS PLUS · نسخه ویژه هواداران</span>
+    <h2>همیشه با سرخ‌ها ❤️</h2>
+    <p class="ppx-muted">بازیکنان، مسابقات و آمار پرسپولیس در یک صفحه</p>
+    <div class="ppx-stats">
+      <div class="ppx-stat"><b>۲</b><span>رتبه گزارش‌شده</span></div>
+      <div class="ppx-stat"><b>۱۷</b><span>امتیاز گزارش‌شده</span></div>
+      <div class="ppx-stat"><b>❤️</b><span>ارتش سرخ</span></div>
+    </div>
+    <p class="ppx-muted" style="margin-bottom:0">
+      اطلاعات رتبه و امتیاز نمونهٔ گزارش‌شده است و ممکن است تغییر کرده باشد.
+    </p>
+  </div>
+
+  
+
+<section id="ppx-players">
+  <div class="ppx-heading">
+    <h2>🔴 ستاره‌های پرسپولیس</h2>
+    <span class="ppx-muted">کارت بازیکنان</span>
+  </div>
+  <input id="ppx-photo-search" type="search"
+    placeholder="نام بازیکن را جست‌وجو کن..."
+    aria-label="جست‌وجوی بازیکن">
+  <div class="ppx-filters">
+    <button class="ppx-filter active" data-position="all">همه</button>
+    <button class="ppx-filter" data-position="دروازه‌بان">دروازه‌بان</button>
+    <button class="ppx-filter" data-position="دفاع">دفاع</button>
+    <button class="ppx-filter" data-position="هافبک">هافبک</button>
+    <button class="ppx-filter" data-position="مهاجم">مهاجم</button>
+  </div>
+  <p id="ppx-photo-count" class="ppx-muted">در حال آماده‌سازی کارت‌ها...</p>
+  <div class="ppx-photo-grid">
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="پیام نیازمند" data-number="1"
+        data-role="دروازه‌بان" data-wiki="Payam_Niazmand">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">🧤<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس پیام نیازمند" hidden>
+          <span class="ppx-photo-badge">#1</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>پیام نیازمند</strong>
+          <span>دروازه‌بان</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="امیررضا رفیعی" data-number="22"
+        data-role="دروازه‌بان" data-wiki="Amirreza_Rafiei">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">🧤<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس امیررضا رفیعی" hidden>
+          <span class="ppx-photo-badge">#22</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>امیررضا رفیعی</strong>
+          <span>دروازه‌بان</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="ابوالفضل جلالی" data-number="3"
+        data-role="دفاع" data-wiki="Abolfazl_Jalali">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">👕<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس ابوالفضل جلالی" hidden>
+          <span class="ppx-photo-badge">#3</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>ابوالفضل جلالی</strong>
+          <span>دفاع</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="محمدمهدی زارع" data-number="4"
+        data-role="دفاع" data-wiki="Mohammad_Mahdi_Zare">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">👕<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس محمدمهدی زارع" hidden>
+          <span class="ppx-photo-badge">#4</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>محمدمهدی زارع</strong>
+          <span>دفاع</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="حسین ابرقویی" data-number="5"
+        data-role="دفاع" data-wiki="Hossein_Abarghouei">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">👕<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس حسین ابرقویی" hidden>
+          <span class="ppx-photo-badge">#5</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>حسین ابرقویی</strong>
+          <span>دفاع</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="حسین کنعانی‌زادگان" data-number="6"
+        data-role="دفاع" data-wiki="Hossein_Kanaanizadegan">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">👕<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس حسین کنعانی‌زادگان" hidden>
+          <span class="ppx-photo-badge">#6</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>حسین کنعانی‌زادگان</strong>
+          <span>دفاع</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="یعقوب براجعه" data-number="13"
+        data-role="دفاع" data-wiki="Yaghoob_Barajeh">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">👕<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس یعقوب براجعه" hidden>
+          <span class="ppx-photo-badge">#13</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>یعقوب براجعه</strong>
+          <span>دفاع</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="دانیال ایری" data-number="89"
+        data-role="دفاع" data-wiki="Danial_Eiri">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">👕<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس دانیال ایری" hidden>
+          <span class="ppx-photo-badge">#89</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>دانیال ایری</strong>
+          <span>دفاع</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="مجید عیدی" data-number="20"
+        data-role="دفاع" data-wiki="Majid_Eydi">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">👕<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس مجید عیدی" hidden>
+          <span class="ppx-photo-badge">#20</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>مجید عیدی</strong>
+          <span>دفاع</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="مهدی تیکدری" data-number="8"
+        data-role="دفاع" data-wiki="Mehdi_Tikdari">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">👕<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس مهدی تیکدری" hidden>
+          <span class="ppx-photo-badge">#8</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>مهدی تیکدری</strong>
+          <span>دفاع</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="محمد خدابنده‌لو" data-number="77"
+        data-role="هافبک" data-wiki="Mohammad_Khodabandelou">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">👕<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس محمد خدابنده‌لو" hidden>
+          <span class="ppx-photo-badge">#77</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>محمد خدابنده‌لو</strong>
+          <span>هافبک</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="مارکو باکیچ" data-number="88"
+        data-role="هافبک" data-wiki="Marko_Bakic">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">👕<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس مارکو باکیچ" hidden>
+          <span class="ppx-photo-badge">#88</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>مارکو باکیچ</strong>
+          <span>هافبک</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="یاسین سلمانی" data-number="80"
+        data-role="هافبک" data-wiki="Yasin_Salmani">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">👕<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس یاسین سلمانی" hidden>
+          <span class="ppx-photo-badge">#80</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>یاسین سلمانی</strong>
+          <span>هافبک</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="اوستون اورونوف" data-number="70"
+        data-role="مهاجم" data-wiki="Oston_Urunov">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">⚽<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس اوستون اورونوف" hidden>
+          <span class="ppx-photo-badge">#70</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>اوستون اورونوف</strong>
+          <span>مهاجم</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="علی علیپور" data-number="9"
+        data-role="مهاجم" data-wiki="Ali_Alipour">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">⚽<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس علی علیپور" hidden>
+          <span class="ppx-photo-badge">#9</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>علی علیپور</strong>
+          <span>مهاجم</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="ایگور سرگیف" data-number="11"
+        data-role="مهاجم" data-wiki="Igor_Sergeev">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">⚽<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس ایگور سرگیف" hidden>
+          <span class="ppx-photo-badge">#11</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>ایگور سرگیف</strong>
+          <span>مهاجم</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="تیوی بیفوما" data-number="23"
+        data-role="مهاجم" data-wiki="Thievy_Bifouma">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">⚽<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس تیوی بیفوما" hidden>
+          <span class="ppx-photo-badge">#23</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>تیوی بیفوما</strong>
+          <span>مهاجم</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="محمدمهدی محبی" data-number="10"
+        data-role="مهاجم" data-wiki="Mohammad_Mehdi_Mohebi">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">⚽<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس محمدمهدی محبی" hidden>
+          <span class="ppx-photo-badge">#10</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>محمدمهدی محبی</strong>
+          <span>مهاجم</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="محمد عمری" data-number="7"
+        data-role="هافبک" data-wiki="Mohammad_Amri">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">👕<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس محمد عمری" hidden>
+          <span class="ppx-photo-badge">#7</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>محمد عمری</strong>
+          <span>هافبک</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="پوریا شهرآبادی" data-number="17"
+        data-role="مهاجم" data-wiki="Pouria_Shahrabadi">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">⚽<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس پوریا شهرآبادی" hidden>
+          <span class="ppx-photo-badge">#17</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>پوریا شهرآبادی</strong>
+          <span>مهاجم</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="امیرحسین محمودی" data-number="19"
+        data-role="مهاجم" data-wiki="Amirhossein_Mahmoudi">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">⚽<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس امیرحسین محمودی" hidden>
+          <span class="ppx-photo-badge">#19</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>امیرحسین محمودی</strong>
+          <span>مهاجم</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="محمدحسین صادقی" data-number="45"
+        data-role="مهاجم" data-wiki="Mohammad_Hossein_Sadeghi">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">⚽<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس محمدحسین صادقی" hidden>
+          <span class="ppx-photo-badge">#45</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>محمدحسین صادقی</strong>
+          <span>مهاجم</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="پوریا لطیفی‌فر" data-number="99"
+        data-role="مهاجم" data-wiki="Pouria_Latififar">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">⚽<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس پوریا لطیفی‌فر" hidden>
+          <span class="ppx-photo-badge">#99</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>پوریا لطیفی‌فر</strong>
+          <span>مهاجم</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="پویا پورعلی" data-number="66"
+        data-role="هافبک" data-wiki="Pouya_Pourali">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">👕<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس پویا پورعلی" hidden>
+          <span class="ppx-photo-badge">#66</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>پویا پورعلی</strong>
+          <span>هافبک</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="علیرضا جلالی" data-number="74"
+        data-role="هافبک" data-wiki="Alireza_Jalali">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">👕<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس علیرضا جلالی" hidden>
+          <span class="ppx-photo-badge">#74</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>علیرضا جلالی</strong>
+          <span>هافبک</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+
+      <button type="button" class="ppx-photo-card ppx-glass"
+        data-name="محمد گندمی" data-number="68"
+        data-role="دروازه‌بان" data-wiki="Mohammad_Gandomi">
+        <div class="ppx-photo-frame">
+          <div class="ppx-photo-fallback">🧤<small>پرسپولیس</small></div>
+          <img class="ppx-real-photo" loading="lazy"
+            alt="عکس محمد گندمی" hidden>
+          <span class="ppx-photo-badge">#68</span>
+        </div>
+        <div class="ppx-photo-info">
+          <strong>محمد گندمی</strong>
+          <span>دروازه‌بان</span>
+          <small>مشاهده پروفایل ←</small>
+        </div>
+      </button>
+    
+  </div>
+  <p class="ppx-note ppx-glass">
+    عکس‌ها از سرویس عمومی ویکی‌پدیا دریافت می‌شوند؛ ممکن است برای بعضی بازیکنان
+    تصویر پیدا نشود. شماره‌ها و پست‌ها باید با اطلاعات رسمی باشگاه تطبیق داده شوند.
+  </p>
+</section>
+
+
+
+  <section id="ppx-matches">
+    <div class="ppx-heading">
+      <h2>مسابقات و نتایج</h2>
+      <span class="ppx-pill">آخرین گزارش بررسی‌شده</span>
+    </div>
+    <article class="ppx-match ppx-glass">
+      <div class="ppx-match-top"><span>لیگ برتر</span><span>۱۴ اکتبر ۲۰۲۶</span></div>
+      <div class="ppx-score">
+        <div class="ppx-team">🛡️<strong>خیبر خرم‌آباد</strong></div>
+        <div class="ppx-score-main">۰ - ۰</div>
+        <div class="ppx-team">🔴<strong>پرسپولیس</strong></div>
+      </div>
+      <div class="ppx-muted">آخرین نتیجهٔ گزارش‌شده؛ برای نتیجهٔ لحظه‌ای باید منبع زنده متصل شود.</div>
+    </article>
+    <article class="ppx-match ppx-glass" id="ppx-next">
+      <div class="ppx-match-top"><span>مسابقهٔ بعدی</span><span class="ppx-pill">زمان تأییدنشده</span></div>
+      <div class="ppx-score">
+        <div class="ppx-team">🔴<strong>پرسپولیس</strong></div>
+        <div class="ppx-score-main">VS</div>
+        <div class="ppx-team">⚽<strong>مس شهر بابک</strong></div>
+      </div>
+      <p class="ppx-muted">زمان شروع را پس از اعلام رسمی وارد کنید.</p>
+      <div class="ppx-countdown" aria-label="شمارش معکوس">
+        <div class="ppx-time"><b>--</b><span>روز</span></div>
+        <div class="ppx-time"><b>--</b><span>ساعت</span></div>
+        <div class="ppx-time"><b>--</b><span>دقیقه</span></div>
+        <div class="ppx-time"><b>--</b><span>ثانیه</span></div>
+      </div>
+    </article>
+  </section>
+
+  <section id="ppx-league">
+    <div class="ppx-heading">
+      <h2>جدول لیگ</h2>
+      <span class="ppx-muted">اطلاعات نیازمند به‌روزرسانی</span>
+    </div>
+    <div class="ppx-glass ppx-table-wrap">
+      <table class="ppx-table">
+        <thead><tr><th>رتبه</th><th>تیم</th><th>بازی</th><th>امتیاز</th></tr></thead>
+        <tbody>
+          <tr class="our-team"><td>۲</td><td>🔴 پرسپولیس</td><td>۸</td><td>۱۷</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="ppx-note ppx-glass">
+      این ردیف بر اساس یک گزارش آماری از فصل جاری درج شده و تضمین نمی‌کند که جدول همین لحظه به‌روز باشد. برای نمایش جدول کامل و زنده، اتصال API یا منبع معتبر لازم است.
+    </div>
+  </section>
+</section>
+
+<script>
+(function () {
+  const app = document.getElementById('ppx-app');
+  if (!app) return;
+
+  const filters = app.querySelectorAll('.ppx-filter');
+  const players = app.querySelectorAll('.ppx-player');
+
+  filters.forEach(function (button) {
+    button.addEventListener('click', function () {
+      filters.forEach(function (b) { b.classList.remove('active'); });
+      button.classList.add('active');
+      const role = button.dataset.position;
+      players.forEach(function (player) {
+        player.hidden = role !== 'all' && player.dataset.role !== role;
+      });
+    });
+  });
+})();
+</script>
+<!-- END PERSPOLIS PLUS PRO V1 -->
+
+
+<!-- PERSPOLIS ROSTER UPGRADE -->
+<style>
+#ppx-app #ppx-player-search:focus {
+  outline:2px solid #e85b79;
+  box-shadow:0 0 18px #b6002c55;
+}
+#ppx-app .ppx-player {
+  transition:transform .2s ease, border-color .2s ease;
+}
+#ppx-app .ppx-player:hover {
+  transform:translateY(-3px);
+  border-color:rgba(255,180,190,.65);
+}
+#ppx-app .ppx-player[hidden] { display:none !important; }
+#ppx-app .ppx-player-art {
+  position:relative;
+  overflow:hidden;
+  background:
+    radial-gradient(ellipse at 50% 20%,#c52b50 0,#650d27 45%,#17070d 100%);
+}
+#ppx-app .ppx-player-art:after {
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(125deg,transparent 25%,
+    rgba(255,255,255,.12) 45%,transparent 62%);
+  pointer-events:none;
+}
+#ppx-app .ppx-player-art .shirt {
+  filter:drop-shadow(0 4px 8px #0008);
+}
+#ppx-app .ppx-player h3 {
+  line-height:1.8;
+  overflow-wrap:anywhere;
+}
+</style>
+
+
+<script>
+(function () {
+  const app = document.getElementById('ppx-app');
+  if (!app) return;
+
+  const search = document.getElementById('ppx-player-search');
+  const cards = Array.from(app.querySelectorAll('.ppx-player'));
+  const filters = Array.from(app.querySelectorAll('.ppx-filter'));
+  const count = document.getElementById('ppx-player-count');
+  let selectedPosition = 'all';
+
+  function updatePlayers() {
+    const query = (search.value || '').trim().toLocaleLowerCase('fa');
+    let visible = 0;
+
+    cards.forEach(function (card) {
+      const name = (card.dataset.name || '').toLocaleLowerCase('fa');
+      const role = card.dataset.role || '';
+      const matchesName = name.includes(query);
+      const matchesRole =
+        selectedPosition === 'all' || role === selectedPosition;
+
+      card.hidden = !(matchesName && matchesRole);
+      if (!card.hidden) visible++;
+    });
+
+    count.textContent = visible + ' بازیکن نمایش داده می‌شود';
+  }
+
+  filters.forEach(function (button) {
+    button.addEventListener('click', function () {
+      selectedPosition = button.dataset.position || 'all';
+      filters.forEach(function (item) {
+        item.classList.toggle('active', item === button);
+      });
+      updatePlayers();
+    });
+  });
+
+  search.addEventListener('input', updatePlayers);
+  updatePlayers();
+})();
+</script>
+<!-- END PERSPOLIS ROSTER UPGRADE -->
+
+
+<!-- PERSPOLIS PLAYER PHOTO PRO -->
+<style>
+#ppx-app #ppx-photo-search {
+  width:100%; padding:14px; margin:0 0 12px;
+  border-radius:14px; background:#19070d; color:#fff;
+  border:1px solid #853044; font:inherit;
+}
+#ppx-app .ppx-photo-grid {
+  display:grid; grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+}
+#ppx-app .ppx-photo-card {
+  display:block; text-align:right; color:white; width:100%;
+  min-width:0; padding:9px; cursor:pointer; font:inherit;
+  transition:transform .2s ease,border-color .2s ease;
+}
+#ppx-app .ppx-photo-card:hover {
+  transform:translateY(-3px);
+  border-color:rgba(255,180,190,.8);
+}
+#ppx-app .ppx-photo-card[hidden] { display:none !important; }
+#ppx-app .ppx-photo-frame {
+  height:180px; position:relative; overflow:hidden;
+  border-radius:13px; background:linear-gradient(145deg,#a51b3c,#20050e);
+  display:flex; align-items:center; justify-content:center;
+}
+#ppx-app .ppx-real-photo {
+  width:100%; height:100%; object-fit:cover;
+  object-position:center top; position:absolute; inset:0;
+}
+#ppx-app .ppx-real-photo[hidden] { display:none; }
+#ppx-app .ppx-photo-fallback {
+  display:flex; align-items:center; justify-content:center;
+  flex-direction:column; gap:9px; font-size:42px;
+}
+#ppx-app .ppx-photo-fallback small { font-size:11px; color:#ffe0a0; }
+#ppx-app .ppx-photo-badge {
+  position:absolute; top:8px; right:8px; z-index:2;
+  background:#15040dcc; border:1px solid #ffffff50;
+  color:#ffe0a0; border-radius:20px; padding:5px 9px;
+  font-size:12px;
+}
+#ppx-app .ppx-photo-info { padding:10px 3px 4px; }
+#ppx-app .ppx-photo-info strong {
+  display:block; font-size:13px; line-height:1.9;
+}
+#ppx-app .ppx-photo-info span {
+  display:block; font-size:11px; color:#d3c0c7;
+}
+#ppx-app .ppx-photo-info small {
+  display:block; margin-top:8px; color:#ffe0a0; font-size:10px;
+}
+#ppx-player-modal {
+  position:fixed; inset:0; z-index:99999; display:none;
+  align-items:center; justify-content:center; padding:18px;
+  background:rgba(0,0,0,.82); backdrop-filter:blur(8px);
+}
+#ppx-player-modal.open { display:flex; }
+#ppx-player-modal .ppx-modal-card {
+  position:relative; width:min(100%,380px); padding:18px;
+  text-align:center; color:white; border-radius:22px;
+  background:linear-gradient(145deg,#380817,#10070b);
+  border:1px solid #d64b6a; box-shadow:0 20px 60px #0009;
+}
+#ppx-player-modal img {
+  width:150px; height:170px; object-fit:cover; object-position:top;
+  border-radius:16px; border:1px solid #ffffff35;
+}
+#ppx-player-modal img[hidden] { display:none; }
+#ppx-player-modal h3 { color:#ffe0a0; margin:12px 0; }
+#ppx-player-modal p { color:#ddd; line-height:1.9; font-size:13px; }
+#ppx-player-modal .ppx-modal-close {
+  position:absolute; left:12px; top:12px; border:0;
+  border-radius:50%; width:36px; height:36px;
+  color:white; background:#ffffff18; font-size:22px;
+}
+@media(min-width:600px) {
+  #ppx-app .ppx-photo-grid { grid-template-columns:repeat(3,minmax(0,1fr)); }
+  #ppx-app .ppx-photo-frame { height:230px; }
+}
+</style>
+
+<div id="ppx-player-modal" role="dialog" aria-modal="true"
+     aria-label="پروفایل بازیکن">
+  <div class="ppx-modal-card">
+    <button class="ppx-modal-close" type="button"
+      aria-label="بستن پنجره">×</button>
+    <img id="ppx-modal-photo" alt="" hidden>
+    <div id="ppx-modal-fallback" style="font-size:48px">👕</div>
+    <h3 id="ppx-modal-name">بازیکن پرسپولیس</h3>
+    <p id="ppx-modal-details"></p>
+    <p class="ppx-muted">
+      عکس و مشخصات از منابع عمومی دریافت می‌شوند؛ ممکن است اطلاعات کامل نباشد.
+    </p>
+  </div>
+</div>
+
+<script>
+(function () {
+  const app = document.getElementById('ppx-app');
+  const modal = document.getElementById('ppx-player-modal');
+  if (!app || !modal) return;
+
+  const cards = Array.from(app.querySelectorAll('.ppx-photo-card'));
+  const search = document.getElementById('ppx-photo-search');
+  const count = document.getElementById('ppx-photo-count');
+  const filters = Array.from(app.querySelectorAll('.ppx-filter'));
+  let selectedRole = 'all';
+
+  function filterCards() {
+    const query = (search.value || '').trim().toLocaleLowerCase('fa');
+    let visible = 0;
+    cards.forEach(function(card) {
+      const roleMatch = selectedRole === 'all' ||
+        card.dataset.role === selectedRole;
+      const nameMatch = card.dataset.name.toLocaleLowerCase('fa').includes(query);
+      card.hidden = !(roleMatch && nameMatch);
+      if (!card.hidden) visible++;
+    });
+    count.textContent = visible + ' بازیکن نمایش داده می‌شود';
+  }
+
+  filters.forEach(function(button) {
+    button.addEventListener('click', function() {
+      selectedRole = button.dataset.position || 'all';
+      filters.forEach(function(item) {
+        item.classList.toggle('active', item === button);
+      });
+      filterCards();
+    });
+  });
+  search.addEventListener('input', filterCards);
+
+  async function loadPhoto(card) {
+    if (card.dataset.photoLoaded) return;
+    card.dataset.photoLoaded = '1';
+
+    const img = card.querySelector('.ppx-real-photo');
+    const fallback = card.querySelector('.ppx-photo-fallback');
+    const title = card.dataset.wiki;
+
+    try {
+      const url = 'https://en.wikipedia.org/w/api.php?action=query' +
+        '&format=json&origin=*&prop=pageimages&piprop=thumbnail&pithumbsize=500' +
+        '&titles=' + encodeURIComponent(title);
+
+      const response = await fetch(url);
+      if (!response.ok) throw new Error('Photo lookup failed');
+
+      const data = await response.json();
+      const pages = data.query && data.query.pages
+        ? Object.values(data.query.pages) : [];
+      const page = pages.find(function(item) {
+        return item.thumbnail && item.thumbnail.source;
+      });
+
+      if (!page) return;
+
+      img.src = page.thumbnail.source;
+      img.onload = function() {
+        img.hidden = false;
+        fallback.hidden = true;
+      };
+      img.onerror = function() {
+        img.hidden = true;
+        fallback.hidden = false;
+      };
+    } catch (error) {
+      console.log('عکس برای این بازیکن دریافت نشد:', card.dataset.name);
+    }
+  }
+
+  cards.forEach(loadPhoto);
+
+  function openProfile(card) {
+    const img = card.querySelector('.ppx-real-photo');
+    const modalImg = document.getElementById('ppx-modal-photo');
+    const fallback = document.getElementById('ppx-modal-fallback');
+
+    document.getElementById('ppx-modal-name').textContent = card.dataset.name;
+    document.getElementById('ppx-modal-details').textContent =
+      'پست: ' + card.dataset.role + ' | شماره ثبت‌شده: ' +
+      card.dataset.number;
+
+    if (!img.hidden && img.src) {
+      modalImg.src = img.src;
+      modalImg.alt = card.dataset.name;
+      modalImg.hidden = false;
+      fallback.hidden = true;
+    } else {
+      modalImg.hidden = true;
+      fallback.hidden = false;
+    }
+
+    modal.classList.add('open');
+  }
+
+  cards.forEach(function(card) {
+    card.addEventListener('click', function() {
+      openProfile(card);
+    });
+  });
+
+  function closeModal() {
+    modal.classList.remove('open');
+  }
+
+  modal.querySelector('.ppx-modal-close').addEventListener('click', closeModal);
+  modal.addEventListener('click', function(event) {
+    if (event.target === modal) closeModal();
+  });
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') closeModal();
+  });
+
+  filterCards();
+})();
+</script>
+<!-- END PERSPOLIS PLAYER PHOTO PRO -->
+
+
+<!-- PERSPOLIS FINAL RED THEME -->
+<style id="persepolis-final-theme">
+:root {
+  --pp-red: #e50935;
+  --pp-red-light: #ff3155;
+  --pp-dark: #09090d;
+  --pp-panel: rgba(25, 17, 24, .88);
+  --pp-border: rgba(255, 45, 82, .23);
+  --pp-text: #fff4f6;
+  --pp-muted: #bbaab2;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-color: #a70b30 #100b10;
+}
+
+body {
+  background-color: var(--pp-dark);
+  color: var(--pp-text);
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* نور قرمز سینمایی؛ بدون حذف عکس‌های فعلی */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse at 4% 12%,
+      rgba(205, 0, 48, .17), transparent 42%),
+    radial-gradient(ellipse at 96% 42%,
+      rgba(115, 0, 28, .14), transparent 38%),
+    linear-gradient(155deg, #10090e 0%, #09090d 55%, #14080e 100%);
+}
+
+/* تیترها */
+h1, h2, h3, h4 {
+  text-shadow: 0 0 18px rgba(229, 9, 53, .15);
+  letter-spacing: -.25px;
+}
+
+h2 {
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 3px;
+  margin-top: 8px;
+  border-radius: 20px;
+  background: linear-gradient(90deg, #ff3155, transparent);
+}
+
+/* کارت‌های شیشه‌ای و پنل‌ها */
+.ppx-glass,
+.ppx-match,
+.ppx-table,
+.ppx-player-grid > *,
+article,
+.news-card,
+.match-card {
+  background: linear-gradient(
+    145deg,
+    rgba(37, 24, 34, .91),
+    rgba(15, 13, 19, .94)
+  );
+  border: 1px solid var(--pp-border);
+  border-radius: 17px;
+  box-shadow:
+    0 10px 28px rgba(0, 0, 0, .25),
+    inset 0 1px 0 rgba(255, 255, 255, .035);
+  transition:
+    transform .25s ease,
+    border-color .25s ease,
+    box-shadow .25s ease,
+    background .25s ease;
+}
+
+/* درخشش کارت‌ها هنگام لمس یا اشاره */
+.ppx-glass:hover,
+.ppx-match:hover,
+.ppx-player-grid > *:hover,
+article:hover,
+.news-card:hover,
+.match-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 49, 85, .65);
+  box-shadow:
+    0 12px 32px rgba(150, 0, 35, .19),
+    0 0 18px rgba(229, 9, 53, .08);
+}
+
+.ppx-glass:active,
+.ppx-match:active,
+.ppx-player-grid > *:active,
+article:active,
+.news-card:active,
+.match-card:active {
+  transform: scale(.985);
+}
+
+/* تصاویر بازیکنان، اخبار و استادیوم */
+img {
+  max-width: 100%;
+}
+
+.ppx-player-grid img,
+.ppx-glass img,
+.ppx-match img,
+article img,
+.news-card img,
+.match-card img {
+  transition: transform .35s ease, filter .35s ease;
+}
+
+.ppx-player-grid > *:hover img,
+.ppx-glass:hover img,
+article:hover img,
+.news-card:hover img,
+.match-card:hover img {
+  filter: saturate(1.12) contrast(1.04);
+}
+
+/* فیلترها */
+.ppx-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.ppx-filters button,
+.ppx-filters [role="button"] {
+  border: 1px solid rgba(255, 49, 85, .3);
+  border-radius: 12px;
+  background: rgba(36, 18, 28, .9);
+  color: #ffeaf0;
+  padding: 9px 13px;
+  transition: .2s ease;
+}
+
+.ppx-filters button:hover,
+.ppx-filters button:focus-visible,
+.ppx-filters button.active {
+  background: linear-gradient(135deg, #e50935, #920020);
+  color: white;
+  border-color: #ff4968;
+  box-shadow: 0 4px 16px rgba(229, 9, 53, .23);
+}
+
+/* دکمه‌ها */
+button {
+  cursor: pointer;
+  transition:
+    transform .2s ease,
+    box-shadow .2s ease,
+    border-color .2s ease,
+    filter .2s ease;
+}
+
+button:active {
+  transform: scale(.97);
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid #ff4968;
+  outline-offset: 3px;
+}
+
+button:not(.ppx-filters button) {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* لینک‌ها */
+a {
+  transition: color .2s ease;
+}
+
+a:hover {
+  color: #ff4968;
+}
+
+/* ورودی جست‌وجو */
+input,
+select,
+textarea {
+  max-width: 100%;
+  color: #fff4f6;
+  background: rgba(20, 14, 20, .95);
+  border: 1px solid rgba(255, 49, 85, .27);
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #a9959f;
+}
+
+/* جدول لیگ */
+.ppx-table {
+  overflow-x: auto;
+}
+
+.ppx-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ppx-table th {
+  background: rgba(155, 0, 38, .28);
+  color: #ffb4c4;
+}
+
+.ppx-table th,
+.ppx-table td {
+  padding: 11px 8px;
+  border-bottom: 1px solid rgba(255, 255, 255, .055);
+  text-align: center;
+}
+
+.ppx-table tr {
+  transition: background .2s ease;
+}
+
+.ppx-table tbody tr:hover {
+  background: rgba(229, 9, 53, .09);
+}
+
+/* نشان وضعیت و برچسب‌ها */
+.ppx-match strong,
+.ppx-match h3 {
+  color: #fff0f4;
+}
+
+.ppx-match .live,
+.live,
+.status-live {
+  color: #ff5472;
+  text-shadow: 0 0 12px rgba(255, 49, 85, .25);
+}
+
+/* انیمیشن ورود نرم */
+@keyframes ppx-rise {
+  from {
+    opacity: 0;
+    transform: translateY(13px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.ppx-theme-reveal {
+  animation: ppx-rise .48s ease both;
+}
+
+/* اسکرول‌بار هماهنگ با تم */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #100b10;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8e1232;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e50935;
+}
+
+/* موبایل */
+@media (max-width: 600px) {
+  .ppx-player-grid {
+    gap: 10px;
+  }
+
+  .ppx-glass,
+  .ppx-match,
+  .ppx-player-grid > *,
+  article,
+  .news-card,
+  .match-card {
+    border-radius: 14px;
+  }
+
+  .ppx-filters button {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+
+  .ppx-table th,
+  .ppx-table td {
+    padding: 9px 5px;
+    font-size: 13px;
+  }
+}
+
+/* احترام به تنظیم کاهش حرکت گوشی */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    transition-duration: .01ms !important;
+  }
+}
+</style>
+
+<script id="persepolis-final-theme-js">
+(function () {
+  "use strict";
+
+  /* افکت ورود کارت‌ها با فاصله کوتاه */
+  var cards = document.querySelectorAll(
+    ".ppx-glass, .ppx-match, .ppx-player-grid > *, " +
+    "article, .news-card, .match-card"
+  );
+
+  cards.forEach(function (card, index) {
+    card.classList.add("ppx-theme-reveal");
+    card.style.animationDelay = Math.min(index * 35, 280) + "ms";
+  });
+
+  /* افکت ملایم روی کارت‌ها؛ بدون دست‌کاری محتوای آن‌ها */
+  document.querySelectorAll(
+    ".ppx-glass, .ppx-match, .ppx-player-grid > *, " +
+    "article, .news-card, .match-card"
+  ).forEach(function (card) {
+    card.addEventListener("touchstart", function () {
+      card.classList.add("ppx-touched");
+    }, { passive: true });
+
+    card.addEventListener("touchend", function () {
+      card.classList.remove("ppx-touched");
+    }, { passive: true });
+  });
+
+  console.log("Persepolis Plus theme loaded");
+})();
+</script>
+<!-- END PERSPOLIS FINAL RED THEME -->
+
+
+<!-- PERSPOLIS SIX FEATURES UPGRADE -->
+<style id="ppx-six-style">
+#ppx-pro-launcher {
+  position: fixed;
+  right: 15px;
+  bottom: 78px;
+  z-index: 9990;
+  border: 1px solid rgba(255,255,255,.23);
+  border-radius: 30px;
+  padding: 12px 17px;
+  color: white;
+  font-weight: 800;
+  font-size: 13px;
+  background: linear-gradient(135deg,#f20b3e,#87001e);
+  box-shadow: 0 7px 28px rgba(229,9,53,.38);
+  cursor: pointer;
+}
+
+#ppx-pro-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9995;
+  background: rgba(3,3,7,.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 12px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+#ppx-pro-overlay.ppx-open {
+  display: block;
+  animation: ppx-six-in .22s ease;
+}
+
+@keyframes ppx-six-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+#ppx-pro-panel {
+  width: 100%;
+  max-width: 780px;
+  min-height: 75vh;
+  margin: 12px auto;
+  padding: 17px;
+  box-sizing: border-box;
+  color: #fff3f6;
+  background:
+    radial-gradient(ellipse at top right,rgba(190,0,45,.23),transparent 42%),
+    linear-gradient(150deg,#1b1119,#09090e 72%);
+  border: 1px solid rgba(255,55,90,.3);
+  border-radius: 22px;
+  box-shadow: 0 20px 70px #0009;
+}
+
+#ppx-pro-panel * { box-sizing: border-box; }
+
+.ppx-pro-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.ppx-pro-brand {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.ppx-pro-sub {
+  color: #c7aeb8;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.ppx-pro-close {
+  border: 1px solid #5b2737;
+  background: #27121b;
+  color: white;
+  border-radius: 12px;
+  padding: 9px 13px;
+  font-size: 18px;
+}
+
+.ppx-pro-tabs {
+  display: grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.ppx-pro-tab {
+  min-height: 47px;
+  padding: 9px 5px;
+  border: 1px solid #44202d;
+  border-radius: 12px;
+  background: #171019;
+  color: #e9d9df;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.ppx-pro-tab.ppx-selected {
+  background: linear-gradient(135deg,#d90b39,#81001c);
+  color: white;
+  border-color: #ff5876;
+  box-shadow: 0 4px 16px #d900382b;
+}
+
+.ppx-pro-page { display: none; }
+.ppx-pro-page.ppx-visible { display: block; }
+
+.ppx-pro-title {
+  font-size: 18px;
+  font-weight: 900;
+  margin: 4px 0 13px;
+}
+
+.ppx-pro-muted {
+  color: #b9a5af;
+  font-size: 12px;
+  line-height: 1.9;
+}
+
+.ppx-pro-grid {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 10px;
+}
+
+.ppx-pro-card {
+  min-width: 0;
+  border: 1px solid #42202d;
+  border-radius: 15px;
+  padding: 13px;
+  background: linear-gradient(145deg,#281522,#120e15);
+}
+
+.ppx-pro-card strong {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.ppx-pro-number {
+  font-size: 25px;
+  font-weight: 900;
+  color: #ff5576;
+}
+
+.ppx-pro-action {
+  border: 1px solid #72223b;
+  background: linear-gradient(135deg,#c70a35,#72001a);
+  color: white;
+  border-radius: 11px;
+  padding: 10px 13px;
+  font-weight: 800;
+  font-size: 12px;
+  margin: 4px 4px 4px 0;
+}
+
+.ppx-pro-secondary {
+  border: 1px solid #49303a;
+  background: #211720;
+  color: #f9eaf0;
+  border-radius: 11px;
+  padding: 10px 13px;
+  font-size: 12px;
+  margin: 4px 4px 4px 0;
+}
+
+.ppx-pro-search {
+  width: 100%;
+  border: 1px solid #633043;
+  border-radius: 12px;
+  padding: 12px;
+  margin-bottom: 12px;
+  color: white;
+  background: #110d13;
+  font-size: 14px;
+}
+
+.ppx-pro-list {
+  display: grid;
+  gap: 9px;
+}
+
+.ppx-pro-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  min-width: 0;
+  padding: 11px;
+  border: 1px solid #38202a;
+  border-radius: 12px;
+  background: #171019;
+}
+
+.ppx-pro-item-main {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-size: 13px;
+  line-height: 1.8;
+}
+
+.ppx-pro-star {
+  border: 1px solid #603044;
+  background: #24131d;
+  color: #ffbdca;
+  border-radius: 9px;
+  padding: 7px 9px;
+  flex-shrink: 0;
+}
+
+.ppx-pro-star.ppx-is-fav {
+  color: #ffdf62;
+  border-color: #b58a28;
+}
+
+.ppx-pro-empty {
+  padding: 20px 12px;
+  border: 1px dashed #5a3442;
+  border-radius: 13px;
+  color: #cbb8c1;
+  text-align: center;
+  font-size: 13px;
+  line-height: 2;
+}
+
+.ppx-pro-table-wrap {
+  overflow-x: auto;
+  border: 1px solid #41212e;
+  border-radius: 12px;
+}
+
+.ppx-pro-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.ppx-pro-table th,
+.ppx-pro-table td {
+  text-align: center;
+  padding: 10px 7px;
+  border-bottom: 1px solid #35202a;
+  white-space: nowrap;
+}
+
+.ppx-pro-table th {
+  color: #ff9bb0;
+  background: #35101f;
+}
+
+.ppx-pro-table tr.ppx-highlight {
+  background: #67112755;
+  color: #ffb4c4;
+  font-weight: 800;
+}
+
+.ppx-pro-setting {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 13px 0;
+  border-bottom: 1px solid #39212b;
+  font-size: 13px;
+}
+
+.ppx-pro-setting input {
+  width: 20px;
+  height: 20px;
+  accent-color: #f21b4a;
+}
+
+.ppx-pro-foot {
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid #39212b;
+  text-align: center;
+  font-size: 11px;
+  color: #a9919d;
+}
+
+@media(max-width:380px) {
+  #ppx-pro-panel { padding: 12px; }
+  .ppx-pro-tabs { gap: 5px; }
+  .ppx-pro-tab { font-size: 11px; }
+  .ppx-pro-grid { gap: 7px; }
+}
+
+@media(prefers-reduced-motion:reduce) {
+  #ppx-pro-overlay.ppx-open { animation: none; }
+  #ppx-pro-panel * { scroll-behavior: auto !important; }
+}
+</style>
+
+<button id="ppx-pro-launcher" type="button"
+ aria-controls="ppx-pro-overlay" aria-expanded="false">
+ 🔴 مرکز حرفه‌ای
+</button>
+
+<div id="ppx-pro-overlay" role="dialog"
+ aria-modal="true" aria-label="مرکز حرفه‌ای پرسپولیس پلاس">
+ <div id="ppx-pro-panel">
+  <div class="ppx-pro-head">
+   <div>
+    <div class="ppx-pro-brand">🔴 پرسپولیس پلاس</div>
+    <div class="ppx-pro-sub">مرکز اختصاصی هواداران سرخ</div>
+   </div>
+   <button class="ppx-pro-close" id="ppx-pro-close"
+    type="button" aria-label="بستن">✕</button>
+  </div>
+
+  <nav class="ppx-pro-tabs" aria-label="بخش‌های حرفه‌ای">
+   <button class="ppx-pro-tab ppx-selected" data-page="dashboard">🏠 داشبورد</button>
+   <button class="ppx-pro-tab" data-page="matches">⚽ مسابقات</button>
+   <button class="ppx-pro-tab" data-page="players">👤 بازیکنان</button>
+   <button class="ppx-pro-tab" data-page="news">📰 اخبار</button>
+   <button class="ppx-pro-tab" data-page="league">🏆 جدول لیگ</button>
+   <button class="ppx-pro-tab" data-page="personal">⭐ امکانات شخصی</button>
+  </nav>
+
+  <section class="ppx-pro-page ppx-visible" id="ppx-page-dashboard">
+   <div class="ppx-pro-title">همه‌چیز در یک نگاه</div>
+   <div class="ppx-pro-grid">
+    <div class="ppx-pro-card">
+     <strong>⚽ مسابقات موجود</strong>
+     <div class="ppx-pro-number" id="ppx-count-matches">۰</div>
+     <div class="ppx-pro-muted">کارت‌های مسابقه در سایت</div>
+    </div>
+    <div class="ppx-pro-card">
+     <strong>👤 بازیکنان موجود</strong>
+     <div class="ppx-pro-number" id="ppx-count-players">۰</div>
+     <div class="ppx-pro-muted">کارت‌های بازیکنان در سایت</div>
+    </div>
+    <div class="ppx-pro-card">
+     <strong>📰 مطالب خبری</strong>
+     <div class="ppx-pro-number" id="ppx-count-news">۰</div>
+     <div class="ppx-pro-muted">کارت‌های خبری شناسایی‌شده</div>
+    </div>
+    <div class="ppx-pro-card">
+     <strong>⭐ ذخیره‌شده‌ها</strong>
+     <div class="ppx-pro-number" id="ppx-count-favs">۰</div>
+     <div class="ppx-pro-muted">علاقه‌مندی‌های این دستگاه</div>
+    </div>
+   </div>
+   <div style="height:13px"></div>
+   <div class="ppx-pro-card">
+    <strong>❤️ خانه هوادار سرخ</strong>
+    <p class="ppx-pro-muted">
+     خبرها، بازیکنان، مسابقات و جدول را از یک پنل مدیریت کن.
+     برای مشاهده اطلاعات دقیق مسابقات و لیگ، داده‌های اصلی سایت باید به‌روز باشند.
+    </p>
+    <button class="ppx-pro-action" data-goto="news">مشاهده اخبار</button>
+    <button class="ppx-pro-secondary" data-goto="personal">علاقه‌مندی‌ها</button>
+   </div>
+  </section>
+
+  <section class="ppx-pro-page" id="ppx-page-matches">
+   <div class="ppx-pro-title">⚽ مرکز مسابقات</div>
+   <p class="ppx-pro-muted">
+    مسابقات موجود در صفحه فعلی سایت در این بخش نمایش داده می‌شوند.
+   </p>
+   <div id="ppx-match-list" class="ppx-pro-list"></div>
+   <button class="ppx-pro-secondary" data-jump="ppx-matches">رفتن به بخش مسابقات اصلی</button>
+  </section>
+
+  <section class="ppx-pro-page" id="ppx-page-players">
+   <div class="ppx-pro-title">👤 بازیکنان پرسپولیس</div>
+   <input id="ppx-player-search" class="ppx-pro-search"
+    type="search" placeholder="جست‌وجوی نام بازیکن..." />
+   <div id="ppx-player-list" class="ppx-pro-list"></div>
+   <button class="ppx-pro-secondary" data-jump="ppx-players">رفتن به فهرست اصلی بازیکنان</button>
+  </section>
+
+  <section class="ppx-pro-page" id="ppx-page-news">
+   <div class="ppx-pro-title">📰 مرکز اخبار</div>
+   <input id="ppx-news-search" class="ppx-pro-search"
+    type="search" placeholder="جست‌وجوی خبر..." />
+   <div class="ppx-pro-grid" style="margin-bottom:12px">
+    <div class="ppx-pro-card">
+     <strong>🔴 پرسپولیس</strong>
+     <div class="ppx-pro-muted">اخبار و مطالب شناسایی‌شده</div>
+    </div>
+    <div class="ppx-pro-card">
+     <strong>🔄 نقل‌وانتقالات</strong>
+     <div class="ppx-pro-muted">مطالب مرتبط در محتوای فعلی</div>
+    </div>
+   </div>
+   <div id="ppx-news-list" class="ppx-pro-list"></div>
+   <button class="ppx-pro-secondary" data-jump="ppx-app">رفتن به بخش اصلی سایت</button>
+  </section>
+
+  <section class="ppx-pro-page" id="ppx-page-league">
+   <div class="ppx-pro-title">🏆 جدول لیگ</div>
+   <p class="ppx-pro-muted">
+    جدول موجود در سایت از صفحه فعلی خوانده می‌شود؛ اگر جدول فعلی نمونه‌ای باشد، اینجا هم همان داده نمونه دیده می‌شود.
+   </p>
+   <div id="ppx-league-content"></div>
+   <button class="ppx-pro-secondary" data-jump="ppx-league">رفتن به جدول اصلی</button>
+  </section>
+
+  <section class="ppx-pro-page" id="ppx-page-personal">
+   <div class="ppx-pro-title">⭐ امکانات شخصی</div>
+   <div class="ppx-pro-card">
+    <strong>علاقه‌مندی‌های من</strong>
+    <p class="ppx-pro-muted">خبرها، بازیکنان و کارت‌های مسابقه را با دکمه ستاره ذخیره کن.</p>
+    <div id="ppx-favorites-list" class="ppx-pro-list"></div>
+    <button class="ppx-pro-secondary" id="ppx-clear-favs">پاک‌کردن علاقه‌مندی‌ها</button>
+   </div>
+
+   <div style="height:12px"></div>
+   <div class="ppx-pro-card">
+    <strong>⚙️ تنظیمات ظاهری</strong>
+    <label class="ppx-pro-setting">
+     <span>حالت کم‌حرکت</span>
+     <input type="checkbox" id="ppx-reduce-motion" />
+    </label>
+    <label class="ppx-pro-setting">
+     <span>نور قرمز پس‌زمینه</span>
+     <input type="checkbox" id="ppx-red-glow" checked />
+    </label>
+    <p class="ppx-pro-muted">
+     علاقه‌مندی‌ها و تنظیمات در حافظه مرورگر همین دستگاه ذخیره می‌شوند.
+    </p>
+    <button class="ppx-pro-secondary" id="ppx-reset-settings">بازنشانی تنظیمات ظاهری</button>
+   </div>
+  </section>
+
+  <div class="ppx-pro-foot">
+   پرسپولیس پلاس ♥ مخصوص هواداران سرخ‌ها
+  </div>
+ </div>
+</div>
+
+<script id="ppx-six-script">
+(function () {
+  "use strict";
+
+  var overlay = document.getElementById("ppx-pro-overlay");
+  var launcher = document.getElementById("ppx-pro-launcher");
+  var closeBtn = document.getElementById("ppx-pro-close");
+  if (!overlay || !launcher || !closeBtn) return;
+
+  var $ = function (selector, root) {
+    return (root || document).querySelector(selector);
+  };
+  var $$ = function (selector, root) {
+    return Array.prototype.slice.call(
+      (root || document).querySelectorAll(selector)
+    );
+  };
+
+  var safeRead = function (key, fallback) {
+    try {
+      var value = localStorage.getItem(key);
+      return value === null ? fallback : JSON.parse(value);
+    } catch (e) {
+      return fallback;
+    }
+  };
+
+  var safeWrite = function (key, value) {
+    try {
+      localStorage.setItem(key, JSON.stringify(value));
+      return true;
+    } catch (e) {
+      return false;
+    }
+  };
+
+  var favorites = safeRead("ppxProFavoritesV1", []);
+  if (!Array.isArray(favorites)) favorites = [];
+
+  var settings = safeRead("ppxProSettingsV1", {
+    reduceMotion: false,
+    redGlow: true
+  });
+
+  function cleanText(el) {
+    return (el && el.innerText ? el.innerText : "")
+      .replace(/\s+/g, " ").trim();
+  }
+
+  function cardTitle(el) {
+    var heading = $("h1,h2,h3,h4,strong,b", el);
+    var title = cleanText(heading);
+    if (!title) title = cleanText(el);
+    return title.slice(0, 220);
+  }
+
+  function showPage(name) {
+    $$(".ppx-pro-tab").forEach(function (btn) {
+      btn.classList.toggle("ppx-selected", btn.dataset.page === name);
+    });
+    $$(".ppx-pro-page").forEach(function (page) {
+      page.classList.toggle("ppx-visible", page.id === "ppx-page-" + name);
+    });
+    if (name === "personal") renderFavorites();
+    if (name === "dashboard") updateCounts();
+  }
+
+  function openPanel(page) {
+    overlay.classList.add("ppx-open");
+    launcher.setAttribute("aria-expanded", "true");
+    document.body.style.overflow = "hidden";
+    showPage(page || "dashboard");
+  }
+
+  function closePanel() {
+    overlay.classList.remove("ppx-open");
+    launcher.setAttribute("aria-expanded", "false");
+    document.body.style.overflow = "";
+    launcher.focus();
+  }
+
+  launcher.addEventListener("click", function () {
+    openPanel("dashboard");
+  });
+  closeBtn.addEventListener("click", closePanel);
+
+  overlay.addEventListener("click", function (e) {
+    if (e.target === overlay) closePanel();
+  });
+
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && overlay.classList.contains("ppx-open")) {
+      closePanel();
+    }
+  });
+
+  $$(".ppx-pro-tab").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      showPage(btn.dataset.page);
+    });
+  });
+
+  $$("[data-goto]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      showPage(btn.dataset.goto);
+    });
+  });
+
+  $$("[data-jump]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var target = document.getElementById(btn.dataset.jump);
+      closePanel();
+      if (target) {
+        setTimeout(function () {
+          target.scrollIntoView({ behavior: "smooth", block: "start" });
+        }, 100);
+      }
+    });
+  });
+
+  function getExistingCards(selectors, excluded) {
+    var result = [];
+    var seen = new Set();
+    $$(selectors).forEach(function (el) {
+      if (excluded && excluded.some(function (parent) {
+        return parent && parent.contains(el);
+      })) return;
+      if (el.closest("#ppx-pro-overlay")) return;
+      var text = cleanText(el);
+      if (!text || text.length < 3) return;
+      if (seen.has(el)) return;
+      seen.add(el);
+      result.push(el);
+    });
+    return result;
+  }
+
+  function addItem(container, el, kind, index) {
+    var title = cardTitle(el);
+    var text = cleanText(el);
+    var key = kind + ":" + title + ":" + index;
+    var row = document.createElement("div");
+    row.className = "ppx-pro-item";
+
+    var main = document.createElement("div");
+    main.className = "ppx-pro-item-main";
+    var strong = document.createElement("strong");
+    strong.textContent = title || "مورد موجود در سایت";
+    main.appendChild(strong);
+
+    var description = document.createElement("div");
+    description.className = "ppx-pro-muted";
+    description.textContent = text.slice(0, 300);
+    main.appendChild(description);
+
+    var star = document.createElement("button");
+    star.type = "button";
+    star.className = "ppx-pro-star";
+    star.textContent = favorites.some(function (f) {
+      return f.key === key;
+    }) ? "★" : "☆";
+    if (star.textContent === "★") star.classList.add("ppx-is-fav");
+    star.setAttribute("aria-label", "ذخیره یا حذف علاقه‌مندی");
+    star.addEventListener("click", function () {
+      toggleFavorite(key, title || "مورد سایت", text.slice(0, 180), kind);
+      star.textContent = favorites.some(function (f) {
+        return f.key === key;
+      }) ? "★" : "☆";
+      star.classList.toggle("ppx-is-fav", star.textContent === "★");
+      updateCounts();
+    });
+
+    var view = document.createElement("button");
+    view.type = "button";
+    view.className = "ppx-pro-secondary";
+    view.textContent = "مشاهده";
+    view.addEventListener("click", function () {
+      closePanel();
+      setTimeout(function () {
+        el.scrollIntoView({ behavior: "smooth", block: "center" });
+        el.style.outline = "2px solid #ff4968";
+        setTimeout(function () { el.style.outline = ""; }, 1800);
+      }, 100);
+    });
+
+    row.appendChild(main);
+    row.appendChild(star);
+    row.appendChild(view);
+    container.appendChild(row);
+  }
+
+  function emptyMessage(container, message) {
+    var div = document.createElement("div");
+    div.className = "ppx-pro-empty";
+    div.textContent = message;
+    container.appendChild(div);
+  }
+
+  var matchSelectors =
+    "#ppx-matches .ppx-match, .ppx-match, .match-card, .match-item";
+  var playerSelectors =
+    "#ppx-players .ppx-player-grid > *, #ppx-players .ppx-player-card, .ppx-player-card";
+  var newsSelectors =
+    "#ppx-app article, #ppx-app .news-card, article, .news-card, .news-item";
+
+  function renderMatches() {
+    var container = $("#ppx-match-list");
+    container.textContent = "";
+    var cards = getExistingCards(matchSelectors, [overlay]);
+    if (!cards.length) {
+      emptyMessage(container,
+        "هنوز کارت مسابقه‌ای با ساختار شناخته‌شده پیدا نشد. بخش مسابقات اصلی سایت را بررسی کن.");
+      return;
+    }
+    cards.slice(0, 30).forEach(function (el, i) {
+      addItem(container, el, "match", i);
+    });
+  }
+
+  function renderPlayers(query) {
+    var container = $("#ppx-player-list");
+    container.textContent = "";
+    var cards = getExistingCards(playerSelectors, [overlay]);
+    query = (query || "").trim().toLocaleLowerCase();
+    cards = cards.filter(function (el) {
+      return !query || cleanText(el).toLocaleLowerCase().indexOf(query) !== -1;
+    });
+    if (!cards.length) {
+      emptyMessage(container,
+        query ? "بازیکنی با این عبارت پیدا نشد." :
+        "کارت بازیکنان پیدا نشد؛ بخش اصلی بازیکنان را بررسی کن.");
+      return;
+    }
+    cards.slice(0, 100).forEach(function (el, i) {
+      addItem(container, el, "player", i);
+    });
+  }
+
+  function renderNews(query) {
+    var container = $("#ppx-news-list");
+    container.textContent = "";
+    var cards = getExistingCards(newsSelectors, [overlay]);
+    query = (query || "").trim().toLocaleLowerCase();
+    cards = cards.filter(function (el) {
+      return !query || cleanText(el).toLocaleLowerCase().indexOf(query) !== -1;
+    });
+    if (!cards.length) {
+      emptyMessage(container,
+        "کارت خبری قابل شناسایی پیدا نشد. این بخش محتوای خبری موجود در صفحه را جست‌وجو می‌کند و خبر تازه‌ای از اینترنت دریافت نمی‌کند.");
+      return;
+    }
+    cards.slice(0, 60).forEach(function (el, i) {
+      addItem(container, el, "news", i);
+    });
+  }
+
+  function renderLeague() {
+    var container = $("#ppx-league-content");
+    container.textContent = "";
+    var source = document.querySelector("#ppx-league table, .ppx-table table");
+    if (!source || overlay.contains(source)) {
+      emptyMessage(container,
+        "جدول قابل شناسایی پیدا نشد. بخش جدول اصلی سایت را بررسی کن.");
+      return;
+    }
+    var wrap = document.createElement("div");
+    wrap.className = "ppx-pro-table-wrap";
+    var table = source.cloneNode(true);
+    table.classList.add("ppx-pro-table");
+    table.querySelectorAll("script,button,input").forEach(function (el) {
+      el.remove();
+    });
+    wrap.appendChild(table);
+    container.appendChild(wrap);
+  }
+
+  function toggleFavorite(key, title, description, kind) {
+    var index = favorites.findIndex(function (f) {
+      return f.key === key;
+    });
+    if (index >= 0) {
+      favorites.splice(index, 1);
+    } else {
+      favorites.push({
+        key: key,
+        title: title,
+        description: description,
+        kind: kind
+      });
+    }
+    safeWrite("ppxProFavoritesV1", favorites);
+    renderFavorites();
+  }
+
+  function renderFavorites() {
+    var container = $("#ppx-favorites-list");
+    if (!container) return;
+    container.textContent = "";
+    if (!favorites.length) {
+      emptyMessage(container,
+        "هنوز موردی ذخیره نکردی. در بخش خبرها، بازیکنان یا مسابقات روی ☆ بزن.");
+      return;
+    }
+
+    favorites.forEach(function (f, i) {
+      var row = document.createElement("div");
+      row.className = "ppx-pro-item";
+      var main = document.createElement("div");
+      main.className = "ppx-pro-item-main";
+      var strong = document.createElement("strong");
+      strong.textContent = f.title;
+      main.appendChild(strong);
+      var desc = document.createElement("div");
+      desc.className = "ppx-pro-muted";
+      desc.textContent = f.description || "";
+      main.appendChild(desc);
+
+      var remove = document.createElement("button");
+      remove.type = "button";
+      remove.className = "ppx-pro-star";
+      remove.textContent = "حذف";
+      remove.addEventListener("click", function () {
+        favorites = favorites.filter(function (item) {
+          return item.key !== f.key;
+        });
+        safeWrite("ppxProFavoritesV1", favorites);
+        renderFavorites();
+        updateCounts();
+      });
+      row.appendChild(main);
+      row.appendChild(remove);
+      container.appendChild(row);
+    });
+  }
+
+  function updateCounts() {
+    var matches = getExistingCards(matchSelectors, [overlay]).length;
+    var players = getExistingCards(playerSelectors, [overlay]).length;
+    var news = getExistingCards(newsSelectors, [overlay]).length;
+
+    $("#ppx-count-matches").textContent = matches.toLocaleString("fa-IR");
+    $("#ppx-count-players").textContent = players.toLocaleString("fa-IR");
+    $("#ppx-count-news").textContent = news.toLocaleString("fa-IR");
+    $("#ppx-count-favs").textContent = favorites.length.toLocaleString("fa-IR");
+  }
+
+  $("#ppx-player-search").addEventListener("input", function (e) {
+    renderPlayers(e.target.value);
+  });
+
+  $("#ppx-news-search").addEventListener("input", function (e) {
+    renderNews(e.target.value);
+  });
+
+  var motionBox = $("#ppx-reduce-motion");
+  var glowBox = $("#ppx-red-glow");
+
+  function applySettings() {
+    document.documentElement.style.scrollBehavior =
+      settings.reduceMotion ? "auto" : "smooth";
+    document.documentElement.classList.toggle(
+      "ppx-reduced-motion", !!settings.reduceMotion
+    );
+    var old = $("#ppx-user-motion-style");
+    if (old) old.remove();
+
+    if (settings.reduceMotion) {
+      var style = document.createElement("style");
+      style.id = "ppx-user-motion-style";
+      style.textContent =
+        "*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}";
+      document.head.appendChild(style);
+    }
+
+    var oldGlow = $("#ppx-user-glow-style");
+    if (oldGlow) oldGlow.remove();
+    if (!settings.redGlow) {
+      var glowStyle = document.createElement("style");
+      glowStyle.id = "ppx-user-glow-style";
+      glowStyle.textContent =
+        "body::before{background:linear-gradient(155deg,#100d11,#09090d 65%,#100b10)!important}";
+      document.head.appendChild(glowStyle);
+    }
+
+    motionBox.checked = !!settings.reduceMotion;
+    glowBox.checked = !!settings.redGlow;
+    safeWrite("ppxProSettingsV1", settings);
+  }
+
+  motionBox.addEventListener("change", function () {
+    settings.reduceMotion = motionBox.checked;
+    applySettings();
+  });
+
+  glowBox.addEventListener("change", function () {
+    settings.redGlow = glowBox.checked;
+    applySettings();
+  });
+
+  $("#ppx-reset-settings").addEventListener("click", function () {
+    settings = { reduceMotion: false, redGlow: true };
+    applySettings();
+  });
+
+  $("#ppx-clear-favs").addEventListener("click", function () {
+    if (!favorites.length) return;
+    favorites = [];
+    safeWrite("ppxProFavoritesV1", favorites);
+    renderFavorites();
+    updateCounts();
+  });
+
+  function refreshAll() {
+    renderMatches();
+    renderPlayers("");
+    renderNews("");
+    renderLeague();
+    renderFavorites();
+    updateCounts();
+  }
+
+  applySettings();
+  refreshAll();
+
+  console.log("Persepolis Plus: six-feature panel loaded");
+})();
+</script>
+<!-- END PERSPOLIS SIX FEATURES UPGRADE -->
+
+
+<!-- PERSPOLIS REAL PHOTO GALLERY V1 -->
+<script>
+(function(){
+  if(document.getElementById('pp-real-gallery')) return;
+  const html = `
+  <style>
+  #pp-real-gallery{direction:rtl;background:linear-gradient(145deg,#160608,#30060d);
+  color:#fff;padding:18px 12px;margin:12px auto;border:1px solid #8d1426;
+  border-radius:18px;max-width:1100px;font-family:inherit}
+  #pp-real-gallery h2{margin:0 0 6px;color:#ff354d;font-size:23px}
+  #pp-real-gallery p{color:#e8cdd1;font-size:13px;margin:0 0 15px}
+  #pp-real-gallery .pp-real-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+  #pp-real-gallery a{display:block;background:#25070c;border-radius:12px;overflow:hidden;
+  color:white;text-decoration:none;border:1px solid #63202b}
+  #pp-real-gallery img{display:block;width:100%;height:150px;object-fit:cover}
+  #pp-real-gallery .pp-real-caption{padding:9px;font-size:13px;font-weight:bold}
+  #pp-real-gallery .pp-real-source{display:block;color:#ff9ba7;font-size:11px;margin-top:5px}
+  @media(min-width:650px){#pp-real-gallery .pp-real-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+  #pp-real-gallery img{height:190px}}
+  </style>
+  <section id="pp-real-gallery">
+    <h2>🔴 گالری واقعی سرخ‌ها</h2>
+    <p>تصاویر پرسپولیس و ورزشگاه آزادی؛ برای دیدن تصویر اصلی روی عکس بزن.</p>
+    <div class="pp-real-grid">
+      <a href="https://fc-perspolis.com/wp-content/uploads/2026/10/IMG_20261015_201642_676.jpg" target="_blank" rel="noopener">
+        <img loading="lazy" src="https://fc-perspolis.com/wp-content/uploads/2026/10/IMG_20261015_201642_676.jpg" alt="بازیکن پرسپولیس در تمرین">
+        <div class="pp-real-caption">تمرین بازیکنان پرسپولیس<span class="pp-real-source">منبع: باشگاه پرسپولیس</span></div>
+      </a>
+      <a href="https://fc-perspolis.com/wp-content/uploads/2026/10/IMG_20261015_201642_484.jpg" target="_blank" rel="noopener">
+        <img loading="lazy" src="https://fc-perspolis.com/wp-content/uploads/2026/10/IMG_20261015_201642_484.jpg" alt="بازیکنان پرسپولیس در تمرین">
+        <div class="pp-real-caption">سرخ‌پوشان در زمین تمرین<span class="pp-real-source">منبع: باشگاه پرسپولیس</span></div>
+      </a>
+      <a href="https://fc-perspolis.com/wp-content/uploads/2026/10/IMG_20261015_201643_125.jpg" target="_blank" rel="noopener">
+        <img loading="lazy" src="https://fc-perspolis.com/wp-content/uploads/2026/10/IMG_20261015_201643_125.jpg" alt="عضو کادر فنی پرسپولیس">
+        <div class="pp-real-caption">کادر فنی پرسپولیس<span class="pp-real-source">منبع: باشگاه پرسپولیس</span></div>
+      </a>
+      <a href="https://upload.wikimedia.org/wikipedia/commons/f/f1/%D8%B3%D8%B1%D8%AF%D8%B1_%D8%BA%D8%B1%D8%A8%DB%8C_%D9%88%D8%B1%D8%B2%D8%B4%DA%AF%D8%A7%D9%87_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C.JPG" target="_blank" rel="noopener">
+        <img loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/%D8%B3%D8%B1%D8%AF%D8%B1_%D8%BA%D8%B1%D8%A8%DB%8C_%D9%88%D8%B1%D8%B2%D8%B4%DA%AF%D8%A7%D9%87_%D8%A2%D8%B2%D8%A7%D8%AF%DB%8C.JPG" alt="ورودی ورزشگاه آزادی">
+        <div class="pp-real-caption">ورزشگاه آزادی<span class="pp-real-source">تصویر ورودی مجموعه</span></div>
+      </a>
+    </div>
+  </section>`;
+  document.body.insertAdjacentHTML('afterbegin',html);
+})();
+</script>
+<!-- END PERSPOLIS REAL PHOTO GALLERY V1 -->
+
+
+<!-- PERSPOLIS ULTIMATE RED GLASS THEME -->
+<style id="pp-ultimate-theme">
+body {
+  background: #100609 !important;
+  color: #fff !important;
+  background-image: linear-gradient(180deg,rgba(15,0,4,.76),#100609 75%),
+  url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1400&q=85') !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-attachment: fixed !important;
+}
+header, nav, .header, .navbar {
+  background: linear-gradient(120deg,#31030cdd,#100609ee) !important;
+  border-color: #8e1830 !important;
+  backdrop-filter: blur(14px);
+}
+section, article, .card, [class*="card"],
+[id*="ppx-"], #pp-real-gallery {
+  border-color: #782035 !important;
+}
+.card, [class*="card"], #pp-real-gallery a,
+button, .ppx-btn {
+  border-radius: 16px !important;
+  box-shadow: 0 8px 24px #0008, inset 0 1px #ffffff12 !important;
+}
+button, .ppx-btn, [role="button"] {
+  background: linear-gradient(135deg,#d20b35,#700019) !important;
+  color: white !important;
+  border: 1px solid #ff536f66 !important;
+  transition: transform .2s, box-shadow .2s !important;
+}
+button:active, [role="button"]:active {
+  transform: scale(.97);
+}
+h1, h2, h3 {
+  text-shadow: 0 0 18px #f018454d;
+}
+img {
+  border-radius: 12px;
+}
+#pp-real-gallery {
+  background: linear-gradient(145deg,#18050aee,#390713ee) !important;
+  box-shadow: 0 12px 35px #0008, 0 0 24px #d0003020;
+}
+#ppx-pro-launcher {
+  box-shadow: 0 0 22px #f01845aa !important;
+}
+@media (prefers-reduced-motion: no-preference) {
+  #pp-real-gallery a:hover, button:hover {
+    box-shadow: 0 0 22px #ed174766 !important;
+  }
+}
+</style>
+<!-- END PERSPOLIS ULTIMATE RED GLASS THEME -->
+
+
+<!-- PERSPOLIS FIVE STAR DESIGN UPGRADE -->
+<style id="pp-five-star-style">
+:root {
+  --pp-red:#ed123e;
+  --pp-dark:#100509;
+  --pp-card:rgba(38,8,17,.83);
+  --pp-line:rgba(255,55,91,.38);
+}
+html { scroll-behavior:smooth; scroll-padding-top:24px; }
+body {
+  padding-bottom:85px !important;
+  color:#fff !important;
+  font-family:Tahoma,"Vazirmatn",sans-serif !important;
+}
+body, button, input { -webkit-tap-highlight-color:transparent; }
+#pp-cinema-hero {
+  position:relative; isolation:isolate; overflow:hidden;
+  min-height:245px; margin:12px auto 22px; padding:30px 20px;
+  max-width:1150px; box-sizing:border-box; border-radius:22px;
+  display:flex; flex-direction:column; align-items:center;
+  justify-content:center; text-align:center;
+  background:
+    linear-gradient(0deg,#120309 2%,rgba(30,0,10,.54) 65%,#17040a88),
+    url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1400&q=85')
+    center 48%/cover;
+  border:1px solid #b51b3b;
+  box-shadow:0 15px 42px #0008,0 0 26px #e20a3320;
+}
+#pp-cinema-hero:before {
+  content:""; position:absolute; inset:0; z-index:-1;
+  background:radial-gradient(ellipse at 50% 0%,#ff174544,transparent 65%);
+}
+#pp-cinema-hero .pp-emblem {
+  width:65px;height:65px;display:grid;place-items:center;
+  border:2px solid #ff4868;border-radius:50%;
+  background:#1c050bdc;color:#fff;font-size:29px;font-weight:900;
+  box-shadow:0 0 25px #ff174577,inset 0 0 15px #ff174422;
+}
+#pp-cinema-hero h1 {
+  color:#fff !important;font-size:clamp(25px,6vw,39px) !important;
+  margin:13px 0 7px !important;font-weight:900 !important;
+  text-shadow:0 0 22px #ff174566,0 3px 6px #000;
+}
+#pp-cinema-hero p { margin:0;color:#ffdce3;font-size:13px; }
+#pp-cinema-hero .pp-tag {
+  margin-top:16px;padding:7px 14px;border-radius:30px;
+  background:#c9002eaa;border:1px solid #ff627c;
+  font-size:12px;color:white;
+}
+#pp-bottom-menu {
+  position:fixed;z-index:99999;bottom:8px;left:8px;right:8px;
+  max-width:650px;margin:auto;display:grid;
+  grid-template-columns:repeat(5,minmax(0,1fr));gap:3px;
+  padding:7px 5px calc(7px + env(safe-area-inset-bottom));
+  border:1px solid #9d203b;border-radius:19px;
+  background:rgba(20,5,11,.94);backdrop-filter:blur(18px);
+  box-shadow:0 0 25px #000b,0 0 20px #e6003320;
+}
+#pp-bottom-menu button {
+  min-width:0;border:0 !important;border-radius:12px !important;
+  background:transparent !important;box-shadow:none !important;
+  color:#e9cbd2 !important;padding:8px 1px !important;
+  display:flex;flex-direction:column;align-items:center;gap:4px;
+  font-size:10px !important;cursor:pointer;
+}
+#pp-bottom-menu button .pp-nav-icon {font-size:19px;line-height:1.2}
+#pp-bottom-menu button.pp-active {
+  background:linear-gradient(145deg,#d80b37,#68091e) !important;
+  color:white !important;box-shadow:0 0 13px #f0164533 !important;
+}
+#pp-bottom-menu button:active {transform:scale(.95)}
+/* شیشه‌ای و یک‌دست کردن کارت‌ها */
+.card,[class*="card"],#pp-real-gallery,
+#ppx-players,#ppx-matches,#ppx-league,#ppx-app {
+  border-color:var(--pp-line) !important;
+}
+#pp-real-gallery a,[class*="card"],.card {
+  transition:transform .22s ease,box-shadow .22s ease;
+}
+#pp-real-gallery a:hover,[class*="card"]:hover,.card:hover {
+  box-shadow:0 9px 25px #0007,0 0 17px #ed123e20;
+}
+#pp-real-gallery img,#ppx-players img,
+[id*="player"] img,[class*="player"] img {
+  object-fit:cover;
+}
+h1,h2,h3 {
+  text-wrap:balance;
+}
+button,[role="button"] {
+  transition:filter .2s,transform .2s,box-shadow .2s;
+}
+button:active,[role="button"]:active {filter:brightness(1.2)}
+:focus-visible {outline:2px solid #ff5274;outline-offset:3px}
+@keyframes pp-glow {
+  0%,100% {box-shadow:0 0 12px #ed123e20}
+  50% {box-shadow:0 0 23px #ed123e40}
+}
+#pp-cinema-hero .pp-emblem {animation:pp-glow 4s ease-in-out infinite}
+@media (min-width:700px) {
+  #pp-cinema-hero {min-height:320px}
+  #pp-bottom-menu {bottom:14px}
+}
+@media (prefers-reduced-motion:reduce) {
+  *,*::before,*::after {scroll-behavior:auto !important;animation:none !important;transition:none !important}
+}
+</style>
+
+<script id="pp-five-star-script">
+(function(){
+  if(document.getElementById('pp-cinema-hero')) return;
+
+  const hero = document.createElement('section');
+  hero.id = 'pp-cinema-hero';
+  hero.innerHTML = `
+    
+    <h1>پرسپولیس پلاس <span class="pp-gold-plus-symbol">+</span></h1>
+    <div style="display:flex;justify-content:center;align-items:center;margin:8px auto 12px;width:78px;height:78px">
+<img src="persepolis-logo.svg" alt="لوگوی باشگاه پرسپولیس" style="display:block;width:100%;height:100%;object-fit:contain">
+</div>
+    <p>خانه هواداران سرخ ایران</p>
+    <div class="pp-tag">♥ همیشه سرخ، همیشه پرسپولیس</div>
+  `;
+  document.body.insertBefore(hero,document.body.firstChild);
+  const topMenu = document.getElementById('pp-pro-five-menu');
+  if (topMenu) document.body.insertBefore(topMenu, hero);
+
+  function findTarget(type) {
+    const candidates = {
+      home:['ppx-app','home','خانه'],
+      news:['ppx-news','news','اخبار'],
+      matches:['ppx-matches','matches','مسابقات'],
+      players:['ppx-players','players','بازیکنان'],
+      league:['ppx-league','league','جدول لیگ']
+    }[type] || [];
+
+    for(const c of candidates) {
+      const el = document.getElementById(c);
+      if(el) return el;
+    }
+
+    const words = {
+      home:['خانه','صفحه اصلی'],
+      news:['اخبار','آخرین اخبار'],
+      matches:['مسابقات','نتایج بازی‌ها','بازی‌های آینده'],
+      players:['بازیکنان','بازیکن و مربی'],
+      league:['جدول لیگ','جدول']
+    }[type] || [];
+
+    for(const el of document.querySelectorAll('section,main,article,[id]')) {
+      const heading = el.querySelector('h1,h2,h3,h4');
+      const txt = ((heading && heading.innerText) || el.innerText || '').trim();
+      if(txt && txt.length < 5000 && words.some(w=>txt.includes(w))) return el;
+    }
+    return null;
+  }
+
+  const nav = document.createElement('nav');
+  nav.id = 'pp-bottom-menu';
+  nav.setAttribute('aria-label','منوی اصلی');
+  const items = [
+    ['home','⌂','خانه'],
+    ['news','▤','اخبار'],
+    ['matches','⚽','مسابقات'],
+    ['players','👥','بازیکنان'],
+    ['league','🏆','جدول']
+  ];
+
+  items.forEach(([type,icon,label],index)=>{
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.innerHTML = '<span class="pp-nav-icon">'+icon+'</span><span>'+label+'</span>';
+    if(index===0) btn.classList.add('pp-active');
+    btn.addEventListener('click',()=>{
+      nav.querySelectorAll('button').forEach(b=>b.classList.remove('pp-active'));
+      btn.classList.add('pp-active');
+      if(type==='home') {
+        window.scrollTo({top:0,behavior:'smooth'});
+        return;
+      }
+      const target = findTarget(type);
+      if(target) target.scrollIntoView({behavior:'smooth',block:'start'});
+      else {
+        const search = document.querySelector('input[type="search"],input[placeholder*="جستجو"],input[placeholder*="جست‌وجو"]');
+        if(search && (type==='news'||type==='players')) {
+          search.scrollIntoView({behavior:'smooth',block:'center'});
+          search.focus({preventScroll:true});
+        }
+      }
+    });
+    nav.appendChild(btn);
+  });
+  document.body.appendChild(nav);
+})();
+</script>
+<!-- END PERSPOLIS FIVE STAR DESIGN UPGRADE -->
+
+
+<!-- PERSPOLIS_PLUS_FOUR_PRO_FEATURES -->
+<style>
+#ppx-four {
+  direction: rtl;
+  color: #f8f8f8;
+  font-family: inherit;
+  margin: 28px auto;
+  max-width: 1100px;
+  padding: 14px;
+}
+#ppx-four * { box-sizing: border-box; }
+#ppx-four .pro-heading {
+  background: linear-gradient(135deg,#9f001b,#1a080c 75%);
+  border: 1px solid #ff304d;
+  border-radius: 20px;
+  padding: 20px 16px;
+  margin: 22px 0 14px;
+  box-shadow: 0 8px 26px #a5002828;
+}
+#ppx-four h2 { margin: 0 0 8px; font-size: 21px; }
+#ppx-four .muted { color: #c6bfc1; font-size: 13px; line-height: 1.9; }
+#ppx-four .pro-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(145px,1fr));
+  gap: 12px;
+}
+#ppx-four .pro-card {
+  background: linear-gradient(145deg,#24171b,#100d0f);
+  border: 1px solid #49232d;
+  border-radius: 17px;
+  overflow: hidden;
+  min-width: 0;
+}
+#ppx-four .pro-card img {
+  display: block;
+  width: 100%;
+  height: 145px;
+  object-fit: cover;
+  background: #251116;
+}
+#ppx-four .pro-card .inside { padding: 12px; }
+#ppx-four .pro-card h3 { margin: 0 0 7px; font-size: 15px; }
+#ppx-four .pro-btn {
+  display: inline-block;
+  border: 1px solid #ff304d;
+  background: #b90027;
+  color: white;
+  padding: 10px 14px;
+  margin: 5px 0;
+  border-radius: 12px;
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+  text-decoration: none;
+}
+#ppx-four .pro-btn.secondary { background: #24171b; }
+#ppx-four .pro-table-wrap {
+  overflow-x: auto;
+  border: 1px solid #49232d;
+  border-radius: 15px;
+}
+#ppx-four table { width: 100%; border-collapse: collapse; min-width: 440px; }
+#ppx-four th, #ppx-four td {
+  padding: 12px 9px;
+  text-align: center;
+  border-bottom: 1px solid #392129;
+  font-size: 13px;
+}
+#ppx-four th { background: #7e001d; }
+#ppx-four tr:last-child td { border-bottom: 0; }
+#ppx-four .red-text { color: #ff536d; font-weight: 800; }
+#ppx-four .pro-status {
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: #191416;
+  color: #e9dfe2;
+  font-size: 12px;
+  line-height: 1.9;
+  margin-top: 12px;
+}
+#ppx-four .stadium {
+  min-height: 210px;
+  display: flex;
+  align-items: end;
+  padding: 18px;
+  background:
+    linear-gradient(0deg,#10070df2,transparent 90%),
+    url('https://images.unsplash.com/photo-1522778119026-d647f0596c20?auto=format&fit=crop&w=1200&q=85')
+    center/cover;
+  border-radius: 18px;
+  border: 1px solid #6b1c2c;
+}
+#ppx-four .pro-nav { display:flex; flex-wrap:wrap; gap:7px; }
+#ppx-four .pro-section { scroll-margin-top: 15px; }
+</style>
+
+<section id="ppx-four">
+  <div class="pro-heading">
+    <div class="muted">PERSPOLIS PLUS • PRO CENTER</div>
+    <h2>🔴 امکانات حرفه‌ای پرسپولیس پلاس+</h2>
+    <div class="muted">بازیکنان، ورزشگاه، مسابقات و جدول رقابت‌ها در یک مرکز</div>
+    <div class="pro-nav">
+      <a class="pro-btn" href="#ppx-players">بازیکنان</a>
+      <a class="pro-btn" href="#ppx-stadium">ورزشگاه</a>
+      <a class="pro-btn" href="#ppx-results">نتایج بازی‌ها</a>
+      <a class="pro-btn" href="#ppx-table">جدول لیگ</a>
+    </div>
+  </div>
+
+  <section id="ppx-players" class="pro-section">
+    <div class="pro-heading">
+      <h2>⚽ کارت بازیکنان</h2>
+      <div class="muted">کارت‌های تصویری بازیکنان تیم سرخ‌ها</div>
+    </div>
+    <div class="pro-grid">
+      <article class="pro-card">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1521412644187-c49fa049e84d?auto=format&fit=crop&w=500&q=80" alt="فوتبال">
+        <div class="inside"><h3>دروازه‌بان</h3><div class="muted">پست تخصصی: دروازه</div></div>
+      </article>
+      <article class="pro-card">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=500&q=80" alt="زمین فوتبال">
+        <div class="inside"><h3>مدافع</h3><div class="muted">پست تخصصی: خط دفاع</div></div>
+      </article>
+      <article class="pro-card">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?auto=format&fit=crop&w=500&q=80" alt="مسابقه فوتبال">
+        <div class="inside"><h3>هافبک</h3><div class="muted">پست تخصصی: خط میانی</div></div>
+      </article>
+      <article class="pro-card">
+        <img loading="lazy" src="https://images.unsplash.com/photo-1518091043644-c1d4457512c6?auto=format&fit=crop&w=500&q=80" alt="فوتبال">
+        <div class="inside"><h3>مهاجم</h3><div class="muted">پست تخصصی: خط حمله</div></div>
+      </article>
+    </div>
+    <div class="pro-status">این کارت‌ها فعلاً نمونهٔ نمایشی هستند؛ نام، عکس و آمار واقعی بازیکنان هنوز به فهرست رسمی تیم متصل نشده‌اند.</div>
+  </section>
+
+  <section id="ppx-stadium" class="pro-section">
+    <div class="pro-heading">
+      <h2>🏟️ ورزشگاه سرخ‌ها</h2>
+      <div class="muted">خانهٔ هیجان و خاطرات هواداران پرسپولیس</div>
+    </div>
+    <div class="stadium">
+      <div>
+        <h2>🏟️ خانهٔ هواداران سرخ</h2>
+        <div class="muted">گالری تصویری و فضای مسابقات</div>
+      </div>
+    </div>
+    <div class="pro-grid" style="margin-top:12px">
+      <div class="pro-card"><div class="inside"><h3>🔴 روز مسابقه</h3><div class="muted">آمادهٔ تشویق تیم محبوب</div></div></div>
+      <div class="pro-card"><div class="inside"><h3>📸 گالری سرخ‌ها</h3><div class="muted">تصاویر ورزشی و هواداری</div></div></div>
+    </div>
+  </section>
+
+  <section id="ppx-results" class="pro-section">
+    <div class="pro-heading">
+      <h2>🏆 مرکز مسابقات و نتایج</h2>
+      <div class="muted">بازی‌های اخیر و برنامهٔ مسابقات آینده</div>
+    </div>
+    <div class="pro-grid">
+      <div class="pro-card"><div class="inside">
+        <h3>📋 آخرین نتیجه</h3>
+        <div id="ppx-last-result" class="red-text">هنوز نتیجه‌ای ثبت نشده</div>
+        <div class="muted">برای نمایش نتیجهٔ واقعی، منبع داده لازم است.</div>
+      </div></div>
+      <div class="pro-card"><div class="inside">
+        <h3>⏭️ بازی آینده</h3>
+        <div id="ppx-next-match" class="red-text">برنامهٔ بازی ثبت نشده</div>
+        <div class="muted">زمان و حریف باید از برنامهٔ رسمی مسابقات دریافت شود.</div>
+      </div></div>
+    </div>
+    <button type="button" class="pro-btn" id="ppx-edit-match">ثبت اطلاعات مسابقه</button>
+    <div class="pro-status">ثبت اطلاعات در این نسخه به‌صورت دستی است؛ نتیجهٔ زنده و اعلان گل هنوز فعال نیست.</div>
+  </section>
+
+  <section id="ppx-table" class="pro-section">
+    <div class="pro-heading">
+      <h2>📊 جدول لیگ</h2>
+      <div class="muted">جدول نمونه؛ آمار واقعی تا زمان اتصال منبع داده نمایش داده نمی‌شود.</div>
+    </div>
+    <div class="pro-table-wrap">
+      <table>
+        <thead><tr><th>رتبه</th><th>تیم</th><th>بازی</th><th>امتیاز</th><th>تفاضل</th></tr></thead>
+        <tbody id="ppx-league-rows">
+          <tr><td colspan="5">جدول واقعی هنوز بارگذاری نشده است.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="pro-status">برای جلوگیری از نمایش اطلاعات ساختگی، رتبه و امتیاز تیم‌ها تا اتصال منبع معتبر خالی نگه داشته شده‌اند.</div>
+  </section>
+</section>
+
+<script>
+(function () {
+  const edit = document.getElementById('ppx-edit-match');
+  if (edit) {
+    edit.addEventListener('click', function () {
+      const result = prompt('نتیجهٔ آخرین بازی را وارد کن:');
+      if (result === null) return;
+      const next = prompt('حریف و زمان بازی آینده را وارد کن:');
+      if (result.trim()) {
+        document.getElementById('ppx-last-result').textContent = result.trim();
+      }
+      if (next && next.trim()) {
+        document.getElementById('ppx-next-match').textContent = next.trim();
+      }
+    });
+  }
+})();
+</script>
+<!-- END PERSPOLIS_PLUS_FOUR_PRO_FEATURES -->
+
+
+<style id="pp-alpha-splash-style">
+#pp-alpha-splash{
+position:fixed;inset:0;z-index:999999;
+display:flex;align-items:center;justify-content:center;
+padding:24px;box-sizing:border-box;overflow:hidden;
+background:
+radial-gradient(ellipse at 50% 38%,#58101c 0%,#20080d 34%,#080808 72%,#020202 100%);
+color:#fff;text-align:center;direction:rtl;
+font-family:inherit;
+}
+#pp-alpha-splash:before{
+content:"";position:absolute;inset:14px;
+border:1px solid #bd974b;border-radius:25px;
+box-shadow:inset 0 0 35px #d7a94312,0 0 30px #a6002518;
+pointer-events:none;
+}
+#pp-alpha-splash .alpha-content{
+position:relative;z-index:2;width:100%;max-width:390px;
+animation:alphaAppear 1s ease both;
+}
+#pp-alpha-splash .alpha-logo{
+width:112px;height:112px;object-fit:contain;
+filter:drop-shadow(0 0 18px #e0003555);
+margin:0 auto 25px;display:block;
+}
+#pp-alpha-splash .alpha-kicker{
+color:#e7c477;font-size:20px;letter-spacing:5px;
+margin-bottom:20px;font-weight:1000;
+text-shadow:0 0 18px #e2b85b55;
+}
+#pp-alpha-splash h1{
+font-size:clamp(31px,9vw,43px);font-weight:1000;
+margin:0 0 12px;color:#fff;
+text-shadow:0 0 25px #ff173b35;
+}
+#pp-alpha-splash h1 span{color:#e5bd65}
+#pp-alpha-splash .alpha-line{
+width:90px;height:2px;margin:19px auto 23px;
+background:linear-gradient(90deg,transparent,#e2bd68,transparent);
+}
+#pp-alpha-splash .alpha-credit{
+font-size:25px;font-weight:1000;color:#ffe5a8;margin:0 0 13px;
+text-shadow:0 0 18px #d6a84755;
+}
+#pp-alpha-splash .alpha-sub{
+font-size:12px;color:#bcb5b5;margin:0 0 32px;
+}
+#pp-alpha-splash .alpha-enter{
+width:100%;max-width:260px;min-height:49px;
+border:1px solid #e2bd68;border-radius:14px;
+background:linear-gradient(110deg,#771326,#310a12 65%,#171010);
+color:#fff;font-family:inherit;font-size:15px;font-weight:900;
+box-shadow:0 0 24px #b0002928,inset 0 1px #ffffff22;
+}
+#pp-alpha-splash .alpha-enter:active{transform:scale(.97)}
+#pp-alpha-splash .alpha-footer{
+margin-top:25px;font-size:10px;color:#887b67;letter-spacing:1px;
+}
+@keyframes alphaAppear{
+from{opacity:0;transform:translateY(14px) scale(.98)}
+to{opacity:1;transform:translateY(0) scale(1)}
+}
+#pp-alpha-splash.alpha-leave{
+opacity:0;visibility:hidden;pointer-events:none;
+transition:opacity .45s ease,visibility .45s ease;
+}
+@media(prefers-reduced-motion:reduce){
+#pp-alpha-splash .alpha-content{animation:none}
+#pp-alpha-splash.alpha-leave{transition:none}
+}
+</style>
+<div id="pp-alpha-splash">
+  <div class="alpha-content">
+    <div class="alpha-kicker">WELCOME TO</div>
+    <h1>پرسپولیس <span>پلاس</span></h1>
+    <div class="alpha-line"></div>
+    <img class="alpha-logo" src="persepolis-logo.svg" alt="لوگوی پرسپولیس">
+    <p class="alpha-credit">سازنده: محمد آلفا</p>
+    <p class="alpha-sub">تجربه‌ای متفاوت برای هواداران سرخ</p>
+    <button class="alpha-enter" type="button" id="pp-alpha-enter">ورود به برنامه ←</button>
+    <div class="alpha-footer">♥ ALWAYS RED · PERSEPOLIS PLUS</div>
+  </div>
+</div>
+<script id="pp-alpha-splash-script">
+(function(){
+  var splash=document.getElementById('pp-alpha-splash');
+  var enter=document.getElementById('pp-alpha-enter');
+  if(!splash||!enter)return;
+  enter.addEventListener('click',function(){
+    splash.classList.add('alpha-leave');
+    window.setTimeout(function(){splash.remove()},500);
+  });
+})();
+</script>
+
 <script src="news.js"></script>
 </body>
 </html>
+/* ROYAL LAVENDER UPGRADE */
+body {
+  background: #D5C0E8 !important;
+}
+
+.app {
+  background: linear-gradient(145deg,#E8D9F6 0%,#D9C3EE 48%,#C8A9E2 100%) !important;
+}
+
+.app .panel,
+.app article.news-card,
+.app .newsletter {
+  background: linear-gradient(145deg,#F3EAFB 0%,#E5D5F3 100%) !important;
+  border-color: #C6A8E1 !important;
+  box-shadow: 0 9px 24px rgba(78,39,112,.15),
+              inset 0 1px 0 rgba(255,255,255,.8) !important;
+}
+
+.app button.quick {
+  background: linear-gradient(145deg,#F4EAFB,#DCC6F0) !important;
+  border-color: #C4A4E0 !important;
+  box-shadow: 0 6px 16px rgba(82,44,119,.16),
+              inset 0 1px 0 rgba(255,255,255,.85) !important;
+}
+
+.app button.quick .emoji {
+  background: linear-gradient(145deg,#E6D1F7,#C5A3E7) !important;
+  box-shadow: inset 0 1px 3px rgba(255,255,255,.8) !important;
+}
+
+.app button.filter.active,
+.app button.btn.primary {
+  background: linear-gradient(135deg,#8659AE,#5A347D 60%,#42235F) !important;
+  border-color: #A27AC5 !important;
+  box-shadow: 0 7px 18px rgba(75,35,109,.27) !important;
+}
+
+.app .bottom-nav {
+  background: rgba(239,226,250,.97) !important;
+  border-top-color: #C7A9E2 !important;
+  box-shadow: 0 -7px 25px rgba(76,39,111,.14) !important;
+}
+
+.app .bottom-nav .nav-item.active,
+.app .category,
+.app .link {
+  color: #75459A !important;
+}
+
+.app .table-row.head {
+  background: #DCC8EF !important;
+}
+
+
+/* LIGHT LAVENDER LUXURY */
+body {
+  background: #E9DDF7 !important;
+}
+
+.app {
+  background: linear-gradient(
+    150deg,
+    #F5EEFF 0%,
+    #EDE0FC 45%,
+    #E2D0F5 100%
+  ) !important;
+}
+
+.app .panel,
+.app article.news-card,
+.app .newsletter {
+  background: linear-gradient(145deg,#FCF9FF,#F0E5FC) !important;
+  border-color: #DDC7F2 !important;
+  box-shadow: 0 8px 22px rgba(111,72,153,.12) !important;
+}
+
+.app button.quick {
+  background: linear-gradient(145deg,#FCF9FF,#EDE0FB) !important;
+  border-color: #DCC6F2 !important;
+  box-shadow: 0 5px 15px rgba(111,72,153,.13) !important;
+}
+
+.app button.quick .emoji {
+  background: linear-gradient(145deg,#F3E7FF,#DEC7F7) !important;
+}
+
+.app button.filter.active,
+.app button.btn.primary {
+  background: linear-gradient(135deg,#9873C2,#7952A6) !important;
+  border-color: #B69AD8 !important;
+  box-shadow: 0 6px 16px rgba(104,66,146,.22) !important;
+}
+
+.app .bottom-nav {
+  background: rgba(250,246,255,.97) !important;
+  border-top-color: #DCC8F0 !important;
+  box-shadow: 0 -6px 20px rgba(111,72,153,.10) !important;
+}
+
+.app .bottom-nav .nav-item.active,
+.app .category,
+.app .link {
+  color: #8056AD !important;
+}
+
+.app .table-row.head {
+  background: #E9DCF8 !important;
+}
+
+
+/* EXTRA LAVENDER GLOW */
+body {
+  background: #DCC5F7 !important;
+}
+
+.app {
+  background: linear-gradient(
+    145deg,
+    #F1E5FF 0%,
+    #E7D3FC 35%,
+    #D9BDF5 70%,
+    #E8D7FB 100%
+  ) !important;
+}
+
+.app .panel,
+.app article.news-card,
+.app .newsletter {
+  background: linear-gradient(145deg,#F8F0FF,#E8D5FC) !important;
+  border: 1px solid #D0B0F0 !important;
+  box-shadow: 0 8px 24px rgba(119,69,174,.16) !important;
+}
+
+.app button.quick {
+  background: linear-gradient(145deg,#F8F0FF,#E1CCF8) !important;
+  border: 1px solid #CFACEF !important;
+  box-shadow: 0 6px 17px rgba(119,69,174,.18) !important;
+}
+
+.app button.quick .emoji {
+  background: linear-gradient(145deg,#EAD7FF,#CDAAF3) !important;
+}
+
+.app button.filter.active,
+.app button.btn.primary {
+  background: linear-gradient(135deg,#A17ACF,#7D4DB1,#663A98) !important;
+  border-color: #B89ADE !important;
+  box-shadow: 0 7px 18px rgba(94,48,145,.26) !important;
+}
+
+.app .bottom-nav {
+  background: rgba(242,231,255,.98) !important;
+  border-top: 1px solid #D0B2ED !important;
+  box-shadow: 0 -7px 24px rgba(110,61,161,.15) !important;
+}
+
+.app .bottom-nav .nav-item.active,
+.app .category,
+.app .link {
+  color: #7846A8 !important;
+}
+
+.app .table-row.head {
+  background: #E1CCF7 !important;
+}
+
+
+/* ELEGANT BLACK GOLD TITLE — NO FRAME */
+.app .pp-fa-title {
+  display: inline-block !important;
+  padding: 0 !important;
+  margin: 5px 0 8px !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  font-size: clamp(29px,7.5vw,37px) !important;
+  font-weight: 1000 !important;
+  letter-spacing: .5px !important;
+  line-height: 1.7 !important;
+  color: #E8C77E !important;
+  -webkit-text-stroke: .35px #A77B32;
+  text-shadow:
+    0 1px 0 #FFF1C7,
+    0 2px 0 #C39A4B,
+    0 3px 0 #80591E,
+    0 4px 7px rgba(0,0,0,.65),
+    0 0 14px rgba(225,183,91,.3) !important;
+}
+
+.app .pp-fa-title span {
+  color: #F6DFA5 !important;
+  -webkit-text-stroke: .25px #B28A43;
+  text-shadow:
+    0 1px 0 #FFF6D9,
+    0 2px 0 #C49A4B,
+    0 4px 7px rgba(0,0,0,.65),
+    0 0 12px rgba(238,197,111,.35) !important;
+}
+
+
+/* 3D CHAMPAGNE GOLD TITLE — FRAME REMOVED */
+.app .pp-fa-title {
+  display: inline-block !important;
+  padding: 0 !important;
+  margin: 5px 0 8px !important;
+  border: 0 !important;
+  outline: 0 !important;
+  border-radius: 0 !important;
+  background: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  font-size: clamp(29px, 7.5vw, 38px) !important;
+  font-weight: 1000 !important;
+  letter-spacing: .3px !important;
+  line-height: 1.65 !important;
+  color: #F9DEA0 !important;
+  -webkit-text-fill-color: #F9DEA0 !important;
+  -webkit-text-stroke: .45px #9B7028 !important;
+  text-shadow:
+    0 -1px 0 #FFF9E8,
+    0 1px 0 #E8C36E,
+    0 2px 0 #C69A42,
+    0 3px 0 #9A6B26,
+    0 4px 0 #654315,
+    0 5px 2px #34220D,
+    0 7px 9px rgba(0,0,0,.65),
+    0 0 15px rgba(240,196,100,.28) !important;
+}
+
+.app .pp-fa-title span {
+  color: #FFEBC0 !important;
+  -webkit-text-fill-color: #FFEBC0 !important;
+  -webkit-text-stroke: .4px #A77A2A !important;
+  text-shadow:
+    0 -1px 0 #FFFFFF,
+    0 1px 0 #F0D18A,
+    0 2px 0 #C99B45,
+    0 3px 0 #92631E,
+    0 4px 0 #5B3A10,
+    0 6px 8px rgba(0,0,0,.65),
+    0 0 13px rgba(255,218,140,.35) !important;
+}
+
+
+/* 3D CHAMPAGNE GOLD TITLE — FRAME REMOVED */
+.app .pp-fa-title {
+  display: inline-block !important;
+  padding: 0 !important;
+  margin: 5px 0 8px !important;
+  border: 0 !important;
+  outline: 0 !important;
+  border-radius: 0 !important;
+  background: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  font-size: clamp(29px, 7.5vw, 38px) !important;
+  font-weight: 1000 !important;
+  letter-spacing: .3px !important;
+  line-height: 1.65 !important;
+  color: #F9DEA0 !important;
+  -webkit-text-fill-color: #F9DEA0 !important;
+  -webkit-text-stroke: .45px #9B7028 !important;
+  text-shadow:
+    0 -1px 0 #FFF9E8,
+    0 1px 0 #E8C36E,
+    0 2px 0 #C69A42,
+    0 3px 0 #9A6B26,
+    0 4px 0 #654315,
+    0 5px 2px #34220D,
+    0 7px 9px rgba(0,0,0,.65),
+    0 0 15px rgba(240,196,100,.28) !important;
+}
+
+.app .pp-fa-title span {
+  color: #FFEBC0 !important;
+  -webkit-text-fill-color: #FFEBC0 !important;
+  -webkit-text-stroke: .4px #A77A2A !important;
+  text-shadow:
+    0 -1px 0 #FFFFFF,
+    0 1px 0 #F0D18A,
+    0 2px 0 #C99B45,
+    0 3px 0 #92631E,
+    0 4px 0 #5B3A10,
+    0 6px 8px rgba(0,0,0,.65),
+    0 0 13px rgba(255,218,140,.35) !important;
+}
+
+
+/* CLEAR BLACK & GOLD BRAND TITLE */
+.app .pp-brandbar .pp-brandtext .pp-fa-title {
+  display: inline-block !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 4px 0 8px !important;
+
+  font-family: Tahoma, sans-serif !important;
+  font-size: clamp(30px, 8vw, 38px) !important;
+  font-weight: 900 !important;
+  letter-spacing: 0 !important;
+  line-height: 1.8 !important;
+
+  color: #F2D38B !important;
+  -webkit-text-fill-color: #F2D38B !important;
+  -webkit-text-stroke: .65px #563B12 !important;
+
+  text-shadow:
+    0 -1px 0 #FFF6D8,
+    0 1px 0 #D9B15C,
+    0 2px 0 #A77B2C,
+    0 3px 0 #644719,
+    0 5px 2px #17120A,
+    0 7px 9px rgba(0,0,0,.65) !important;
+}
+
+.app .pp-brandbar .pp-brandtext .pp-fa-title span {
+  color: #FFE8AC !important;
+  -webkit-text-fill-color: #FFE8AC !important;
+  -webkit-text-stroke: .55px #6A4916 !important;
+  text-shadow:
+    0 -1px 0 #FFFFFF,
+    0 1px 0 #E8C875,
+    0 2px 0 #B58A38,
+    0 3px 0 #714C19,
+    0 5px 2px #17120A,
+    0 7px 8px rgba(0,0,0,.6) !important;
+}
+

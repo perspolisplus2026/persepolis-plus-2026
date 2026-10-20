@@ -8,7 +8,7 @@ const SOURCES = [
 ];
 
 async function loadNews() {
-  const container = document.querySelector("#news .card");
+  const container = document.querySelector("#news .news-list");
   if (!container) return;
 
   container.innerHTML = "<p>در حال دریافت اخبار...</p>";
