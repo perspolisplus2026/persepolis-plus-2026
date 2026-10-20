@@ -1,8 +1,13 @@
 {
-  "updated_at": "2026-10-20T23:20:17.204125+00:00",
+  "updated_at": "2026-10-20T23:28:55.752874+00:00",
   "sources": 5,
   "failed_sources": [],
   "news": [
+    {
+      "title": "خلعتبری: پرسپولیس کار را برای دیگر تیم‌ها سخت می‌کند/ برای قهرمانی نباید به نام رقیب توجه کنی",
+      "url": "https://perspolisnews.ir/%d8%ae%d9%84%d8%b9%d8%aa%d8%a8%d8%b1%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%da%a9%d8%a7%d8%b1-%d8%b1%d8%a7-%d8%a8%d8%b1%d8%a7%db%8c-%d8%af%db%8c%da%af%d8%b1-%d8%aa%db%8c%d9%85/",
+      "source": "پرسپولیس نیوز"
+    },
     {
       "title": "گزارش تصویری: تمرین پرسپولیس با حضور ماهینی",
       "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%a7-%d8%ad%d8%b6%d9%88%d8%b1-%d9%85%d8%a7/",
@@ -19,16 +24,6 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "گل‌گهر هم از استقلال و آسانی شکایت کرد",
-      "url": "https://perspolisnews.ir/%da%af%d9%84%da%af%d9%87%d8%b1-%d9%87%d9%85-%d8%a7%d8%b2-%d8%a7%d8%b3%d8%aa%d9%82%d9%84%d8%a7%d9%84-%d9%88-%d8%a2%d8%b3%d8%a7%d9%86%db%8c-%d8%b4%da%a9%d8%a7%db%8c%d8%aa-%da%a9%d8%b1%d8%af/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "تارتار ۵۰۰ امتیازی شد / عبور از گاریدو و پروین",
-      "url": "https://perspolisnews.ir/%d8%aa%d8%a7%d8%b1%d8%aa%d8%a7%d8%b1-500-%d8%a7%d9%85%d8%aa%db%8c%d8%a7%d8%b2%db%8c-%d8%b4%d8%af-%d8%b9%d8%a8%d9%88%d8%b1-%d8%a7%d8%b2-%da%af%d8%a7%d8%b1%db%8c%d8%af%d9%88-%d9%88-%d9%be%d8%b1%d9%88/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
       "title": "بازگشت کاپیتان ‌پرسپولیس پیش از بازی با فولاد",
       "url": "https://perspolisnews.ir/%d8%a8%d8%a7%d8%b2%da%af%d8%b4%d8%aa-%da%a9%d8%a7%d9%be%db%8c%d8%aa%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%be%db%8c%d8%b4-%d8%a7%d8%b2-%d8%a8%d8%a7%d8%b2%db%8c/",
       "source": "پرسپولیس نیوز"
@@ -39,16 +34,6 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "جدول لیگ برتر",
-      "url": "https://perspolisnews.ir/%d8%ac%d8%af%d9%88%d9%84-%d9%84%db%8c%da%af-%d8%a8%d8%b1%d8%aa%d8%b1-%d8%a7%db%8c%d8%b1%d8%a7%d9%86/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "برنامه لیگ برتر",
-      "url": "https://perspolisnews.ir/%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87-%d9%84%db%8c%da%af-%d8%a8%d8%b1%d8%aa%d8%b1-2/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
       "title": "برنامه بازی‌های پرسپولیس",
       "url": "https://perspolisnews.ir/team/%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3/",
       "source": "پرسپولیس نیوز"
@@ -56,11 +41,6 @@
     {
       "title": "جدول هفته نهم لیگ برتر| صدرنشینی با پیروزی پرسپولیس +عکس",
       "url": "https://perspolisnews.ir/%d8%ac%d8%af%d9%88%d9%84-%d9%87%d9%81%d8%aa%d9%87-%d9%86%d9%87%d9%85-%d9%84%db%8c%da%af-%d8%a8%d8%b1%d8%aa%d8%b1-%d8%b5%d8%af%d8%b1%d9%86%d8%b4%db%8c%d9%86%db%8c-%d8%a8%d8%a7-%d9%be%db%8c%d8%b1%d9%88/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "تارتار: تفاوت فوتبال امروز و هفته قبل به خاطر زمین بود / تیم خوب دشمن دارد",
-      "url": "https://perspolisnews.ir/%d8%aa%d8%a7%d8%b1%d8%aa%d8%a7%d8%b1-%d8%aa%d9%81%d8%a7%d9%88%d8%aa-%d9%81%d9%88%d8%aa%d8%a8%d8%a7%d9%84-%d8%a7%d9%85%d8%b1%d9%88%d8%b2-%d9%88-%d9%87%d9%81%d8%aa%d9%87-%d9%82%d8%a8%d9%84-%d8%a8%d9%87/",
       "source": "پرسپولیس نیوز"
     },
     {
@@ -79,6 +59,26 @@
       "source": "پرسپولیس نیوز"
     },
     {
+      "title": "گزارش تصویری: تمرین پرسپولیس در شهربابک",
+      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%af%d8%b1-%d8%b4%d9%87%d8%b1%d8%a8%d8%a7%d8%a8/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "گل قهرمانی پرسپولیس در آسیا +فیلم",
+      "url": "https://perspolisnews.ir/%da%af%d9%84-%d9%82%d9%87%d8%b1%d9%85%d8%a7%d9%86%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%af%d8%b1-%d8%a2%d8%b3%db%8c%d8%a7-%d9%81%db%8c%d9%84%d9%85/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "رفع نگرانی در مورد مصدومیت مدافع پرسپولیس",
+      "url": "https://perspolisnews.ir/%d8%b1%d9%81%d8%b9-%d9%86%da%af%d8%b1%d8%a7%d9%86%db%8c-%d8%af%d8%b1-%d9%85%d9%88%d8%b1%d8%af-%d9%85%d8%b5%d8%af%d9%88%d9%85%db%8c%d8%aa-%d9%85%d8%af%d8%a7%d9%81%d8%b9-%d9%be%d8%b1%d8%b3%d9%be%d9%88/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "اورونوف در آستانه شکستن رکورد تاریخی پرسپولیس",
+      "url": "https://perspolisnews.ir/%d8%a7%d9%88%d8%b1%d9%88%d9%86%d9%88%d9%81-%d8%af%d8%b1-%d8%a2%d8%b3%d8%aa%d8%a7%d9%86%d9%87-%d8%b4%da%a9%d8%b3%d8%aa%d9%86-%d8%b1%da%a9%d9%88%d8%b1%d8%af-%d8%aa%d8%a7%d8%b1%db%8c%d8%ae%db%8c-%d9%be/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
       "title": "حلقه گمشده پرسپولیس پیدا شد؛ جانشین ترابی اینجاست",
       "url": "https://arteshesorkh.com/post/%D8%AD%D9%84%D9%82%D9%87-%DA%AF%D9%85%D8%B4%D8%AF%D9%87-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D9%BE%DB%8C%D8%AF%D8%A7-%D8%B4%D8%AF%D8%9B-%D8%AC%D8%A7%D9%86%D8%B4%DB%8C%D9%86-%D8%AA%D8%B1%D8%A7%D8%A8%DB%8C-%D8%A7%DB%8C%D9%86%D8%AC%D8%A7%D8%B3%D8%AA",
       "source": "ارتش سرخ"
@@ -86,16 +86,6 @@
     {
       "title": "نمایش بی نقص خرید تابستانی پرسپولیس",
       "url": "https://arteshesorkh.com/post/%D9%86%D9%85%D8%A7%DB%8C%D8%B4-%D8%A8%DB%8C-%D9%86%D9%82%D8%B5-%D8%AE%D8%B1%DB%8C%D8%AF-%D8%AA%D8%A7%D8%A8%D8%B3%D8%AA%D8%A7%D9%86%DB%8C-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "کنعانی آماده بازی با فولاد می‌شود",
-      "url": "https://arteshesorkh.com/post/%DA%A9%D9%86%D8%B9%D8%A7%D9%86%DB%8C-%D8%A2%D9%85%D8%A7%D8%AF%D9%87-%D8%A8%D8%A7%D8%B2%DB%8C-%D8%A8%D8%A7-%D9%81%D9%88%D9%84%D8%A7%D8%AF-%D9%85%DB%8C-%D8%B4%D9%88%D8%AF",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "صدمین کلین‌شیت نیازمند در لیگ برتر",
-      "url": "https://arteshesorkh.com/post/%D8%B5%D8%AF%D9%85%DB%8C%D9%86-%DA%A9%D9%84%DB%8C%D9%86-%D8%B4%DB%8C%D8%AA-%D9%86%DB%8C%D8%A7%D8%B2%D9%85%D9%86%D8%AF-%D8%AF%D8%B1-%D9%84%DB%8C%DA%AF-%D8%A8%D8%B1%D8%AA%D8%B1",
       "source": "ارتش سرخ"
     },
     {
@@ -154,144 +144,49 @@
       "source": "ارتش سرخ"
     },
     {
-      "title": "لیگ برتر انگلیس",
-      "url": "https://www.tarafdari.com/static/page/taxonomy/1007",
+      "title": "هفته هشتم: پرسپولیس - صنعت‌نفت",
+      "url": "https://arteshesorkh.com/post/%D9%87%D9%81%D8%AA%D9%87-%D9%87%D8%B4%D8%AA%D9%85--%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3---%D8%B5%D9%86%D8%B9%D8%AA-%D9%86%D9%81%D8%AA",
+      "source": "ارتش سرخ"
+    },
+    {
+      "title": "هفته ششم: پرسپولیس_ذوب‌آهن",
+      "url": "https://arteshesorkh.com/post/%D9%87%D9%81%D8%AA%D9%87-%D8%B4%D8%B4%D9%85--%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3_%D8%B0%D9%88%D8%A8-%D8%A2%D9%87%D9%86",
+      "source": "ارتش سرخ"
+    },
+    {
+      "title": "آاس رم 4-0 اسلوان براتیسلاو؛ بالاخره طعم پیروزی زیر دندان گرگ‌ها رفت!",
+      "url": "https://www.tarafdari.com/node/2731036",
       "source": "طرفداری"
     },
     {
-      "title": "لالیگا اسپانیا",
-      "url": "https://www.tarafdari.com/static/page/taxonomy/1003",
+      "title": "تیم منتخب هفته نهم لیگ برتر؛ از حضورپررنگ پرسپولیس تا تک‌ستاره‌های استقلال و سپاهان",
+      "url": "https://www.tarafdari.com/node/2731024",
       "source": "طرفداری"
     },
     {
-      "title": "بوندس لیگا آلمان",
-      "url": "https://www.tarafdari.com/static/page/taxonomy/1009",
+      "title": "خدابنده لو می‌تواند به تیم ملی کمک کند؛ تارتار: نیازمند پرسپولیس را در بازی نگه داشت!",
+      "url": "https://www.tarafdari.com/node/2730976",
       "source": "طرفداری"
     },
     {
-      "title": "لیگ 1 فرانسه",
-      "url": "https://www.tarafdari.com/static/page/taxonomy/1011",
+      "title": "استقلال 1-0 گل گهر؛ قلی زاده استقلال را به یک امتیازی پرسپولیس رساند",
+      "url": "https://www.tarafdari.com/node/2730963",
       "source": "طرفداری"
     },
     {
-      "title": "لیگ قهرمانان اروپا",
-      "url": "https://www.tarafdari.com/static/page/taxonomy/1038",
+      "title": "خلاصه بازی مس شهر بابک 0-3 پرسپولیس (لیگ برتر ایران)",
+      "url": "https://www.tarafdari.com/node/2730965",
       "source": "طرفداری"
     },
     {
-      "title": "لیگ برتر ایران",
-      "url": "https://www.tarafdari.com/static/page/taxonomy/1028",
+      "title": "مس شهر بابک 0-3 پرسپولیس؛ سرخپوشان به صدر جدول لیگ تکیه زدند",
+      "url": "https://www.tarafdari.com/node/2730962",
       "source": "طرفداری"
     },
     {
-      "title": "لیگ نخبگان آسیا",
-      "url": "https://www.tarafdari.com/static/page/taxonomy/491071",
+      "title": "مریم حیدرزاده: علی دایی، پرسپولیس را به دنیا معرفی کرد؛ همه ایران پرسپولیسی هستند مگر اینکه خلافش ثابت شود!",
+      "url": "https://www.tarafdari.com/node/2707762",
       "source": "طرفداری"
-    },
-    {
-      "title": "لیگ قهرمانان آسیا",
-      "url": "https://www.tarafdari.com/static/page/taxonomy/1037",
-      "source": "طرفداری"
-    },
-    {
-      "title": "منچستر یونایتد",
-      "url": "https://www.tarafdari.com/static/page/taxonomy/1019",
-      "source": "طرفداری"
-    },
-    {
-      "title": "پاری سن ژرمن 4-2 بارسلونا؛ هیولای فلیک در جهنم پارک دو پرنس مات شد درس فوتبال تماشایی از لوئیس انریکه",
-      "url": "https://www.tarafdari.com/node/2731034",
-      "source": "طرفداری"
-    },
-    {
-      "title": "پاری سن ژرمن 4-2 بارسلونا؛ هیولای فلیک در جهنم پارک دو پرنس مات شد",
-      "url": "https://www.tarafdari.com/node/2731034",
-      "source": "طرفداری"
-    },
-    {
-      "title": "لوئیس انریکه: بارسلونا یکی از شبیه‌ترین تیم‌ها به پاری‌سن‌ژرمن است",
-      "url": "https://www.tarafdari.com/node/2731031",
-      "source": "طرفداری"
-    },
-    {
-      "title": "آشتی بارسلونا و پاری‌سن‌ژرمن چگونه به مذاکرات انتقال بازیکنان رسید؟",
-      "url": "https://www.tarafdari.com/node/2731010",
-      "source": "طرفداری"
-    },
-    {
-      "title": "خوان لاپورتا: شرایط رئال مادرید؟ خروس‌های زیاد در یک لانه مرغ، هرگز نتیجه نمی‌دهد!",
-      "url": "https://www.tarafdari.com/node/2730998",
-      "source": "طرفداری"
-    },
-    {
-      "title": "چرا بازی کردن در اروپا به ضرر تیم‌های لیگ برتر انگلیس تمام می‌شود؟",
-      "url": "https://www.tarafdari.com/node/2730995",
-      "source": "طرفداری"
-    },
-    {
-      "title": "فوتبال ایران",
-      "url": "https://www.ghatreh.com/news/subcat/footballiran-%D9%81%D9%88%D8%AA%D8%A8%D8%A7%D9%84%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/0/20",
-      "source": "قطره"
-    },
-    {
-      "title": "فوتبال ایتالیا",
-      "url": "https://www.ghatreh.com/news/subcat/italyfootball-%D9%81%D9%88%D8%AA%D8%A8%D8%A7%D9%84%20%D8%A7%DB%8C%D8%AA%D8%A7%D9%84%DB%8C%D8%A7/0/20",
-      "source": "قطره"
-    },
-    {
-      "title": "فوتبال اسپانیا",
-      "url": "https://www.ghatreh.com/news/subcat/spainfootball-%D9%81%D9%88%D8%AA%D8%A8%D8%A7%D9%84%20%D8%A7%D8%B3%D9%BE%D8%A7%D9%86%DB%8C%D8%A7/0/20",
-      "source": "قطره"
-    },
-    {
-      "title": "فوتبال انگلیس",
-      "url": "https://www.ghatreh.com/news/subcat/englandfootball-%D9%81%D9%88%D8%AA%D8%A8%D8%A7%D9%84%20%D8%A7%D9%86%DA%AF%D9%84%DB%8C%D8%B3/0/20",
-      "source": "قطره"
-    },
-    {
-      "title": "فوتبال آلمان",
-      "url": "https://www.ghatreh.com/news/subcat/germanfootball-%D9%81%D9%88%D8%AA%D8%A8%D8%A7%D9%84%20%D8%A2%D9%84%D9%85%D8%A7%D9%86/0/20",
-      "source": "قطره"
-    },
-    {
-      "title": "فوتبال آرژانتین",
-      "url": "https://www.ghatreh.com/news/subcat/argentinafootball-%D9%81%D9%88%D8%AA%D8%A8%D8%A7%D9%84%20%D8%A2%D8%B1%DA%98%D8%A7%D9%86%D8%AA%DB%8C%D9%86/0/20",
-      "source": "قطره"
-    },
-    {
-      "title": "فوتبال برزیل",
-      "url": "https://www.ghatreh.com/news/subcat/brazilfootball-%D9%81%D9%88%D8%AA%D8%A8%D8%A7%D9%84%20%D8%A8%D8%B1%D8%B2%DB%8C%D9%84/0/20",
-      "source": "قطره"
-    },
-    {
-      "title": "فوتبال امارات",
-      "url": "https://www.ghatreh.com/news/subcat/emiratefootball-%D9%81%D9%88%D8%AA%D8%A8%D8%A7%D9%84%20%D8%A7%D9%85%D8%A7%D8%B1%D8%A7%D8%AA/0/20",
-      "source": "قطره"
-    },
-    {
-      "title": "فدراسیون فوتبال",
-      "url": "https://www.ghatreh.com/news/subcat/iriff-/0/20",
-      "source": "قطره"
-    },
-    {
-      "title": "براتی: امکان برگزاری مجدد دیدار ملوان و تراکتور وجود ندارد + ویدئو",
-      "url": "https://www.ghatreh.com/news/nn14050719690763507712/براتی-امکان-برگزاری-مجدد-دیدار-ملوان-تراکتور-وجود-ندارد-ویدئو",
-      "source": "قطره"
-    },
-    {
-      "title": "افشاگری تازه عادل فردوسی پور بر علیه استقلال",
-      "url": "https://www.ghatreh.com/news/nn14050707687369549824/افشاگری-تازه-عادل-فردوسی-پور-علیه-استقلال",
-      "source": "قطره"
-    },
-    {
-      "title": "پاریس سن ژرمن 4 2 بارسلونا/ PSG فاتح نبرد بزرگان شد + فیلم",
-      "url": "https://www.ghatreh.com/news/nn14050701236975616000/پاریس-ژرمن-بارسلونا-فاتح-نبرد-بزرگان-فیلم",
-      "source": "قطره"
-    },
-    {
-      "title": "دیدار فرمانده ارتش پاکستان با رییس جمهور؛ تمام مشکلات منطقه از تشدید تنش ...",
-      "url": "https://www.ghatreh.com/news/nn14050725844415758336/دیدار-فرمانده-ارتش-پاکستان-رییس-جمهور-تمام-مشکلات-منطقه-تشدید",
-      "source": "قطره"
     },
     {
       "title": "برگزاری تمرین بانوان پرسپولیس در ورزشگاه شهید کاظمی",
@@ -301,6 +196,61 @@
     {
       "title": "پرسپولیس لیگ‌ها را 6 تایی کرد",
       "url": "https://fc-perspolis.com/40344-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%84%db%8c%da%af%d9%87%d8%a7-%d8%b1%d8%a7-6-%d8%aa%d8%a7%db%8c%db%8c-%da%a9%d8%b1%d8%af/",
+      "source": "باشگاه پرسپولیس"
+    },
+    {
+      "title": "پیروزی خانگی امیدهای پرسپولیس مقابل میهن آریو",
+      "url": "https://fc-perspolis.com/40341-%d9%be%db%8c%d8%b1%d9%88%d8%b2%db%8c-%d8%ae%d8%a7%d9%86%da%af%db%8c-%d8%a7%d9%85%db%8c%d8%af%d9%87%d8%a7%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%85%d9%82%d8%a7%d8%a8%d9%84-%d9%85/",
+      "source": "باشگاه پرسپولیس"
+    },
+    {
+      "title": "تمرین پرسپولیس – سه شنبه ۲۸ مهر ۱۴۰۵ 28 مهر 1405",
+      "url": "https://fc-perspolis.com/album/%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%b3%d9%87-%d8%b4%d9%86%d8%a8%d9%87-%db%b2%db%b8-%d9%85%d9%87%d8%b1-%db%b1%db%b4%db%b0%db%b5/",
+      "source": "باشگاه پرسپولیس"
+    },
+    {
+      "title": "مس شهر بابک – پرسپولیس – دوشنبه 27 مهر 1405 27 مهر 1405",
+      "url": "https://fc-perspolis.com/album/%d9%85%d8%b3-%d8%b4%d9%87%d8%b1-%d8%a8%d8%a7%d8%a8%da%a9-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%af%d9%88%d8%b4%d9%86%d8%a8%d9%87-27-%d9%85%d9%87%d8%b1-1405/",
+      "source": "باشگاه پرسپولیس"
+    },
+    {
+      "title": "لیگ برتر 1405-07-27 - 15:30 پرسپولیس مس شهر بابک - نتیجه نهایی",
+      "url": "https://fc-perspolis.com/event/persepolis-mesebabak/",
+      "source": "باشگاه پرسپولیس"
+    },
+    {
+      "title": "لیگ برتر 1405-07-22 - 17:00 پرسپولیس خیبر خرم‌آباد 0 - 0 نتیجه نهایی",
+      "url": "https://fc-perspolis.com/event/pers-khybar405/",
+      "source": "باشگاه پرسپولیس"
+    },
+    {
+      "title": "پرسپولیس vs صنعت نفت آبادان",
+      "url": "https://fc-perspolis.com/event/pers-nafabadan-3-2/",
+      "source": "باشگاه پرسپولیس"
+    },
+    {
+      "title": "پرسپولیس vs استقلال خوزستان",
+      "url": "https://fc-perspolis.com/event/pers-khozestan405/",
+      "source": "باشگاه پرسپولیس"
+    },
+    {
+      "title": "پرسپولیس vs خیبر خرم اباد",
+      "url": "https://fc-perspolis.com/event/pers-khybar/",
+      "source": "باشگاه پرسپولیس"
+    },
+    {
+      "title": "پرسپولیس vs ذوب آهن",
+      "url": "https://fc-perspolis.com/event/pers-khozestan405-2-2/",
+      "source": "باشگاه پرسپولیس"
+    },
+    {
+      "title": "پرسپولیس vs استقلال",
+      "url": "https://fc-perspolis.com/event/pers-khozestan405-2/",
+      "source": "باشگاه پرسپولیس"
+    },
+    {
+      "title": "پرسپولیس vs چادرملو",
+      "url": "https://fc-perspolis.com/event/%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-vs-%da%86%d8%a7%d8%af%d8%b1%d9%85%d9%84%d9%88-%d8%a7%d8%b1%d8%af%da%a9%d8%a7%d9%86-2/",
       "source": "باشگاه پرسپولیس"
     }
   ]
