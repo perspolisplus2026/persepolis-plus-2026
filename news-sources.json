@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "name": "پرسپولیس نیوز",
+      "url": "https://perspolisnews.ir"
+    },
+    {
+      "name": "ارتش سرخ",
+      "url": "https://arteshesorkh.com"
+    },
+    {
+      "name": "پرسپولیس نیوز",
+      "url": "https://www.perspolisnews.ir"
+    },
+    {
+      "name": "سایت رسمی باشگاه پرسپولیس",
+      "url": "https://fc-perspolis.com"
+    },
+    {
+      "name": "قطره",
+      "url": "https://www.ghatreh.com"
+    },
+    {
+      "name": "طرفداری",
+      "url": "https://www.tarafdari.com"
+    }
+  ]
+}
