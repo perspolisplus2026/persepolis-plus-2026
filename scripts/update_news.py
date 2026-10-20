@@ -11,6 +11,7 @@ SOURCES = [
     ("باشگاه پرسپولیس", "https://fc-perspolis.com"),
 ]
 
+PERSPOLIS = re.compile(r"پرسپولیس|پرسپوليسي|پیروزی|ارتش سرخ|سرخپوشان|سرخ پوشان|قرمزپوشان|قرمز پوشان", re.I)
 SPORT = re.compile(
     r"پرسپولیس|پرسپوليسي|ارتش سرخ|فوتبال|لیگ|بازیکن|مربی|دروازه.?بان|"
     r"استقلال|تراکتور|سپاهان|ملوان|تیم ملی|جام حذفی|قهرمانی|"
@@ -59,7 +60,7 @@ for source, base in SOURCES:
                 continue
             if re.search(r"login|register|search|contact|category|tag|author|javascript:|mailto:", url, re.I):
                 continue
-            if not SPORT.search(title) or BLOCK.search(title):
+            if not PERSPOLIS.search(title) or BLOCK.search(title):
                 continue
 
             key = re.sub(r"\W+", "", title).lower()
