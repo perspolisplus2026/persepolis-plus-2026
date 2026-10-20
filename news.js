@@ -1,43 +1,81 @@
+
 const SOURCES = [
   { name: "پرسپولیس نیوز", url: "https://perspolisnews.ir" },
   { name: "ارتش سرخ", url: "https://arteshesorkh.com" },
-  { name: "پرسپولیس نیوز", url: "https://www.perspolisnews.ir" },
-  { name: "باشگاه پرسپولیس", url: "https://fc-perspolis.com" },
+  { name: "طرفداری", url: "https://www.tarafdari.com" },
   { name: "قطره", url: "https://www.ghatreh.com" },
-  { name: "طرفداری", url: "https://www.tarafdari.com" }
+  { name: "باشگاه پرسپولیس", url: "https://fc-perspolis.com" }
 ];
 
-async function getNews() {
-  return Promise.all(
-    SOURCES.map(async (source) => {
-      try {
-        const response = await fetch(
-          `https://api.allorigins.win/raw?url=${encodeURIComponent(source.url)}`,
-          { cache: "no-store" }
-        );
+async function loadNews() {
+  const container = document.querySelector("#news .card");
+  if (!container) return;
 
-        if (!response.ok) throw new Error("خطا در دریافت");
+  container.innerHTML = "<p>در حال دریافت اخبار...</p>";
 
-        const html = await response.text();
-        const doc = new DOMParser().parseFromString(html, "text/html");
+  const results = await Promise.allSettled(
+    SOURCES.map(async source => {
+      const api =
+        "https://api.allorigins.win/raw?url=" +
+        encodeURIComponent(source.url);
 
-        return {
-          source: source.name,
-          title: doc.querySelector("h1")?.textContent?.trim() || "صفحه خبر",
-          url: source.url,
-          status: "connected"
-        };
-      } catch {
-        return {
-          source: source.name,
-          url: source.url,
-          status: "error"
-        };
-      }
+      const response = await fetch(api);
+      if (!response.ok) throw new Error("دریافت ناموفق");
+
+      const html = await response.text();
+      const doc = new DOMParser().parseFromString(html, "text/html");
+
+      const links = [...doc.querySelectorAll("a[href]")]
+        .filter(a => a.querySelector("img") === null)
+        .map(a => ({
+          title: a.textContent.trim().replace(/\s+/g, " "),
+          url: a.href
+        }))
+        .filter(a => a.title.length > 20 && /^https?:/.test(a.url))
+        .slice(0, 5);
+
+      return { source, links };
     })
   );
+
+  const items = [];
+
+  results.forEach(result => {
+    if (result.status !== "fulfilled") return;
+
+    result.value.links.forEach(item => {
+      items.push({
+        ...item,
+        source: result.value.source.name
+      });
+    });
+  });
+
+  if (!items.length) {
+    container.innerHTML =
+      "<p>فعلاً دریافت اخبار ممکن نیست. اتصال منابع را بعداً بررسی می‌کنیم.</p>";
+    return;
+  }
+
+  container.innerHTML = "";
+
+  items.slice(0, 20).forEach(item => {
+    const article = document.createElement("p");
+    const link = document.createElement("a");
+
+    link.textContent = item.title;
+    link.href = item.url;
+    link.target = "_blank";
+    link.rel = "noopener noreferrer";
+
+    const source = document.createElement("small");
+    source.textContent = " — " + item.source;
+
+    article.append(link, source);
+    container.appendChild(article);
+  });
 }
 
-if (typeof window !== "undefined") {
-  window.getPerspolisNewsSources = getNews;
-}
+loadNews();
+setInterval(loadNews, 15 * 60 * 1000);
+
