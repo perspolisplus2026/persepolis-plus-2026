@@ -62,6 +62,8 @@ for source, base in SOURCES:
                 continue
             if not PERSPOLIS.search(title) or BLOCK.search(title):
                 continue
+            if re.search(r"^(لیگ برتر انگلیس|لالیگا اسپانیا|بوندس لیگا آلمان|لیگ 1 فرانسه|لیگ قهرمانان اروپا|لیگ نخبگان آسیا|لیگ قهرمانان آسیا|منچستر یونایتد|فوتبال ایران|فوتبال ایتالیا|فوتبال اسپانیا|فوتبال انگلیس|فوتبال آلمان|فوتبال آرژانتین|فوتبال برزیل|فوتبال امارات|فدراسیون فوتبال|جدول لیگ برتر|برنامه لیگ برتر)$", title, re.I):
+                continue
 
             key = re.sub(r"\W+", "", title).lower()
             if key in seen:
