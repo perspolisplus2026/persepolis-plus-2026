@@ -1,81 +1,69 @@
+(async function () {
+  const targets = [
+    document.querySelector("#news .news-list"),
+    document.querySelector("#ppx-news-list")
+  ].filter(Boolean);
 
-const SOURCES = [
-  { name: "پرسپولیس نیوز", url: "https://perspolisnews.ir" },
-  { name: "ارتش سرخ", url: "https://arteshesorkh.com" },
-  { name: "طرفداری", url: "https://www.tarafdari.com" },
-  { name: "قطره", url: "https://www.ghatreh.com" },
-  { name: "باشگاه پرسپولیس", url: "https://fc-perspolis.com" }
-];
+  if (!targets.length) return;
 
-async function loadNews() {
-  const container = document.querySelector("#news .news-list");
-  if (!container) return;
+  function render(items, updatedAt) {
+    targets.forEach(container => {
+      container.replaceChildren();
 
-  container.innerHTML = "<p>در حال دریافت اخبار...</p>";
+      if (!items.length) {
+        container.textContent = "فعلاً خبری دریافت نشده است.";
+        return;
+      }
 
-  const results = await Promise.allSettled(
-    SOURCES.map(async source => {
-      const api =
-        "https://api.allorigins.win/raw?url=" +
-        encodeURIComponent(source.url);
+      items.forEach(item => {
+        const card = document.createElement("article");
+        card.style.cssText =
+          "padding:12px;margin:8px 0;border-radius:12px;" +
+          "border:1px solid rgba(180,20,45,.22);";
 
-      const response = await fetch(api);
-      if (!response.ok) throw new Error("دریافت ناموفق");
+        const link = document.createElement("a");
+        link.textContent = item.title;
+        link.href = item.url;
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.style.cssText =
+          "display:block;color:inherit;text-decoration:none;font-weight:700;";
 
-      const html = await response.text();
-      const doc = new DOMParser().parseFromString(html, "text/html");
+        const source = document.createElement("small");
+        source.textContent = "منبع: " + item.source;
+        source.style.cssText = "display:block;margin-top:8px;opacity:.7;";
 
-      const links = [...doc.querySelectorAll("a[href]")]
-        .filter(a => a.querySelector("img") === null)
-        .map(a => ({
-          title: a.textContent.trim().replace(/\s+/g, " "),
-          url: a.href
-        }))
-        .filter(a => a.title.length > 20 && /^https?:/.test(a.url))
-        .slice(0, 5);
-
-      return { source, links };
-    })
-  );
-
-  const items = [];
-
-  results.forEach(result => {
-    if (result.status !== "fulfilled") return;
-
-    result.value.links.forEach(item => {
-      items.push({
-        ...item,
-        source: result.value.source.name
+        card.append(link, source);
+        container.appendChild(card);
       });
-    });
-  });
 
-  if (!items.length) {
-    container.innerHTML =
-      "<p>فعلاً دریافت اخبار ممکن نیست. اتصال منابع را بعداً بررسی می‌کنیم.</p>";
-    return;
+      const stamp = document.createElement("small");
+      stamp.textContent = "آخرین به‌روزرسانی: " +
+        new Date(updatedAt).toLocaleString("fa-IR");
+      stamp.style.cssText = "display:block;margin:12px 0;opacity:.7;";
+      container.appendChild(stamp);
+    });
   }
 
-  container.innerHTML = "";
+  async function loadNews() {
+    try {
+      const response = await fetch("./news.json?v=" + Date.now(), {
+        cache: "no-store"
+      });
+      if (!response.ok) throw new Error("فایل اخبار هنوز آماده نیست");
+      const data = await response.json();
+      render(data.news || [], data.updated_at || new Date().toISOString());
+    } catch (error) {
+      targets.forEach(container => {
+        if (!container.children.length) {
+          container.textContent =
+            "در حال آماده‌سازی اخبار خودکار؛ کمی بعد دوباره امتحان کن.";
+        }
+      });
+      console.error(error);
+    }
+  }
 
-  items.slice(0, 20).forEach(item => {
-    const article = document.createElement("p");
-    const link = document.createElement("a");
-
-    link.textContent = item.title;
-    link.href = item.url;
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-
-    const source = document.createElement("small");
-    source.textContent = " — " + item.source;
-
-    article.append(link, source);
-    container.appendChild(article);
-  });
-}
-
-loadNews();
-setInterval(loadNews, 15 * 60 * 1000);
-
+  await loadNews();
+  setInterval(loadNews, 5 * 60 * 1000);
+})();
