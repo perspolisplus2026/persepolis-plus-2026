@@ -3888,20 +3888,58 @@ textarea::placeholder {
 
   function renderNews(query) {
     var container = $("#ppx-news-list");
-    container.textContent = "";
-    var cards = getExistingCards(newsSelectors, [overlay]);
+    if (!container) return;
+
+    container.textContent = "در حال دریافت اخبار...";
     query = (query || "").trim().toLocaleLowerCase();
-    cards = cards.filter(function (el) {
-      return !query || cleanText(el).toLocaleLowerCase().indexOf(query) !== -1;
-    });
-    if (!cards.length) {
-      emptyMessage(container,
-        "کارت خبری قابل شناسایی پیدا نشد. این بخش محتوای خبری موجود در صفحه را جست‌وجو می‌کند و خبر تازه‌ای از اینترنت دریافت نمی‌کند.");
-      return;
-    }
-    cards.slice(0, 60).forEach(function (el, i) {
-      addItem(container, el, "news", i);
-    });
+
+    fetch("./news.json?v=" + Date.now(), { cache: "no-store" })
+      .then(function (response) {
+        if (!response.ok) throw new Error("news.json در دسترس نیست");
+        return response.json();
+      })
+      .then(function (data) {
+        var items = (data.news || []).filter(function (item) {
+          return !query ||
+            ((item.title || "") + " " + (item.source || ""))
+              .toLocaleLowerCase().indexOf(query) !== -1;
+        });
+
+        container.replaceChildren();
+
+        if (!items.length) {
+          emptyMessage(container, "خبری پیدا نشد یا فایل اخبار خالی است.");
+          return;
+        }
+
+        items.slice(0, 40).forEach(function (item) {
+          var card = document.createElement("article");
+          card.className = "ppx-pro-card";
+          card.style.cssText =
+            "padding:14px;margin:10px 0;border-radius:12px;" +
+            "border:1px solid rgba(200,20,45,.3)";
+
+          var link = document.createElement("a");
+          link.textContent = item.title || "خبر پرسپولیس";
+          link.href = item.url || "#";
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.style.cssText =
+            "display:block;font-weight:bold;text-decoration:none;color:inherit";
+
+          var source = document.createElement("small");
+          source.textContent = "منبع: " + (item.source || "خبر ورزشی");
+          source.style.cssText = "display:block;margin-top:8px;opacity:.75";
+
+          card.append(link, source);
+          container.appendChild(card);
+        });
+      })
+      .catch(function (error) {
+        container.textContent =
+          "دریافت اخبار ناموفق بود؛ اتصال فایل news.json را بررسی کنید.";
+        console.error("Persepolis news:", error);
+      });
   }
 
   function renderLeague() {
