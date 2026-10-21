@@ -1738,6 +1738,7 @@ border-color:#e0b85c!important;box-shadow:0 0 12px #e0003040!important;
 <div class="filters">
 <button class="filter active" data-filter="all">همه</button><button class="filter" data-filter="team">تیم</button><button class="filter" data-filter="match">مسابقات</button><button class="filter" data-filter="market">نقل‌وانتقالات</button>
 </div>
+<div class="news-list" id="ppx-home-news"></div>
 
 <section class="section" id="pp-stadium-players">
 <style>
@@ -4730,6 +4731,7 @@ transition:opacity .45s ease,visibility .45s ease;
 /* PPX_NEWS_FINAL_FIX_2026 */
 (async function () {
   const targets = [
+    document.querySelector("#ppx-home-news"),
     document.querySelector("#news .news-list"),
     document.querySelector("#ppx-news-list")
   ].filter(Boolean);
