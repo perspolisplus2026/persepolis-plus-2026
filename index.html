@@ -1608,6 +1608,98 @@ border-color:#e0b85c!important;box-shadow:0 0 12px #e0003040!important;
 #pp-pro-five-menu .pp-pro-icon{width:26px!important;height:26px!important;font-size:18px!important}
 }
 </style>
+
+<style id="ppx-organized-premium-2026">
+#ppx-home-news, #ppx-news-list, #news .news-list {
+  direction: rtl !important;
+  text-align: right !important;
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  gap: 12px !important;
+  font-family: Tahoma, Arial, sans-serif !important;
+}
+#ppx-home-news .ppx-pro-card,
+#ppx-news-list .ppx-pro-card,
+#news .news-list .ppx-pro-card {
+  display: block !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 16px !important;
+  border-radius: 16px !important;
+  border: 1px solid #713044 !important;
+  background: linear-gradient(145deg,#211019,#111116) !important;
+  color: #fff !important;
+  line-height: 2 !important;
+  box-shadow: 0 6px 18px #0004 !important;
+}
+#ppx-home-news a,
+#ppx-news-list a,
+#news .news-list a {
+  display: block !important;
+  color: #fff !important;
+  font-family: Tahoma, Arial, sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 800 !important;
+  line-height: 2 !important;
+  text-decoration: none !important;
+  opacity: 1 !important;
+}
+#ppx-home-news small,
+#ppx-news-list small,
+#news .news-list small {
+  display: none !important;
+}
+#news .section-head h2,
+#matches .section-head h2,
+#table .section-head h2,
+#ppx-results .pro-heading h2,
+#ppx-table .pro-heading h2 {
+  font-size: 18px !important;
+  font-weight: 900 !important;
+  color: #ffe1a0 !important;
+}
+#ppx-results .pro-card,
+#ppx-table .pro-table-wrap {
+  border: 1px solid #713044 !important;
+  border-radius: 16px !important;
+  background: linear-gradient(145deg,#211019,#111116) !important;
+  color: #fff !important;
+}
+#ppx-results .muted,
+#ppx-table .muted,
+#ppx-table .pro-status,
+#ppx-results .pro-status {
+  color: #d2c5ca !important;
+  line-height: 1.9 !important;
+}
+#ppx-table table {
+  width: 100% !important;
+  color: #fff !important;
+  border-collapse: collapse !important;
+}
+#ppx-table th {
+  color: #ffe1a0 !important;
+  background: #32131e !important;
+  padding: 11px 5px !important;
+}
+#ppx-table td {
+  padding: 12px 5px !important;
+  border-bottom: 1px solid #ffffff12 !important;
+  text-align: center !important;
+}
+#ppx-last-result, #ppx-next-match {
+  font-size: 15px !important;
+  font-weight: 800 !important;
+  line-height: 2 !important;
+  color: #fff !important;
+  overflow-wrap: anywhere !important;
+}
+#ppx-home-news a:active,
+#ppx-news-list a:active {
+  color: #ffd58a !important;
+}
+</style>
+
 </head>
 <body>
 <nav id="pp-pro-five-menu" aria-label="منوی اصلی پرسپولیس پلاس">
@@ -1713,7 +1805,7 @@ border-color:#e0b85c!important;box-shadow:0 0 12px #e0003040!important;
 
 <main>
 <section class="section" id="matches">
-<div class="section-head"><h2>⚽ بازی‌ها</h2><small>مرور مسابقات</small></div>
+<div class="section-head"><h2>⚽ مسابقات پرسپولیس</h2><small>نتایج قبلی و بازی آینده</small></div>
 <div class="panel match-feature">
 <div class="match-label"><span>مسابقه منتخب</span><span class="tag">اطلاعات نمایشی</span></div>
 <div class="teams">
@@ -1800,7 +1892,7 @@ border:1px solid #d5ad58;box-shadow:0 8px 25px #85001855}
 </div>
 </section>
 <section class="section" id="table">
-<div class="section-head"><h2>جدول لیگ</h2><small>نمونه چیدمان</small></div>
+<div class="section-head"><h2>📊 جدول لیگ برتر ایران</h2><small>جدول رده‌بندی</small></div>
 <div class="panel">
 <div class="table-row head"><span>رتبه</span><span>تیم</span><span class="points">بازی</span><span class="points">امتیاز</span></div>
 <div class="table-row"><span class="rank our-rank">—</span><span class="club">🔴 پرسپولیس</span><span class="points">—</span><span class="points">—</span></div>
@@ -4573,7 +4665,7 @@ button:active,[role="button"]:active {filter:brightness(1.2)}
 
   <section id="ppx-results" class="pro-section">
     <div class="pro-heading">
-      <h2>🏆 مرکز مسابقات و نتایج</h2>
+      <h2>🏆 نتایج قبلی و بازی‌های آینده پرسپولیس</h2>
       <div class="muted">بازی‌های اخیر و برنامهٔ مسابقات آینده</div>
     </div>
     <div class="pro-grid">
@@ -4594,7 +4686,7 @@ button:active,[role="button"]:active {filter:brightness(1.2)}
 
   <section id="ppx-table" class="pro-section">
     <div class="pro-heading">
-      <h2>📊 جدول لیگ</h2>
+      <h2>📊 جدول لیگ برتر ایران</h2>
       <div class="muted">جدول نمونه؛ آمار واقعی تا زمان اتصال منبع داده نمایش داده نمی‌شود.</div>
     </div>
     <div class="pro-table-wrap">
@@ -4782,6 +4874,54 @@ transition:opacity .45s ease,visibility .45s ease;
       el.textContent = "دریافت اخبار ناموفق بود؛ صفحه را دوباره باز کنید.";
     });
     console.error("PPX news fix:", error);
+  }
+})();
+</script>
+
+
+<script id="PPX_ORGANIZED_MATCH_NEWS_2026">
+(async function () {
+  try {
+    const response = await fetch("./news.json?organized=" + Date.now(),
+      {cache: "no-store"});
+    if (!response.ok) return;
+    const data = await response.json();
+    const news = (data.news || []).filter(x => x && x.title && x.url);
+
+    const result = news.find(x =>
+      /\d+\s*[-–:]\s*\d+/.test(x.title) &&
+      /پرسپولیس/i.test(x.title)
+    );
+    const schedule = news.find(x =>
+      /برنامه بازی|بازی‌های آینده|بازی های آینده|زمان بازی/.test(x.title)
+    );
+
+    const last = document.getElementById("ppx-last-result");
+    const next = document.getElementById("ppx-next-match");
+
+    function showLink(target, item, fallback) {
+      if (!target) return;
+      target.replaceChildren();
+      if (!item) {
+        target.textContent = fallback;
+        return;
+      }
+      const a = document.createElement("a");
+      a.href = item.url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = item.title;
+      a.style.cssText =
+        "color:#fff;text-decoration:none;font-weight:800;line-height:2";
+      target.appendChild(a);
+    }
+
+    showLink(last, result,
+      "هنوز نتیجه قطعی بازی از خبرهای دریافت‌شده پیدا نشد.");
+    showLink(next, schedule,
+      "برنامه بازی آینده در خبرهای فعلی پیدا نشد.");
+  } catch (e) {
+    console.warn("PPX match news:", e);
   }
 })();
 </script>
