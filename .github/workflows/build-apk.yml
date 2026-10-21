@@ -195,7 +195,7 @@ jobs:
           mkdir -p app/src/main/res/mipmap-xhdpi
           mkdir -p app/src/main/res/mipmap-xxhdpi
           mkdir -p app/src/main/res/mipmap-xxxhdpi
-          cairosvg persepolis-logo.svg -o /tmp/persepolis-logo.png -s 2
+      cp file_000000004f2881f99e740fc3861644b8.png /tmp/persepolis-logo.png
           python -c "from PIL import Image; from pathlib import Path; im=Image.open('/tmp/persepolis-logo.png').convert('RGBA'); sizes={'mdpi':48,'hdpi':72,'xhdpi':96,'xxhdpi':144,'xxxhdpi':192}; [(im.resize((n,n),Image.Resampling.LANCZOS).save(Path('app/src/main/res')/('mipmap-'+d)/'ic_launcher.png')) for d,n in sizes.items()]"
 
       - name: Setup Gradle
