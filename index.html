@@ -4725,6 +4725,65 @@ transition:opacity .45s ease,visibility .45s ease;
 </script>
 
 <script src="news.js?v=2"></script>
+
+<script>
+/* PPX_NEWS_FINAL_FIX_2026 */
+(async function () {
+  const targets = [
+    document.querySelector("#news .news-list"),
+    document.querySelector("#ppx-news-list")
+  ].filter(Boolean);
+
+  if (!targets.length) return;
+
+  try {
+    const response = await fetch("./news.json?fix=" + Date.now(),
+                                 {cache: "no-store"});
+    if (!response.ok) throw new Error("HTTP " + response.status);
+
+    const data = await response.json();
+    const items = (data.news || []).filter(x => x && x.title);
+
+    targets.forEach(container => {
+      container.replaceChildren();
+
+      if (!items.length) {
+        container.textContent = "هنوز خبری دریافت نشده است.";
+        return;
+      }
+
+      items.slice(0, 40).forEach(item => {
+        const card = document.createElement("article");
+        card.className = "ppx-pro-card";
+        card.style.cssText =
+          "padding:14px;margin:10px 0;border-radius:12px;" +
+          "border:1px solid rgba(200,20,45,.3)";
+
+        const link = document.createElement("a");
+        link.textContent = item.title;
+        link.href = item.url || "#";
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.style.cssText =
+          "display:block;font-weight:bold;text-decoration:none;color:inherit";
+
+        const source = document.createElement("small");
+        source.textContent = "منبع: " + (item.source || "پرسپولیس");
+        source.style.cssText = "display:block;margin-top:8px;opacity:.75";
+
+        card.append(link, source);
+        container.appendChild(card);
+      });
+    });
+  } catch (error) {
+    targets.forEach(el => {
+      el.textContent = "دریافت اخبار ناموفق بود؛ صفحه را دوباره باز کنید.";
+    });
+    console.error("PPX news fix:", error);
+  }
+})();
+</script>
+
 </body>
 </html>
 /* ROYAL LAVENDER UPGRADE */
