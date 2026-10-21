@@ -6,12 +6,10 @@ from bs4 import BeautifulSoup
 SOURCES = [
     ("پرسپولیس نیوز", "https://perspolisnews.ir"),
     ("ارتش سرخ", "https://arteshesorkh.com"),
-    ("طرفداری", "https://www.tarafdari.com"),
-    ("قطره", "https://www.ghatreh.com"),
     ("باشگاه پرسپولیس", "https://fc-perspolis.com"),
 ]
 
-PERSPOLIS = re.compile(r"پرسپولیس|پرسپوليسي|پیروزی|ارتش سرخ|سرخپوشان|سرخ پوشان|قرمزپوشان|قرمز پوشان", re.I)
+PERSPOLIS = re.compile(r"پرسپولیس|پرسپوليسي|ارتش سرخ|سرخپوشان|سرخ پوشان|قرمزپوشان|قرمز پوشان", re.I)
 SPORT = re.compile(
     r"پرسپولیس|پرسپوليسي|ارتش سرخ|فوتبال|لیگ|بازیکن|مربی|دروازه.?بان|"
     r"استقلال|تراکتور|سپاهان|ملوان|تیم ملی|جام حذفی|قهرمانی|"
