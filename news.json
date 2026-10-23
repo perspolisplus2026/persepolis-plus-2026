@@ -1,7 +1,9 @@
 {
-  "updated_at": "2026-10-23T03:15:12.460901+00:00",
+  "updated_at": "2026-10-23T03:53:07.408045+00:00",
   "sources": 3,
-  "failed_sources": [],
+  "failed_sources": [
+    "ارتش سرخ"
+  ],
   "news": [
     {
       "title": "گزارش تصویری: تمرین پرسپولیس پس از یک روز استراحت",
@@ -77,76 +79,6 @@
       "title": "پسری که جوان‌ترین بازیکن تاریخ پرسپولیس شد",
       "url": "https://perspolisnews.ir/%d9%be%d8%b3%d8%b1%db%8c-%da%a9%d9%87-%d8%ac%d9%88%d8%a7%d9%86%d8%aa%d8%b1%db%8c%d9%86-%d8%a8%d8%a7%d8%b2%db%8c%da%a9%d9%86-%d8%aa%d8%a7%d8%b1%db%8c%d8%ae-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84/",
       "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "حلقه گمشده پرسپولیس پیدا شد؛ جانشین ترابی اینجاست",
-      "url": "https://arteshesorkh.com/post/%D8%AD%D9%84%D9%82%D9%87-%DA%AF%D9%85%D8%B4%D8%AF%D9%87-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D9%BE%DB%8C%D8%AF%D8%A7-%D8%B4%D8%AF%D8%9B-%D8%AC%D8%A7%D9%86%D8%B4%DB%8C%D9%86-%D8%AA%D8%B1%D8%A7%D8%A8%DB%8C-%D8%A7%DB%8C%D9%86%D8%AC%D8%A7%D8%B3%D8%AA",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "نمایش بی نقص خرید تابستانی پرسپولیس",
-      "url": "https://arteshesorkh.com/post/%D9%86%D9%85%D8%A7%DB%8C%D8%B4-%D8%A8%DB%8C-%D9%86%D9%82%D8%B5-%D8%AE%D8%B1%DB%8C%D8%AF-%D8%AA%D8%A7%D8%A8%D8%B3%D8%AA%D8%A7%D9%86%DB%8C-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "پرسپولیس قبل از فیفادی 29 امتیازی می‌شود؟",
-      "url": "https://arteshesorkh.com/post/%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D9%82%D8%A8%D9%84-%D8%A7%D8%B2-%D9%81%DB%8C%D9%81%D8%A7%D8%AF%DB%8C-29-%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%DB%8C-%D9%85%DB%8C-%D8%B4%D9%88%D8%AF%D8%9F",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "بازگشت کنعانی‌زادگان به لیست پرسپولیس",
-      "url": "https://arteshesorkh.com/post/%D8%A8%D8%A7%D8%B2%DA%AF%D8%B4%D8%AA-%DA%A9%D9%86%D8%B9%D8%A7%D9%86%DB%8C-%D8%B2%D8%A7%D8%AF%DA%AF%D8%A7%D9%86-%D8%A8%D9%87-%D9%84%DB%8C%D8%B3%D8%AA-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "طاهرزاده: پرسپولیس مرگبارترین تیم لیگ برتر است",
-      "url": "https://arteshesorkh.com/post/%D8%B7%D8%A7%D9%87%D8%B1%D8%B2%D8%A7%D8%AF%D9%87--%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D9%85%D8%B1%DA%AF%D8%A8%D8%A7%D8%B1%D8%AA%D8%B1%DB%8C%D9%86-%D8%AA%DB%8C%D9%85-%D9%84%DB%8C%DA%AF-%D8%A8%D8%B1%D8%AA%D8%B1-%D8%A7%D8%B3%D8%AA",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "درخشان: پرسپولیس چیزی کم ندارد",
-      "url": "https://arteshesorkh.com/post/%D8%AF%D8%B1%D8%AE%D8%B4%D8%A7%D9%86--%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%DA%86%DB%8C%D8%B2%DB%8C-%DA%A9%D9%85-%D9%86%D8%AF%D8%A7%D8%B1%D8%AF",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "کرمانی‌مقدم: پرسپولیس برای قهرمانی باید پیروز بازی‌های بزرگ باشد",
-      "url": "https://arteshesorkh.com/post/%DA%A9%D8%B1%D9%85%D8%A7%D9%86%DB%8C-%D9%85%D9%82%D8%AF%D9%85--%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%A8%D8%B1%D8%A7%DB%8C-%D9%82%D9%87%D8%B1%D9%85%D8%A7%D9%86%DB%8C-%D8%A8%D8%A7%DB%8C%D8%AF-%D9%BE%DB%8C%D8%B1%D9%88%D8%B2-%D8%A8%D8%A7%D8%B2%DB%8C-%D9%87%D8%A7%DB%8C-%D8%A8%D8%B2%D8%B1%DA%AF-%D8%A8%D8%A7%D8%B4%D8%AF",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "درخشان: پرسپولیس باید فاصله خطوطش را کم کند",
-      "url": "https://arteshesorkh.com/post/%D8%AF%D8%B1%D8%AE%D8%B4%D8%A7%D9%86--%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%A8%D8%A7%DB%8C%D8%AF-%D9%81%D8%A7%D8%B5%D9%84%D9%87-%D8%AE%D8%B7%D9%88%D8%B7%D8%B4-%D8%B1%D8%A7-%DA%A9%D9%85-%DA%A9%D9%86%D8%AF",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "فشنگچی: پرسپولیس شانس اول قهرمانی است",
-      "url": "https://arteshesorkh.com/post/%D9%81%D8%B4%D9%86%DA%AF%DA%86%DB%8C--%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%B4%D8%A7%D9%86%D8%B3-%D8%A7%D9%88%D9%84-%D9%82%D9%87%D8%B1%D9%85%D8%A7%D9%86%DB%8C-%D8%A7%D8%B3%D8%AA",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "ربیع‌خواه: پرسپولیس می‌توانست از رقبا فاصله بگیرد",
-      "url": "https://arteshesorkh.com/post/%D8%B1%D8%A8%DB%8C%D8%B9-%D8%AE%D9%88%D8%A7%D9%87--%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D9%85%DB%8C-%D8%AA%D9%88%D8%A7%D9%86%D8%B3%D8%AA-%D8%A7%D8%B2-%D8%B1%D9%82%D8%A8%D8%A7-%D9%81%D8%A7%D8%B5%D9%84%D9%87-%D8%A8%DA%AF%DB%8C%D8%B1%D8%AF",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "استیلی: پرسپولیس با مهره‌هایی که دارد، محکوم به برد است",
-      "url": "https://arteshesorkh.com/post/%D8%A7%D8%B3%D8%AA%DB%8C%D9%84%DB%8C--%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%A8%D8%A7-%D9%85%D9%87%D8%B1%D9%87-%D9%87%D8%A7%DB%8C%DB%8C-%DA%A9%D9%87-%D8%AF%D8%A7%D8%B1%D8%AF%D8%8C-%D9%85%D8%AD%DA%A9%D9%88%D9%85-%D8%A8%D9%87-%D8%A8%D8%B1%D8%AF-%D8%A7%D8%B3%D8%AA",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "هفته نهم: مس شهربابک - پرسپولیس",
-      "url": "https://arteshesorkh.com/post/%D9%87%D9%81%D8%AA%D9%87-%D9%86%D9%87%D9%85--%D9%85%D8%B3-%D8%B4%D9%87%D8%B1%D8%A8%D8%A7%D8%A8%DA%A9---%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "هفته هفتم: خیبر - پرسپولیس",
-      "url": "https://arteshesorkh.com/post/%D9%87%D9%81%D8%AA%D9%87-%D9%87%D9%81%D8%AA%D9%85--%D8%AE%DB%8C%D8%A8%D8%B1---%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "هفته هشتم: پرسپولیس - صنعت‌نفت",
-      "url": "https://arteshesorkh.com/post/%D9%87%D9%81%D8%AA%D9%87-%D9%87%D8%B4%D8%AA%D9%85--%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3---%D8%B5%D9%86%D8%B9%D8%AA-%D9%86%D9%81%D8%AA",
-      "source": "ارتش سرخ"
     },
     {
       "title": "برد خارج از خانه نونهالان پرسپولیس مقابل آرازآتی",
