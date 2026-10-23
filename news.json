@@ -1,8 +1,13 @@
 {
-  "updated_at": "2026-10-23T08:18:33.809116+00:00",
+  "updated_at": "2026-10-23T09:03:45.480660+00:00",
   "sources": 3,
   "failed_sources": [],
   "news": [
+    {
+      "title": "نقش اورنوف در برد پرسپولیس سوژه شد",
+      "url": "https://perspolisnews.ir/%d9%86%d9%82%d8%b4-%d8%a7%d9%88%d8%b1%d9%86%d9%88%d9%81-%d8%af%d8%b1-%d8%a8%d8%b1%d8%af-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%b3%d9%88%da%98%d9%87-%d8%b4%d8%af/",
+      "source": "پرسپولیس نیوز"
+    },
     {
       "title": "گزارش تصویری: تمرین پرسپولیس پس از یک روز استراحت",
       "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%be%d8%b3-%d8%a7%d8%b2-%db%8c%da%a9-%d8%b1-2/",
@@ -21,11 +26,6 @@
     {
       "title": "خبری از تغییر در پرسپولیس نیست",
       "url": "https://perspolisnews.ir/%d8%ae%d8%a8%d8%b1%db%8c-%d8%a7%d8%b2-%d8%aa%d8%ba%db%8c%db%8c%d8%b1-%d8%af%d8%b1-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%86%db%8c%d8%b3%d8%aa/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "داور بازی پرسپولیس – فولاد مشخص شد",
-      "url": "https://perspolisnews.ir/%d8%af%d8%a7%d9%88%d8%b1-%d8%a8%d8%a7%d8%b2%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%81%d9%88%d9%84%d8%a7%d8%af-%d9%85%d8%b4%d8%ae%d8%b5-%d8%b4%d8%af/",
       "source": "پرسپولیس نیوز"
     },
     {
@@ -64,6 +64,11 @@
       "source": "پرسپولیس نیوز"
     },
     {
+      "title": "داور بازی پرسپولیس – فولاد مشخص شد",
+      "url": "https://perspolisnews.ir/%d8%af%d8%a7%d9%88%d8%b1-%d8%a8%d8%a7%d8%b2%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%81%d9%88%d9%84%d8%a7%d8%af-%d9%85%d8%b4%d8%ae%d8%b5-%d8%b4%d8%af/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
       "title": "خلعتبری: پرسپولیس کار را برای دیگر تیم‌ها سخت می‌کند/ برای قهرمانی نباید به نام رقیب توجه کنی",
       "url": "https://perspolisnews.ir/%d8%ae%d9%84%d8%b9%d8%aa%d8%a8%d8%b1%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%da%a9%d8%a7%d8%b1-%d8%b1%d8%a7-%d8%a8%d8%b1%d8%a7%db%8c-%d8%af%db%8c%da%af%d8%b1-%d8%aa%db%8c%d9%85/",
       "source": "پرسپولیس نیوز"
@@ -71,11 +76,6 @@
     {
       "title": "اورونوف در آستانه شکستن رکورد تاریخی پرسپولیس",
       "url": "https://perspolisnews.ir/%d8%a7%d9%88%d8%b1%d9%88%d9%86%d9%88%d9%81-%d8%af%d8%b1-%d8%a2%d8%b3%d8%aa%d8%a7%d9%86%d9%87-%d8%b4%da%a9%d8%b3%d8%aa%d9%86-%d8%b1%da%a9%d9%88%d8%b1%d8%af-%d8%aa%d8%a7%d8%b1%db%8c%d8%ae%db%8c-%d9%be/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "پسری که جوان‌ترین بازیکن تاریخ پرسپولیس شد",
-      "url": "https://perspolisnews.ir/%d9%be%d8%b3%d8%b1%db%8c-%da%a9%d9%87-%d8%ac%d9%88%d8%a7%d9%86%d8%aa%d8%b1%db%8c%d9%86-%d8%a8%d8%a7%d8%b2%db%8c%da%a9%d9%86-%d8%aa%d8%a7%d8%b1%db%8c%d8%ae-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84/",
       "source": "پرسپولیس نیوز"
     },
     {
