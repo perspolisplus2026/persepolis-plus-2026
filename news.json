@@ -1,8 +1,23 @@
 {
-  "updated_at": "2026-10-24T16:19:35.874450+00:00",
+  "updated_at": "2026-10-24T16:56:19.201481+00:00",
   "sources": 3,
   "failed_sources": [],
   "news": [
+    {
+      "title": "گزارش تصویری: آخرین تمرین پرسپولیس پیش از بازی با فولاد",
+      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%a2%d8%ae%d8%b1%db%8c%d9%86-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%be%db%8c%d8%b4-87/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "شوک به پرسپولیس/ اورونوف بازی فولاد را از دست داد",
+      "url": "https://perspolisnews.ir/%d8%b4%d9%88%da%a9-%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a7%d9%88%d8%b1%d9%88%d9%86%d9%88%d9%81-%d8%a8%d8%a7%d8%b2%db%8c-%d9%81%d9%88%d9%84%d8%a7%d8%af-%d8%b1%d8%a7-%d8%a7/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "نامه پرسپولیس به تاج بابت انتخاب گل‌محمدی",
+      "url": "https://perspolisnews.ir/%d9%86%d8%a7%d9%85%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d9%87-%d8%aa%d8%a7%d8%ac-%d8%a8%d8%a7%d8%a8%d8%aa-%d8%a7%d9%86%d8%aa%d8%ae%d8%a7%d8%a8-%da%af%d9%84%d9%85/",
+      "source": "پرسپولیس نیوز"
+    },
     {
       "title": "بزیک: خوشحالم که پرسپولیس تهاجمی بازی می‌کند/ سرمربی پرسپولیس تفکر دفاعی ندارد",
       "url": "https://perspolisnews.ir/%d8%a8%d8%b2%db%8c%da%a9-%d8%ae%d9%88%d8%b4%d8%ad%d8%a7%d9%84%d9%85-%da%a9%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%aa%d9%87%d8%a7%d8%ac%d9%85%db%8c-%d8%a8%d8%a7%d8%b2%db%8c-%d9%85/",
@@ -16,16 +31,6 @@
     {
       "title": "جباری: هواداران پرسپولیس فقط برد میخواهند / فقط در بازی تراکتور اشتباه کردیم",
       "url": "https://perspolisnews.ir/%d8%ac%d8%a8%d8%a7%d8%b1%db%8c-%d9%87%d9%88%d8%a7%d8%af%d8%a7%d8%b1%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%81%d9%82%d8%b7-%d8%a8%d8%b1%d8%af-%d9%85%db%8c%d8%ae%d9%88%d8%a7/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "گزارش تصویری: تمرین جمعه پرسپولیس",
-      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d8%ac%d9%85%d8%b9%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-3/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "کاهش قیمت بلیت دیدار پرسپولیس و فولاد",
-      "url": "https://perspolisnews.ir/%da%a9%d8%a7%d9%87%d8%b4-%d9%82%db%8c%d9%85%d8%aa-%d8%a8%d9%84%db%8c%d8%aa-%d8%af%db%8c%d8%af%d8%a7%d8%b1-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%88-%d9%81%d9%88%d9%84%d8%a7%d8%af/",
       "source": "پرسپولیس نیوز"
     },
     {
@@ -59,18 +64,13 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "جدول هفته نهم لیگ برتر| صدرنشینی با پیروزی پرسپولیس +عکس",
-      "url": "https://perspolisnews.ir/%d8%ac%d8%af%d9%88%d9%84-%d9%87%d9%81%d8%aa%d9%87-%d9%86%d9%87%d9%85-%d9%84%db%8c%da%af-%d8%a8%d8%b1%d8%aa%d8%b1-%d8%b5%d8%af%d8%b1%d9%86%d8%b4%db%8c%d9%86%db%8c-%d8%a8%d8%a7-%d9%be%db%8c%d8%b1%d9%88/",
+      "title": "گزارش تصویری: تمرین جمعه پرسپولیس",
+      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d8%ac%d9%85%d8%b9%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-3/",
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "نقش اورنوف در برد پرسپولیس سوژه شد",
-      "url": "https://perspolisnews.ir/%d9%86%d9%82%d8%b4-%d8%a7%d9%88%d8%b1%d9%86%d9%88%d9%81-%d8%af%d8%b1-%d8%a8%d8%b1%d8%af-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%b3%d9%88%da%98%d9%87-%d8%b4%d8%af/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "مجمع سالیانه پرسپولیس به تعویق افتاد",
-      "url": "https://perspolisnews.ir/%d9%85%d8%ac%d9%85%d8%b9-%d8%b3%d8%a7%d9%84%db%8c%d8%a7%d9%86%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d9%87-%d8%aa%d8%b9%d9%88%db%8c%d9%82-%d8%a7%d9%81%d8%aa%d8%a7%d8%af/",
+      "title": "کاهش قیمت بلیت دیدار پرسپولیس و فولاد",
+      "url": "https://perspolisnews.ir/%da%a9%d8%a7%d9%87%d8%b4-%d9%82%db%8c%d9%85%d8%aa-%d8%a8%d9%84%db%8c%d8%aa-%d8%af%db%8c%d8%af%d8%a7%d8%b1-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%88-%d9%81%d9%88%d9%84%d8%a7%d8%af/",
       "source": "پرسپولیس نیوز"
     },
     {
