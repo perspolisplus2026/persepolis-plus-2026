@@ -1,8 +1,13 @@
 {
-  "updated_at": "2026-10-26T07:24:45.816689+00:00",
+  "updated_at": "2026-10-26T08:16:29.124763+00:00",
   "sources": 3,
   "failed_sources": [],
   "news": [
+    {
+      "title": "اعلام زمان برگزاری مجمع باشگاه پرسپولیس",
+      "url": "https://perspolisnews.ir/%d8%a7%d8%b9%d9%84%d8%a7%d9%85-%d8%b2%d9%85%d8%a7%d9%86-%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%db%8c-%d9%85%d8%ac%d9%85%d8%b9-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84/",
+      "source": "پرسپولیس نیوز"
+    },
     {
       "title": "کرمانی مقدم: تعویض بیفوما درست نبود / قدرت هجومی پرسپولیس کم شد",
       "url": "https://perspolisnews.ir/%da%a9%d8%b1%d9%85%d8%a7%d9%86%db%8c-%d9%85%d9%82%d8%af%d9%85-%d8%aa%d8%b9%d9%88%db%8c%d8%b6-%d8%a8%db%8c%d9%81%d9%88%d9%85%d8%a7-%d8%af%d8%b1%d8%b3%d8%aa-%d9%86%d8%a8%d9%88%d8%af-%d9%82%d8%af/",
@@ -29,11 +34,6 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "پرسپولیس ۰-۱ فولاد / دومین شکست بدموقع فصل",
-      "url": "https://perspolisnews.ir/%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-0-1-%d9%81%d9%88%d9%84%d8%a7%d8%af-%d8%af%d9%88%d9%85%db%8c%d9%86-%d8%b4%da%a9%d8%b3%d8%aa-%d8%a8%d8%af%d9%85%d9%88%d9%82%d8%b9-%d9%81%d8%b5%d9%84/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
       "title": "تاریخچه پرسپولیس",
       "url": "https://perspolisnews.ir/%da%a9%d8%a7%d9%85%d9%84-%d8%aa%d8%b1%db%8c%d9%86-%d8%aa%d8%a7%d8%b1%db%8c%d8%ae%da%86%d9%87-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3/",
       "source": "پرسپولیس نیوز"
@@ -41,6 +41,11 @@
     {
       "title": "برنامه بازی‌های پرسپولیس",
       "url": "https://perspolisnews.ir/team/%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "پرسپولیس ۰-۱ فولاد / دومین شکست بدموقع فصل",
+      "url": "https://perspolisnews.ir/%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-0-1-%d9%81%d9%88%d9%84%d8%a7%d8%af-%d8%af%d9%88%d9%85%db%8c%d9%86-%d8%b4%da%a9%d8%b3%d8%aa-%d8%a8%d8%af%d9%85%d9%88%d9%82%d8%b9-%d9%81%d8%b5%d9%84/",
       "source": "پرسپولیس نیوز"
     },
     {
@@ -69,11 +74,6 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "علت برگزار نشدن مجمع پرسپولیس مشخص شد+عکس",
-      "url": "https://perspolisnews.ir/%d8%b9%d9%84%d8%aa-%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1-%d9%86%d8%b4%d8%af%d9%86-%d9%85%d8%ac%d9%85%d8%b9-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%85%d8%b4%d8%ae%d8%b5-%d8%b4%d8%af%d8%b9/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
       "title": "آمار متفاوت تارتار در پرسپولیس؛ پایان فوتبال تدافعی",
       "url": "https://perspolisnews.ir/%d8%a2%d9%85%d8%a7%d8%b1-%d9%85%d8%aa%d9%81%d8%a7%d9%88%d8%aa-%d8%aa%d8%a7%d8%b1%d8%aa%d8%a7%d8%b1-%d8%af%d8%b1-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3%d8%9b-%d9%be%d8%a7%db%8c%d8%a7%d9%86/",
       "source": "پرسپولیس نیوز"
@@ -89,6 +89,21 @@
       "source": "ارتش سرخ"
     },
     {
+      "title": "دو رویِ متفاوت پرسپولیسِ تارتار",
+      "url": "https://arteshesorkh.com/post/%D8%AF%D9%88-%D8%B1%D9%88%DB%8C%D9%90-%D9%85%D8%AA%D9%81%D8%A7%D9%88%D8%AA-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3%D9%90-%D8%AA%D8%A7%D8%B1%D8%AA%D8%A7%D8%B1",
+      "source": "ارتش سرخ"
+    },
+    {
+      "title": "باخت خانگی پرسپولیس مقابل فولاد بعد از 12 سال",
+      "url": "https://arteshesorkh.com/post/%D8%A8%D8%A7%D8%AE%D8%AA-%D8%AE%D8%A7%D9%86%DA%AF%DB%8C-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D9%81%D9%88%D9%84%D8%A7%D8%AF-%D8%A8%D8%B9%D8%AF-%D8%A7%D8%B2-12-%D8%B3%D8%A7%D9%84",
+      "source": "ارتش سرخ"
+    },
+    {
+      "title": "اعلام زمان جدید مجمع باشگاه پرسپولیس",
+      "url": "https://arteshesorkh.com/post/%D8%A7%D8%B9%D9%84%D8%A7%D9%85-%D8%B2%D9%85%D8%A7%D9%86-%D8%AC%D8%AF%DB%8C%D8%AF-%D9%85%D8%AC%D9%85%D8%B9-%D8%A8%D8%A7%D8%B4%DA%AF%D8%A7%D9%87-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3",
+      "source": "ارتش سرخ"
+    },
+    {
       "title": "اعتراض رسمی پرسپولیس به قضاوت تیم داوری!",
       "url": "https://arteshesorkh.com/post/%D8%A7%D8%B9%D8%AA%D8%B1%D8%A7%D8%B6-%D8%B1%D8%B3%D9%85%DB%8C-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%A8%D9%87-%D9%82%D8%B6%D8%A7%D9%88%D8%AA-%D8%AA%DB%8C%D9%85-%D8%AF%D8%A7%D9%88%D8%B1%DB%8C-",
       "source": "ارتش سرخ"
@@ -96,11 +111,6 @@
     {
       "title": "دومین باخت پرسپولیس، باز هم دقایق آخر!",
       "url": "https://arteshesorkh.com/post/%D8%AF%D9%88%D9%85%DB%8C%D9%86-%D8%A8%D8%A7%D8%AE%D8%AA-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3%D8%8C-%D8%A8%D8%A7%D8%B2-%D9%87%D9%85-%D8%AF%D9%82%D8%A7%DB%8C%D9%82-%D8%A2%D8%AE%D8%B1-",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "شکست بدموقع پرسپولیس مقابل فولاد",
-      "url": "https://arteshesorkh.com/post/%D8%B4%DA%A9%D8%B3%D8%AA-%D8%A8%D8%AF%D9%85%D9%88%D9%82%D8%B9-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D9%81%D9%88%D9%84%D8%A7%D8%AF-1",
       "source": "ارتش سرخ"
     },
     {
@@ -129,11 +139,6 @@
       "source": "ارتش سرخ"
     },
     {
-      "title": "درخشان: پرسپولیس باید فاصله خطوطش را کم کند",
-      "url": "https://arteshesorkh.com/post/%D8%AF%D8%B1%D8%AE%D8%B4%D8%A7%D9%86--%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%A8%D8%A7%DB%8C%D8%AF-%D9%81%D8%A7%D8%B5%D9%84%D9%87-%D8%AE%D8%B7%D9%88%D8%B7%D8%B4-%D8%B1%D8%A7-%DA%A9%D9%85-%DA%A9%D9%86%D8%AF",
-      "source": "ارتش سرخ"
-    },
-    {
       "title": "هفته دهم: پرسپولیس - فولاد",
       "url": "https://arteshesorkh.com/post/%D9%87%D9%81%D8%AA%D9%87-%D8%AF%D9%87%D9%85--%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3---%D9%81%D9%88%D9%84%D8%A7%D8%AF",
       "source": "ارتش سرخ"
@@ -149,13 +154,8 @@
       "source": "ارتش سرخ"
     },
     {
-      "title": "هفته هشتم: پرسپولیس - صنعت‌نفت",
-      "url": "https://arteshesorkh.com/post/%D9%87%D9%81%D8%AA%D9%87-%D9%87%D8%B4%D8%AA%D9%85--%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3---%D8%B5%D9%86%D8%B9%D8%AA-%D9%86%D9%81%D8%AA",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "پرسپولیس صفر – فولاد خوزستان 1",
-      "url": "https://fc-perspolis.com/40613-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%b5%d9%81%d8%b1-%d9%81%d9%88%d9%84%d8%a7%d8%af-%d8%ae%d9%88%d8%b2%d8%b3%d8%aa%d8%a7%d9%86-%d8%b5%d9%81%d8%b1-5/",
+      "title": "شنبه ساعت 16:30؛ پرسپولیس میهمان نساجی در قائمشهر",
+      "url": "https://fc-perspolis.com/40674-%d8%b4%d9%86%d8%a8%d9%87-%d8%b3%d8%a7%d8%b9%d8%aa-1630%d8%9b-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%85%db%8c%d9%87%d9%85%d8%a7%d9%86-%d9%86%d8%b3%d8%a7%d8%ac%db%8c-%d8%af%d8%b1-%d9%82/",
       "source": "باشگاه پرسپولیس"
     },
     {
