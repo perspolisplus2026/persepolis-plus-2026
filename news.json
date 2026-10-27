@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T10:21:02.362608+00:00",
+  "updated_at": "2026-10-27T11:06:26.250727+00:00",
   "sources": 3,
   "failed_sources": [],
   "news": [
@@ -26,21 +26,6 @@
     {
       "title": "بهروز سلطانی: همه باید از این تیم حمایت کنیم / داور سر پرسپولیس را برید",
       "url": "https://perspolisnews.ir/%d8%a8%d9%87%d8%b1%d9%88%d8%b2-%d8%b3%d9%84%d8%b7%d8%a7%d9%86%db%8c-%d9%87%d9%85%d9%87-%d8%a8%d8%a7%db%8c%d8%af-%d8%a7%d8%b2-%d8%a7%db%8c%d9%86-%d8%aa%db%8c%d9%85-%d8%ad%d9%85%d8%a7%db%8c%d8%aa/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "وضعیت مبهم سه مصدوم پرسپولیس برای دیدار با نساجی",
-      "url": "https://perspolisnews.ir/%d9%88%d8%b6%d8%b9%db%8c%d8%aa-%d9%85%d8%a8%d9%87%d9%85-%d8%b3%d9%87-%d9%85%d8%b5%d8%af%d9%88%d9%85-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%b1%d8%a7%db%8c-%d8%af%db%8c%d8%af%d8%a7/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "تکلیف باکیچ در پرسپولیس مشخص شد",
-      "url": "https://perspolisnews.ir/%d8%aa%da%a9%d9%84%db%8c%d9%81-%d8%a8%d8%a7%da%a9%db%8c%da%86-%d8%af%d8%b1-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%85%d8%b4%d8%ae%d8%b5-%d8%b4%d8%af/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "اعلام زمان برگزاری مجمع باشگاه پرسپولیس",
-      "url": "https://perspolisnews.ir/%d8%a7%d8%b9%d9%84%d8%a7%d9%85-%d8%b2%d9%85%d8%a7%d9%86-%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%db%8c-%d9%85%d8%ac%d9%85%d8%b9-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84/",
       "source": "پرسپولیس نیوز"
     },
     {
@@ -76,6 +61,21 @@
     {
       "title": "شوک به پرسپولیس/ اورونوف بازی فولاد را از دست داد",
       "url": "https://perspolisnews.ir/%d8%b4%d9%88%da%a9-%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a7%d9%88%d8%b1%d9%88%d9%86%d9%88%d9%81-%d8%a8%d8%a7%d8%b2%db%8c-%d9%81%d9%88%d9%84%d8%a7%d8%af-%d8%b1%d8%a7-%d8%a7/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "وضعیت مبهم سه مصدوم پرسپولیس برای دیدار با نساجی",
+      "url": "https://perspolisnews.ir/%d9%88%d8%b6%d8%b9%db%8c%d8%aa-%d9%85%d8%a8%d9%87%d9%85-%d8%b3%d9%87-%d9%85%d8%b5%d8%af%d9%88%d9%85-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%b1%d8%a7%db%8c-%d8%af%db%8c%d8%af%d8%a7/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "تکلیف باکیچ در پرسپولیس مشخص شد",
+      "url": "https://perspolisnews.ir/%d8%aa%da%a9%d9%84%db%8c%d9%81-%d8%a8%d8%a7%da%a9%db%8c%da%86-%d8%af%d8%b1-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%85%d8%b4%d8%ae%d8%b5-%d8%b4%d8%af/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "اعلام زمان برگزاری مجمع باشگاه پرسپولیس",
+      "url": "https://perspolisnews.ir/%d8%a7%d8%b9%d9%84%d8%a7%d9%85-%d8%b2%d9%85%d8%a7%d9%86-%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%db%8c-%d9%85%d8%ac%d9%85%d8%b9-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84/",
       "source": "پرسپولیس نیوز"
     },
     {
