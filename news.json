@@ -1,7 +1,9 @@
 {
-  "updated_at": "2026-10-27T22:01:42.219942+00:00",
+  "updated_at": "2026-10-27T22:44:13.391565+00:00",
   "sources": 3,
-  "failed_sources": [],
+  "failed_sources": [
+    "باشگاه پرسپولیس"
+  ],
   "news": [
     {
       "title": "شوک به پرسپولیس: مینیسک کنعانی پاره شد",
@@ -147,71 +149,6 @@
       "title": "هفته ششم: پرسپولیس_ذوب‌آهن",
       "url": "https://arteshesorkh.com/post/%D9%87%D9%81%D8%AA%D9%87-%D8%B4%D8%B4%D9%85--%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3_%D8%B0%D9%88%D8%A8-%D8%A2%D9%87%D9%86",
       "source": "ارتش سرخ"
-    },
-    {
-      "title": "پرسپولیس شکایت از یاسر آسانی را به CAS می‌برد",
-      "url": "https://fc-perspolis.com/40728-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%b4%da%a9%d8%a7%db%8c%d8%aa-%d8%a7%d8%b2-%db%8c%d8%a7%d8%b3%d8%b1-%d8%a2%d8%b3%d8%a7%d9%86%db%8c-%d8%b1%d8%a7-%d8%a8%d9%87-cas-%d9%85%db%8c/",
-      "source": "باشگاه پرسپولیس"
-    },
-    {
-      "title": "به همین آسانی؛ مدارک جدید پرسپولیس را هم رد کردند",
-      "url": "https://fc-perspolis.com/40726-%d8%a8%d9%87-%d9%87%d9%85%db%8c%d9%86-%d8%a2%d8%b3%d8%a7%d9%86%db%8c%d8%9b-%d9%85%d8%af%d8%a7%d8%b1%da%a9-%d8%ac%d8%af%db%8c%d8%af-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%b1%d8%a7-%d9%87/",
-      "source": "باشگاه پرسپولیس"
-    },
-    {
-      "title": "برنامه هفته هفتم تیم‌های پایه پرسپولیس",
-      "url": "https://fc-perspolis.com/40717-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87-%d9%87%d9%81%d8%aa%d9%87-%d9%87%d9%81%d8%aa%d9%85-%d8%aa%db%8c%d9%85%d9%87%d8%a7%db%8c-%d9%be%d8%a7%db%8c%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c/",
-      "source": "باشگاه پرسپولیس"
-    },
-    {
-      "title": "پرسپولیس – دانشگاه آزاد کرج (تدارکاتی) دوشنبه ۴ آبان ۱۴۰۵ 4 آبان 1405",
-      "url": "https://fc-perspolis.com/album/%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%af%d8%a7%d9%86%d8%b4%da%af%d8%a7%d9%87-%d8%a2%d8%b2%d8%a7%d8%af-%da%a9%d8%b1%d8%ac-%d8%aa%d8%af%d8%a7%d8%b1%da%a9%d8%a7%d8%aa%db%8c-%d8%af/",
-      "source": "باشگاه پرسپولیس"
-    },
-    {
-      "title": "پرسپولیس – فولاد خوزستان – یکشنبه 3 آبان 1405 3 آبان 1405",
-      "url": "https://fc-perspolis.com/album/%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%81%d9%88%d9%84%d8%a7%d8%af-%d8%ae%d9%88%d8%b2%d8%b3%d8%aa%d8%a7%d9%86-%db%8c%da%a9%d8%b4%d9%86%d8%a8%d9%87-3-%d8%a2%d8%a8%d8%a7%d9%86-1405/",
-      "source": "باشگاه پرسپولیس"
-    },
-    {
-      "title": "لیگ برتر 1405-07-27 - 15:30 پرسپولیس مس شهر بابک - نتیجه نهایی",
-      "url": "https://fc-perspolis.com/event/persepolis-mesebabak/",
-      "source": "باشگاه پرسپولیس"
-    },
-    {
-      "title": "لیگ برتر 1405-07-22 - 17:00 پرسپولیس خیبر خرم‌آباد 0 - 0 نتیجه نهایی",
-      "url": "https://fc-perspolis.com/event/pers-khybar405/",
-      "source": "باشگاه پرسپولیس"
-    },
-    {
-      "title": "پرسپولیس vs صنعت نفت آبادان",
-      "url": "https://fc-perspolis.com/event/pers-nafabadan-3-2/",
-      "source": "باشگاه پرسپولیس"
-    },
-    {
-      "title": "پرسپولیس vs استقلال خوزستان",
-      "url": "https://fc-perspolis.com/event/pers-khozestan405/",
-      "source": "باشگاه پرسپولیس"
-    },
-    {
-      "title": "پرسپولیس vs خیبر خرم اباد",
-      "url": "https://fc-perspolis.com/event/pers-khybar/",
-      "source": "باشگاه پرسپولیس"
-    },
-    {
-      "title": "پرسپولیس vs ذوب آهن",
-      "url": "https://fc-perspolis.com/event/pers-khozestan405-2-2/",
-      "source": "باشگاه پرسپولیس"
-    },
-    {
-      "title": "پرسپولیس vs استقلال",
-      "url": "https://fc-perspolis.com/event/pers-khozestan405-2/",
-      "source": "باشگاه پرسپولیس"
-    },
-    {
-      "title": "پرسپولیس vs چادرملو",
-      "url": "https://fc-perspolis.com/event/%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-vs-%da%86%d8%a7%d8%af%d8%b1%d9%85%d9%84%d9%88-%d8%a7%d8%b1%d8%af%da%a9%d8%a7%d9%86-2/",
-      "source": "باشگاه پرسپولیس"
     }
   ]
 }
