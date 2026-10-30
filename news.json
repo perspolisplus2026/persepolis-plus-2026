@@ -1,8 +1,13 @@
 {
-  "updated_at": "2026-10-30T16:28:52.067691+00:00",
+  "updated_at": "2026-10-30T17:15:27.144254+00:00",
   "sources": 3,
   "failed_sources": [],
   "news": [
+    {
+      "title": "استفاده از VAR در بازی نساجی و پرسپولیس قطعی شد",
+      "url": "https://perspolisnews.ir/%d8%a7%d8%b3%d8%aa%d9%81%d8%a7%d8%af%d9%87-%d8%a7%d8%b2-var-%d8%af%d8%b1-%d8%a8%d8%a7%d8%b2%db%8c-%d9%86%d8%b3%d8%a7%d8%ac%db%8c-%d9%88-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%82%d8%b7/",
+      "source": "پرسپولیس نیوز"
+    },
     {
       "title": "گزارش تصویری: تمرین پرسپولیس در بابل",
       "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%af%d8%b1-%d8%a8%d8%a7%d8%a8%d9%84/",
@@ -39,16 +44,6 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "پرسپولیس بی‌خیال بیرانوند نمی‌شود",
-      "url": "https://perspolisnews.ir/%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%db%8c%d8%ae%db%8c%d8%a7%d9%84-%d8%a8%db%8c%d8%b1%d8%a7%d9%86%d9%88%d9%86%d8%af-%d9%86%d9%85%db%8c%d8%b4%d9%88%d8%af/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "گزارش تصویری: تمرین پنجشنبه پرسپولیس",
-      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d9%86%d8%ac%d8%b4%d9%86%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-9/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
       "title": "تاریخچه پرسپولیس",
       "url": "https://perspolisnews.ir/%da%a9%d8%a7%d9%85%d9%84-%d8%aa%d8%b1%db%8c%d9%86-%d8%aa%d8%a7%d8%b1%db%8c%d8%ae%da%86%d9%87-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3/",
       "source": "پرسپولیس نیوز"
@@ -56,6 +51,11 @@
     {
       "title": "برنامه بازی‌های پرسپولیس",
       "url": "https://perspolisnews.ir/team/%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "گزارش تصویری: تمرین پنجشنبه پرسپولیس",
+      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d9%86%d8%ac%d8%b4%d9%86%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-9/",
       "source": "پرسپولیس نیوز"
     },
     {
