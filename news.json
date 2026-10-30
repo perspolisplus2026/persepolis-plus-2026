@@ -1,8 +1,13 @@
 {
-  "updated_at": "2026-10-30T15:30:21.512648+00:00",
+  "updated_at": "2026-10-30T16:28:52.067691+00:00",
   "sources": 3,
   "failed_sources": [],
   "news": [
+    {
+      "title": "گزارش تصویری: تمرین پرسپولیس در بابل",
+      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%af%d8%b1-%d8%a8%d8%a7%d8%a8%d9%84/",
+      "source": "پرسپولیس نیوز"
+    },
     {
       "title": "مدافع مصدوم پرسپولیس به نساجی نرسید",
       "url": "https://perspolisnews.ir/%d9%85%d8%af%d8%a7%d9%81%d8%b9-%d9%85%d8%b5%d8%af%d9%88%d9%85-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d9%87-%d9%86%d8%b3%d8%a7%d8%ac%db%8c-%d9%86%d8%b1%d8%b3%db%8c%d8%af/",
@@ -41,11 +46,6 @@
     {
       "title": "گزارش تصویری: تمرین پنجشنبه پرسپولیس",
       "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d9%86%d8%ac%d8%b4%d9%86%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-9/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "ویدئو: گلهای پرسپولیس به استقلال در دربی زنان",
-      "url": "https://perspolisnews.ir/%d9%88%db%8c%d8%af%d8%a6%d9%88-%da%af%d9%84%d9%87%d8%a7%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d9%87-%d8%a7%d8%b3%d8%aa%d9%82%d9%84%d8%a7%d9%84-%d8%af%d8%b1-%d8%af%d8%b1%d8%a8/",
       "source": "پرسپولیس نیوز"
     },
     {
@@ -91,21 +91,6 @@
     {
       "title": "اولین حضور بانوان پرسپولیسی در وطنی",
       "url": "https://arteshesorkh.com/post/%D8%A7%D9%88%D9%84%DB%8C%D9%86-%D8%AD%D8%B6%D9%88%D8%B1-%D8%A8%D8%A7%D9%86%D9%88%D8%A7%D9%86-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3%DB%8C-%D8%AF%D8%B1-%D9%88%D8%B7%D9%86%DB%8C",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "بحران مصدومیت در پرسپولیس",
-      "url": "https://arteshesorkh.com/post/%D8%A8%D8%AD%D8%B1%D8%A7%D9%86-%D9%85%D8%B5%D8%AF%D9%88%D9%85%DB%8C%D8%AA-%D8%AF%D8%B1-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "پرسپولیس همچنان پیگیر بیرانوند در CAS",
-      "url": "https://arteshesorkh.com/post/%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D9%87%D9%85%DA%86%D9%86%D8%A7%D9%86-%D9%BE%DB%8C%DA%AF%DB%8C%D8%B1-%D8%A8%DB%8C%D8%B1%D8%A7%D9%86%D9%88%D9%86%D8%AF-%D8%AF%D8%B1-CAS",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "آوار مصدومیت روی سر پرسپولیس",
-      "url": "https://arteshesorkh.com/post/%D8%A2%D9%88%D8%A7%D8%B1-%D9%85%D8%B5%D8%AF%D9%88%D9%85%DB%8C%D8%AA-%D8%B1%D9%88%DB%8C-%D8%B3%D8%B1-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3",
       "source": "ارتش سرخ"
     },
     {
