@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T16:16:48.901054+00:00",
+  "updated_at": "2026-10-31T17:02:59.153280+00:00",
   "sources": 3,
   "failed_sources": [],
   "news": [
@@ -44,16 +44,6 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "آزادی ۲۰۰ زندانی در مازندران با همت پرسپولیس",
-      "url": "https://perspolisnews.ir/%d8%a2%d8%b2%d8%a7%d8%af%db%8c-200-%d8%b2%d9%86%d8%af%d8%a7%d9%86%db%8c-%d8%af%d8%b1-%d9%85%d8%a7%d8%b2%d9%86%d8%af%d8%b1%d8%a7%d9%86-%d8%a8%d8%a7-%d9%87%d9%85%d8%aa-%d9%be%d8%b1%d8%b3%d9%be%d9%88/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "هشدار پیشکسوت پرسپولیس درباره امتیازسوزی مقابل مدعیان",
-      "url": "https://perspolisnews.ir/%d9%87%d8%b4%d8%af%d8%a7%d8%b1-%d9%be%db%8c%d8%b4%da%a9%d8%b3%d9%88%d8%aa-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%af%d8%b1%d8%a8%d8%a7%d8%b1%d9%87-%d8%a7%d9%85%d8%aa%db%8c%d8%a7%d8%b2/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
       "title": "تاریخچه پرسپولیس",
       "url": "https://perspolisnews.ir/%da%a9%d8%a7%d9%85%d9%84-%d8%aa%d8%b1%db%8c%d9%86-%d8%aa%d8%a7%d8%b1%db%8c%d8%ae%da%86%d9%87-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3/",
       "source": "پرسپولیس نیوز"
@@ -74,8 +64,18 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "گزارش تصویری: تمرین پرسپولیس پس از یک روز استراحت",
-      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%be%d8%b3-%d8%a7%d8%b2-%db%8c%da%a9-%d8%b1-3/",
+      "title": "آزادی ۲۰۰ زندانی در مازندران با همت پرسپولیس",
+      "url": "https://perspolisnews.ir/%d8%a2%d8%b2%d8%a7%d8%af%db%8c-200-%d8%b2%d9%86%d8%af%d8%a7%d9%86%db%8c-%d8%af%d8%b1-%d9%85%d8%a7%d8%b2%d9%86%d8%af%d8%b1%d8%a7%d9%86-%d8%a8%d8%a7-%d9%87%d9%85%d8%aa-%d9%be%d8%b1%d8%b3%d9%be%d9%88/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "هشدار پیشکسوت پرسپولیس درباره امتیازسوزی مقابل مدعیان",
+      "url": "https://perspolisnews.ir/%d9%87%d8%b4%d8%af%d8%a7%d8%b1-%d9%be%db%8c%d8%b4%da%a9%d8%b3%d9%88%d8%aa-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%af%d8%b1%d8%a8%d8%a7%d8%b1%d9%87-%d8%a7%d9%85%d8%aa%db%8c%d8%a7%d8%b2/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "استفاده از VAR در بازی نساجی و پرسپولیس قطعی شد",
+      "url": "https://perspolisnews.ir/%d8%a7%d8%b3%d8%aa%d9%81%d8%a7%d8%af%d9%87-%d8%a7%d8%b2-var-%d8%af%d8%b1-%d8%a8%d8%a7%d8%b2%db%8c-%d9%86%d8%b3%d8%a7%d8%ac%db%8c-%d9%88-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%82%d8%b7/",
       "source": "پرسپولیس نیوز"
     },
     {
@@ -89,6 +89,16 @@
       "source": "ارتش سرخ"
     },
     {
+      "title": "مرد ۷ امتیازی پرسپولیس",
+      "url": "https://arteshesorkh.com/post/%D9%85%D8%B1%D8%AF-%DB%B7-%D8%A7%D9%85%D8%AA%DB%8C%D8%A7%D8%B2%DB%8C-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3",
+      "source": "ارتش سرخ"
+    },
+    {
+      "title": "تارتار: باقری شناسنامه پرسپولیس است",
+      "url": "https://arteshesorkh.com/post/%D8%AA%D8%A7%D8%B1%D8%AA%D8%A7%D8%B1--%D8%A8%D8%A7%D9%82%D8%B1%DB%8C-%D8%B4%D9%86%D8%A7%D8%B3%D9%86%D8%A7%D9%85%D9%87-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%A7%D8%B3%D8%AA",
+      "source": "ارتش سرخ"
+    },
+    {
       "title": "پرسپولیس صدر جدول را از سپاهان پس گرفت",
       "url": "https://arteshesorkh.com/post/%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%B5%D8%AF%D8%B1-%D8%AC%D8%AF%D9%88%D9%84-%D8%B1%D8%A7-%D8%A7%D8%B2-%D8%B3%D9%BE%D8%A7%D9%87%D8%A7%D9%86-%D9%BE%D8%B3-%DA%AF%D8%B1%D9%81%D8%AA",
       "source": "ارتش سرخ"
@@ -96,16 +106,6 @@
     {
       "title": "شماره 10 پرسپولیس و باز هم نشانه‌گیری دقیق!",
       "url": "https://arteshesorkh.com/post/%D8%B4%D9%85%D8%A7%D8%B1%D9%87-10-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D9%88-%D8%A8%D8%A7%D8%B2-%D9%87%D9%85-%D9%86%D8%B4%D8%A7%D9%86%D9%87-%DA%AF%DB%8C%D8%B1%DB%8C-%D8%AF%D9%82%DB%8C%D9%82-",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "دیدار پرسپولیس و نساجی با ۱۱ دوربین برگزار می‌شود",
-      "url": "https://arteshesorkh.com/post/%D8%AF%DB%8C%D8%AF%D8%A7%D8%B1-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D9%88-%D9%86%D8%B3%D8%A7%D8%AC%DB%8C-%D8%A8%D8%A7-%DB%B1%DB%B1-%D8%AF%D9%88%D8%B1%D8%A8%DB%8C%D9%86-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D9%85%DB%8C-%D8%B4%D9%88%D8%AF",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "اسلحه پنهان پرسپولیس در وطنی راه می‌افتد؟",
-      "url": "https://arteshesorkh.com/post/%D8%A7%D8%B3%D9%84%D8%AD%D9%87-%D9%BE%D9%86%D9%87%D8%A7%D9%86-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%AF%D8%B1-%D9%88%D8%B7%D9%86%DB%8C-%D8%B1%D8%A7%D9%87-%D9%85%DB%8C-%D8%A7%D9%81%D8%AA%D8%AF%D8%9F",
       "source": "ارتش سرخ"
     },
     {
@@ -121,6 +121,11 @@
     {
       "title": "درخشان: پرسپولیس مقابل فولاد تنبیه شد",
       "url": "https://arteshesorkh.com/post/%D8%AF%D8%B1%D8%AE%D8%B4%D8%A7%D9%86--%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D9%85%D9%82%D8%A7%D8%A8%D9%84-%D9%81%D9%88%D9%84%D8%A7%D8%AF-%D8%AA%D9%86%D8%A8%DB%8C%D9%87-%D8%B4%D8%AF",
+      "source": "ارتش سرخ"
+    },
+    {
+      "title": "هفته یازدهم: نساجی - پرسپولیس",
+      "url": "https://arteshesorkh.com/post/%D9%87%D9%81%D8%AA%D9%87-%DB%8C%D8%A7%D8%B2%D8%AF%D9%87%D9%85--%D9%86%D8%B3%D8%A7%D8%AC%DB%8C---%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3",
       "source": "ارتش سرخ"
     },
     {
@@ -144,11 +149,6 @@
       "source": "ارتش سرخ"
     },
     {
-      "title": "هفته ششم: پرسپولیس_ذوب‌آهن",
-      "url": "https://arteshesorkh.com/post/%D9%87%D9%81%D8%AA%D9%87-%D8%B4%D8%B4%D9%85--%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3_%D8%B0%D9%88%D8%A8-%D8%A2%D9%87%D9%86",
-      "source": "ارتش سرخ"
-    },
-    {
       "title": "صدر جدول همچنان در اختیار پرسپولیس",
       "url": "https://fc-perspolis.com/40841-%d9%86%d8%b3%d8%a7%d8%ac%db%8c-%d9%85%d8%a7%d8%b2%d9%86%d8%af%d8%b1%d8%a7%d9%86-%d8%b5%d9%81%d8%b1-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%b5%d9%81%d8%b1-4/",
       "source": "باشگاه پرسپولیس"
@@ -159,13 +159,13 @@
       "source": "باشگاه پرسپولیس"
     },
     {
-      "title": "تمرین پرسپولیس (بابل) – جمعه ۸ آبان ۱۴۰۵ 8 آبان 1405",
-      "url": "https://fc-perspolis.com/album/%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%a7%d8%a8%d9%84-%d8%ac%d9%85%d8%b9%d9%87-%db%b8-%d8%a2%d8%a8%d8%a7%d9%86-%db%b1%db%b4%db%b0%db%b5/",
+      "title": "نساجی مازندران – پرسپولیس – شنبه 9 آبان 1405 9 آبان 1405",
+      "url": "https://fc-perspolis.com/album/%d9%86%d8%b3%d8%a7%d8%ac%db%8c-%d9%85%d8%a7%d8%b2%d9%86%d8%af%d8%b1%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%b4%d9%86%d8%a8%d9%87-9-%d8%a2%d8%a8%d8%a7%d9%86-1405/",
       "source": "باشگاه پرسپولیس"
     },
     {
-      "title": "تمرین پرسپولیس – پنج شنبه ۷ آبان ۱۴۰۵ 7 آبان 1405",
-      "url": "https://fc-perspolis.com/album/%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%be%d9%86%d8%ac-%d8%b4%d9%86%d8%a8%d9%87-%db%b7-%d8%a2%d8%a8%d8%a7%d9%86-%db%b1%db%b4%db%b0%db%b5/",
+      "title": "تمرین پرسپولیس (بابل) – جمعه ۸ آبان ۱۴۰۵ 8 آبان 1405",
+      "url": "https://fc-perspolis.com/album/%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%a7%d8%a8%d9%84-%d8%ac%d9%85%d8%b9%d9%87-%db%b8-%d8%a2%d8%a8%d8%a7%d9%86-%db%b1%db%b4%db%b0%db%b5/",
       "source": "باشگاه پرسپولیس"
     },
     {
