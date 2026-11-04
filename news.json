@@ -1,8 +1,13 @@
 {
-  "updated_at": "2026-11-04T12:17:51.212244+00:00",
+  "updated_at": "2026-11-04T13:39:43.735793+00:00",
   "sources": 3,
   "failed_sources": [],
   "news": [
+    {
+      "title": "پرسپولیس باز هم قیمت بلیت‌ها را کاهش داد",
+      "url": "https://perspolisnews.ir/%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%a7%d8%b2-%d9%87%d9%85-%d9%82%db%8c%d9%85%d8%aa-%d8%a8%d9%84%db%8c%d8%aa%d9%87%d8%a7-%d8%b1%d8%a7-%da%a9%d8%a7%d9%87%d8%b4-%d8%af/",
+      "source": "پرسپولیس نیوز"
+    },
     {
       "title": "قدردانی سازمان لیگ از تماشاگران پرسپولیس و نساجی",
       "url": "https://perspolisnews.ir/%d9%82%d8%af%d8%b1%d8%af%d8%a7%d9%86%db%8c-%d8%b3%d8%a7%d8%b2%d9%85%d8%a7%d9%86-%d9%84%db%8c%da%af-%d8%a7%d8%b2-%d8%aa%d9%85%d8%a7%d8%b4%d8%a7%da%af%d8%b1%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88/",
@@ -39,11 +44,6 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "شیرینی: پیشکسوت نباید آبروی باشگاه را ببرد/ هیچ‌وقت در رسانه‌ها علیه پرسپولیس صحبت نکردم",
-      "url": "https://perspolisnews.ir/%d8%b4%db%8c%d8%b1%db%8c%d9%86%db%8c-%d9%be%db%8c%d8%b4%da%a9%d8%b3%d9%88%d8%aa-%d9%86%d8%a8%d8%a7%db%8c%d8%af-%d8%a2%d8%a8%d8%b1%d9%88%db%8c-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d8%b1%d8%a7-%d8%a8/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
       "title": "تاریخچه پرسپولیس",
       "url": "https://perspolisnews.ir/%da%a9%d8%a7%d9%85%d9%84-%d8%aa%d8%b1%db%8c%d9%86-%d8%aa%d8%a7%d8%b1%db%8c%d8%ae%da%86%d9%87-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3/",
       "source": "پرسپولیس نیوز"
@@ -74,8 +74,8 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "پرسپولیس مدافع استقلال خوزستان را نخواست +عکس",
-      "url": "https://perspolisnews.ir/%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%85%d8%af%d8%a7%d9%81%d8%b9-%d8%a7%d8%b3%d8%aa%d9%82%d9%84%d8%a7%d9%84-%d8%ae%d9%88%d8%b2%d8%b3%d8%aa%d8%a7%d9%86-%d8%b1%d8%a7-%d9%86%d8%ae%d9%88/",
+      "title": "شیرینی: پیشکسوت نباید آبروی باشگاه را ببرد/ هیچ‌وقت در رسانه‌ها علیه پرسپولیس صحبت نکردم",
+      "url": "https://perspolisnews.ir/%d8%b4%db%8c%d8%b1%db%8c%d9%86%db%8c-%d9%be%db%8c%d8%b4%da%a9%d8%b3%d9%88%d8%aa-%d9%86%d8%a8%d8%a7%db%8c%d8%af-%d8%a2%d8%a8%d8%b1%d9%88%db%8c-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d8%b1%d8%a7-%d8%a8/",
       "source": "پرسپولیس نیوز"
     },
     {
@@ -149,6 +149,16 @@
       "source": "ارتش سرخ"
     },
     {
+      "title": "پیروزی امید پرسپولیس مقابل پاس",
+      "url": "https://fc-perspolis.com/41005-%d9%be%db%8c%d8%b1%d9%88%d8%b2%db%8c-%d8%a7%d9%85%db%8c%d8%af-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%85%d9%82%d8%a7%d8%a8%d9%84-%d9%be%d8%a7%d8%b3/",
+      "source": "باشگاه پرسپولیس"
+    },
+    {
+      "title": "قدردانی سازمان لیگ از هواداران پرسپولیس و نساجی",
+      "url": "https://fc-perspolis.com/41002-%d9%82%d8%af%d8%b1%d8%af%d8%a7%d9%86%db%8c-%d8%b3%d8%a7%d8%b2%d9%85%d8%a7%d9%86-%d9%84%db%8c%da%af-%d8%a7%d8%b2-%d9%87%d9%88%d8%a7%d8%af%d8%a7%d8%b1%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84/",
+      "source": "باشگاه پرسپولیس"
+    },
+    {
       "title": "برنامه هفته هشتم تیم‌های پایه پرسپولیس",
       "url": "https://fc-perspolis.com/40999-%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d9%87-%d9%87%d9%81%d8%aa%d9%87-%d9%87%d8%b4%d8%aa%d9%85-%d8%aa%db%8c%d9%85%d9%87%d8%a7%db%8c-%d9%be%d8%a7%db%8c%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c-2/",
       "source": "باشگاه پرسپولیس"
@@ -156,11 +166,6 @@
     {
       "title": "«وحید زمانی» داور دیدار پرسپولیس – فجرسپاسی",
       "url": "https://fc-perspolis.com/40997-%d9%88%d8%ad%db%8c%d8%af-%d8%b2%d9%85%d8%a7%d9%86%db%8c-%d8%af%d8%a7%d9%88%d8%b1-%d8%af%db%8c%d8%af%d8%a7%d8%b1-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%81%d8%ac/",
-      "source": "باشگاه پرسپولیس"
-    },
-    {
-      "title": "تقدیر از کارمند و واحد نمونه در چهارمین نشست ماهانه مدیرعامل با کارکنان پرسپولیس",
-      "url": "https://fc-perspolis.com/40988-%d8%aa%d9%82%d8%af%db%8c%d8%b1-%d8%a7%d8%b2-%da%a9%d8%a7%d8%b1%d9%85%d9%86%d8%af-%d9%88-%d9%88%d8%a7%d8%ad%d8%af-%d9%86%d9%85%d9%88%d9%86%d9%87-%d8%af%d8%b1-%da%86%d9%87%d8%a7%d8%b1%d9%85%db%8c%d9%86/",
       "source": "باشگاه پرسپولیس"
     },
     {
