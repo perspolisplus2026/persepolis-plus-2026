@@ -1,8 +1,13 @@
 {
-  "updated_at": "2026-11-04T23:11:40.531772+00:00",
+  "updated_at": "2026-11-04T23:52:03.564139+00:00",
   "sources": 3,
   "failed_sources": [],
   "news": [
+    {
+      "title": "تارتار روی دفاع پرسپولیس ریسک نمی‌کند",
+      "url": "https://perspolisnews.ir/%d8%aa%d8%a7%d8%b1%d8%aa%d8%a7%d8%b1-%d8%b1%d9%88%db%8c-%d8%af%d9%81%d8%a7%d8%b9-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%b1%db%8c%d8%b3%da%a9-%d9%86%d9%85%db%8c%da%a9%d9%86%d8%af/",
+      "source": "پرسپولیس نیوز"
+    },
     {
       "title": "تمرین چهارشنبه پرسپولیس / حضور مهمانان ویژه و بازگشت ابرقویی +تصاویر",
       "url": "https://perspolisnews.ir/%d8%aa%d9%85%d8%b1%db%8c%d9%86-%da%86%d9%87%d8%a7%d8%b1%d8%b4%d9%86%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%ad%d8%b6%d9%88%d8%b1-%d9%85%d9%87%d9%85%d8%a7%d9%86%d8%a7%d9%86/",
@@ -26,16 +31,6 @@
     {
       "title": "قدردانی سازمان لیگ از تماشاگران پرسپولیس و نساجی",
       "url": "https://perspolisnews.ir/%d9%82%d8%af%d8%b1%d8%af%d8%a7%d9%86%db%8c-%d8%b3%d8%a7%d8%b2%d9%85%d8%a7%d9%86-%d9%84%db%8c%da%af-%d8%a7%d8%b2-%d8%aa%d9%85%d8%a7%d8%b4%d8%a7%da%af%d8%b1%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "اعلام اسامی داوران بازی پرسپولیس – فجرسپاسی",
-      "url": "https://perspolisnews.ir/%d8%a7%d8%b9%d9%84%d8%a7%d9%85-%d8%a7%d8%b3%d8%a7%d9%85%db%8c-%d8%af%d8%a7%d9%88%d8%b1%d8%a7%d9%86-%d8%a8%d8%a7%d8%b2%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%81%d8%ac%d8%b1%d8%b3/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "تاج: جام حذفی فوتبال ایران برگزار می‌شود / هزینه های پرسپولیس و استقلال باید کم شود",
-      "url": "https://perspolisnews.ir/%d8%aa%d8%a7%d8%ac-%d8%ac%d8%a7%d9%85-%d8%ad%d8%b0%d9%81%db%8c-%d9%81%d9%88%d8%aa%d8%a8%d8%a7%d9%84-%d8%a7%db%8c%d8%b1%d8%a7%d9%86-%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1-%d9%85%db%8c%d8%b4/",
       "source": "پرسپولیس نیوز"
     },
     {
@@ -69,13 +64,18 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "مجمع پرسپولیس باز هم لغو شد +عکس",
-      "url": "https://perspolisnews.ir/%d9%85%d8%ac%d9%85%d8%b9-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%a7%d8%b2-%d9%87%d9%85-%d9%84%d8%ba%d9%88-%d8%b4%d8%af-%d8%b9%da%a9%d8%b3/",
+      "title": "اعلام اسامی داوران بازی پرسپولیس – فجرسپاسی",
+      "url": "https://perspolisnews.ir/%d8%a7%d8%b9%d9%84%d8%a7%d9%85-%d8%a7%d8%b3%d8%a7%d9%85%db%8c-%d8%af%d8%a7%d9%88%d8%b1%d8%a7%d9%86-%d8%a8%d8%a7%d8%b2%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%81%d8%ac%d8%b1%d8%b3/",
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "اولین شکست فصل بانوان پرسپولیس",
-      "url": "https://perspolisnews.ir/%d8%a7%d9%88%d9%84%db%8c%d9%86-%d8%b4%da%a9%d8%b3%d8%aa-%d9%81%d8%b5%d9%84-%d8%a8%d8%a7%d9%86%d9%88%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3/",
+      "title": "تاج: جام حذفی فوتبال ایران برگزار می‌شود / هزینه های پرسپولیس و استقلال باید کم شود",
+      "url": "https://perspolisnews.ir/%d8%aa%d8%a7%d8%ac-%d8%ac%d8%a7%d9%85-%d8%ad%d8%b0%d9%81%db%8c-%d9%81%d9%88%d8%aa%d8%a8%d8%a7%d9%84-%d8%a7%db%8c%d8%b1%d8%a7%d9%86-%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1-%d9%85%db%8c%d8%b4/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "مجمع پرسپولیس باز هم لغو شد +عکس",
+      "url": "https://perspolisnews.ir/%d9%85%d8%ac%d9%85%d8%b9-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%a7%d8%b2-%d9%87%d9%85-%d9%84%d8%ba%d9%88-%d8%b4%d8%af-%d8%b9%da%a9%d8%b3/",
       "source": "پرسپولیس نیوز"
     },
     {
