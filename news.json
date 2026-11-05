@@ -1,8 +1,13 @@
 {
-  "updated_at": "2026-11-05T16:58:42.336642+00:00",
+  "updated_at": "2026-11-05T17:53:56.662222+00:00",
   "sources": 3,
   "failed_sources": [],
   "news": [
+    {
+      "title": "گزارش تصویری: آخرین تمرین پرسپولیس پیش از بازی فجرسپاسی",
+      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%a2%d8%ae%d8%b1%db%8c%d9%86-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%be%db%8c%d8%b4-88/",
+      "source": "پرسپولیس نیوز"
+    },
     {
       "title": "پروین: پرسپولیس شرایط خوبی دارد/ چرا از صدرنشین انتقاد می‌کنند؟",
       "url": "https://perspolisnews.ir/%d9%be%d8%b1%d9%88%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%b4%d8%b1%d8%a7%db%8c%d8%b7-%d8%ae%d9%88%d8%a8%db%8c-%d8%af%d8%a7%d8%b1%d8%af-%da%86%d8%b1%d8%a7-%d8%a7%d8%b2/",
@@ -29,11 +34,6 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "سه شکایت پرسپولیس از ابوالقاسم‌پور در دادسرا و کمیته اخلاق",
-      "url": "https://perspolisnews.ir/%d8%b3%d9%87-%d8%b4%da%a9%d8%a7%db%8c%d8%aa-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a7%d8%b2-%d8%a7%d8%a8%d9%88%d8%a7%d9%84%d9%82%d8%a7%d8%b3%d9%85%d9%be%d9%88%d8%b1-%d8%af%d8%b1/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
       "title": "تاریخچه پرسپولیس",
       "url": "https://perspolisnews.ir/%da%a9%d8%a7%d9%85%d9%84-%d8%aa%d8%b1%db%8c%d9%86-%d8%aa%d8%a7%d8%b1%db%8c%d8%ae%da%86%d9%87-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3/",
       "source": "پرسپولیس نیوز"
@@ -41,6 +41,11 @@
     {
       "title": "برنامه بازی‌های پرسپولیس",
       "url": "https://perspolisnews.ir/team/%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "سه شکایت پرسپولیس از ابوالقاسم‌پور در دادسرا و کمیته اخلاق",
+      "url": "https://perspolisnews.ir/%d8%b3%d9%87-%d8%b4%da%a9%d8%a7%db%8c%d8%aa-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a7%d8%b2-%d8%a7%d8%a8%d9%88%d8%a7%d9%84%d9%82%d8%a7%d8%b3%d9%85%d9%be%d9%88%d8%b1-%d8%af%d8%b1/",
       "source": "پرسپولیس نیوز"
     },
     {
@@ -54,11 +59,6 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "شکایت استقلال خوزستان از پرسپولیس به فیفا",
-      "url": "https://perspolisnews.ir/%d8%b4%da%a9%d8%a7%db%8c%d8%aa-%d8%a7%d8%b3%d8%aa%d9%82%d9%84%d8%a7%d9%84-%d8%ae%d9%88%d8%b2%d8%b3%d8%aa%d8%a7%d9%86-%d8%a7%d8%b2-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d9%87-%d9%81/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
       "title": "محرومیت مهاجم حریف پرسپولیس در هفته دوازدهم",
       "url": "https://perspolisnews.ir/%d9%85%d8%ad%d8%b1%d9%88%d9%85%db%8c%d8%aa-%d9%85%d9%87%d8%a7%d8%ac%d9%85-%d8%ad%d8%b1%db%8c%d9%81-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%af%d8%b1-%d9%87%d9%81%d8%aa%d9%87-%d8%af%d9%88/",
       "source": "پرسپولیس نیوز"
@@ -69,13 +69,13 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "قدردانی سازمان لیگ از تماشاگران پرسپولیس و نساجی",
-      "url": "https://perspolisnews.ir/%d9%82%d8%af%d8%b1%d8%af%d8%a7%d9%86%db%8c-%d8%b3%d8%a7%d8%b2%d9%85%d8%a7%d9%86-%d9%84%db%8c%da%af-%d8%a7%d8%b2-%d8%aa%d9%85%d8%a7%d8%b4%d8%a7%da%af%d8%b1%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88/",
+      "title": "محبی مرد ۷ امتیازی پرسپولیس",
+      "url": "https://perspolisnews.ir/%d9%85%d8%ad%d8%a8%db%8c-%d9%85%d8%b1%d8%af-%db%b7-%d8%a7%d9%85%d8%aa%db%8c%d8%a7%d8%b2%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3/",
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "محبی مرد ۷ امتیازی پرسپولیس",
-      "url": "https://perspolisnews.ir/%d9%85%d8%ad%d8%a8%db%8c-%d9%85%d8%b1%d8%af-%db%b7-%d8%a7%d9%85%d8%aa%db%8c%d8%a7%d8%b2%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3/",
+      "title": "پرسپولیس با دست پر به مصاف نساجی می‌رود",
+      "url": "https://perspolisnews.ir/%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%a7-%d8%af%d8%b3%d8%aa-%d9%be%d8%b1-%d8%a8%d9%87-%d9%85%d8%b5%d8%a7%d9%81-%d9%86%d8%b3%d8%a7%d8%ac%db%8c-%d9%85%db%8c%d8%b1%d9%88/",
       "source": "پرسپولیس نیوز"
     },
     {
