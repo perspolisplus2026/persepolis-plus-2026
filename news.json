@@ -1,8 +1,13 @@
 {
-  "updated_at": "2026-11-11T15:31:55.806816+00:00",
+  "updated_at": "2026-11-11T16:26:54.835976+00:00",
   "sources": 3,
   "failed_sources": [],
   "news": [
+    {
+      "title": "گزارش تصویری: تمرین چهارشنبه پرسپولیس",
+      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%da%86%d9%87%d8%a7%d8%b1%d8%b4%d9%86%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-22/",
+      "source": "پرسپولیس نیوز"
+    },
     {
       "title": "محکومیت سنگین سرمربی و مدیران پرسپولیس",
       "url": "https://perspolisnews.ir/%d9%85%d8%ad%da%a9%d9%88%d9%85%db%8c%d8%aa-%d8%b3%d9%86%da%af%db%8c%d9%86-%d8%b3%d8%b1%d9%85%d8%b1%d8%a8%db%8c-%d9%88-%d9%85%d8%af%db%8c%d8%b1%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c/",
@@ -39,11 +44,6 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "گزارش تصویری: تمرین سه‌شنبه پرسپولیس",
-      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d8%b3%d9%87%d8%b4%d9%86%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-4/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
       "title": "تاریخچه پرسپولیس",
       "url": "https://perspolisnews.ir/%da%a9%d8%a7%d9%85%d9%84-%d8%aa%d8%b1%db%8c%d9%86-%d8%aa%d8%a7%d8%b1%db%8c%d8%ae%da%86%d9%87-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3/",
       "source": "پرسپولیس نیوز"
@@ -54,13 +54,13 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "ادامه صدرنشینی بانوان پرسپولیس با شکست سپاهان +تصاویر",
-      "url": "https://perspolisnews.ir/%d8%a7%d8%af%d8%a7%d9%85%d9%87-%d8%b5%d8%af%d8%b1%d9%86%d8%b4%db%8c%d9%86%db%8c-%d8%a8%d8%a7%d9%86%d9%88%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%a7-%d8%b4%da%a9%d8%b3/",
+      "title": "گزارش تصویری: تمرین سه‌شنبه پرسپولیس",
+      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d8%b3%d9%87%d8%b4%d9%86%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-4/",
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "دعوت ۳ پرسپولیسی به تیم ملی / طارمی، حاج‌صفی، خلیل‌زاده و بیرانوند خط خوردند!",
-      "url": "https://perspolisnews.ir/%d8%af%d8%b9%d9%88%d8%aa-%db%b3-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3%db%8c-%d8%a8%d9%87-%d8%aa%db%8c%d9%85-%d9%85%d9%84%db%8c-%d8%b7%d8%a7%d8%b1%d9%85%db%8c%d8%8c-%d8%ad%d8%a7%d8%ac/",
+      "title": "ادامه صدرنشینی بانوان پرسپولیس با شکست سپاهان +تصاویر",
+      "url": "https://perspolisnews.ir/%d8%a7%d8%af%d8%a7%d9%85%d9%87-%d8%b5%d8%af%d8%b1%d9%86%d8%b4%db%8c%d9%86%db%8c-%d8%a8%d8%a7%d9%86%d9%88%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%a7-%d8%b4%da%a9%d8%b3/",
       "source": "پرسپولیس نیوز"
     },
     {
