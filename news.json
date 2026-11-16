@@ -1,83 +1,10 @@
 {
-  "updated_at": "2026-11-16T22:16:09.497645+00:00",
+  "updated_at": "2026-11-16T23:13:48.768643+00:00",
   "sources": 3,
-  "failed_sources": [],
+  "failed_sources": [
+    "پرسپولیس نیوز"
+  ],
   "news": [
-    {
-      "title": "استوری معنادار پدیده پرسپولیس/ امیرحسین محمودی سرباز شد +عکس",
-      "url": "https://perspolisnews.ir/%d8%a7%d8%b3%d8%aa%d9%88%d8%b1%db%8c-%d9%85%d8%b9%d9%86%d8%a7%d8%af%d8%a7%d8%b1-%d9%be%d8%af%db%8c%d8%af%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a7%d9%85%db%8c%d8%b1%d8%ad%d8%b3/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "مدافع پرسپولیس بازی با عراق را از دست داد",
-      "url": "https://perspolisnews.ir/%d9%85%d8%af%d8%a7%d9%81%d8%b9-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%a7%d8%b2%db%8c-%d8%a8%d8%a7-%d8%b9%d8%b1%d8%a7%d9%82-%d8%b1%d8%a7-%d8%a7%d8%b2-%d8%af%d8%b3%d8%aa-%d8%af%d8%a7/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "پایان مصدومیت کاپیتان دوم پرسپولیس",
-      "url": "https://perspolisnews.ir/%d9%be%d8%a7%db%8c%d8%a7%d9%86-%d9%85%d8%b5%d8%af%d9%88%d9%85%db%8c%d8%aa-%da%a9%d8%a7%d9%be%db%8c%d8%aa%d8%a7%d9%86-%d8%af%d9%88%d9%85-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "تارتار محل تمرین پرسپولیس را تغییر داد",
-      "url": "https://perspolisnews.ir/%d8%aa%d8%a7%d8%b1%d8%aa%d8%a7%d8%b1-%d9%85%d8%ad%d9%84-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%b1%d8%a7-%d8%aa%d8%ba%db%8c%db%8c%d8%b1-%d8%af%d8%a7%d8%af/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "گزارش تصویری: تمرین پرسپولیس با بازگشت خدابنده‌لو",
-      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%a7-%d8%a8%d8%a7%d8%b2%da%af%d8%b4%d8%aa-5/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "شکست سنگین بانوان پرسپولیس مقابل قهرمان",
-      "url": "https://perspolisnews.ir/%d8%b4%da%a9%d8%b3%d8%aa-%d8%b3%d9%86%da%af%db%8c%d9%86-%d8%a8%d8%a7%d9%86%d9%88%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%85%d9%82%d8%a7%d8%a8%d9%84-%d9%82%d9%87%d8%b1%d9%85/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "داوران بازی پرسپولیس – پیکان مشخص شد",
-      "url": "https://perspolisnews.ir/%d8%af%d8%a7%d9%88%d8%b1%d8%a7%d9%86-%d8%a8%d8%a7%d8%b2%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%be%db%8c%da%a9%d8%a7%d9%86-%d9%85%d8%b4%d8%ae%d8%b5-%d8%b4%d8%af/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "۲ مصدوم پرسپولیس آماده بازی شدند",
-      "url": "https://perspolisnews.ir/%db%b2-%d9%85%d8%b5%d8%af%d9%88%d9%85-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a2%d9%85%d8%a7%d8%af%d9%87-%d8%a8%d8%a7%d8%b2%db%8c-%d8%b4%d8%af%d9%86%d8%af/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "تاریخچه پرسپولیس",
-      "url": "https://perspolisnews.ir/%da%a9%d8%a7%d9%85%d9%84-%d8%aa%d8%b1%db%8c%d9%86-%d8%aa%d8%a7%d8%b1%db%8c%d8%ae%da%86%d9%87-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "برنامه بازی‌های پرسپولیس",
-      "url": "https://perspolisnews.ir/team/%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "برگزاری جلسه ۶ ساعته پرونده پرسپولیس و بیرانوند در دادگاه CAS",
-      "url": "https://perspolisnews.ir/%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1%db%8c-%d8%ac%d9%84%d8%b3%d9%87-%db%b6-%d8%b3%d8%a7%d8%b9%d8%aa%d9%87-%d9%be%d8%b1%d9%88%d9%86%d8%af%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%88/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "پاسخ وزارت ورزش به پرسپولیس: چمن سبز شده به معنی آمادگی نیست؛ ۳۵۰ میلیارد بدهکارید",
-      "url": "https://perspolisnews.ir/%d9%be%d8%a7%d8%b3%d8%ae-%d9%88%d8%b2%d8%a7%d8%b1%d8%aa-%d9%88%d8%b1%d8%b2%d8%b4-%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%da%86%d9%85%d9%86-%d8%b3%d8%a8%d8%b2-%d8%b4%d8%af%d9%87/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "پرسپولیس پرونده آسانی را به CAS ارسال کرد",
-      "url": "https://perspolisnews.ir/%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%be%d8%b1%d9%88%d9%86%d8%af%d9%87-%d8%a2%d8%b3%d8%a7%d9%86%db%8c-%d8%b1%d8%a7-%d8%a8%d9%87-cas-%d8%a7%d8%b1%d8%b3%d8%a7%d9%84-%da%a9%d8%b1%d8%af/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "محبی مرد ۷ امتیازی پرسپولیس",
-      "url": "https://perspolisnews.ir/%d9%85%d8%ad%d8%a8%db%8c-%d9%85%d8%b1%d8%af-%db%b7-%d8%a7%d9%85%d8%aa%db%8c%d8%a7%d8%b2%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "پرسپولیس با دست پر به مصاف نساجی می‌رود",
-      "url": "https://perspolisnews.ir/%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%a7-%d8%af%d8%b3%d8%aa-%d9%be%d8%b1-%d8%a8%d9%87-%d9%85%d8%b5%d8%a7%d9%81-%d9%86%d8%b3%d8%a7%d8%ac%db%8c-%d9%85%db%8c%d8%b1%d9%88/",
-      "source": "پرسپولیس نیوز"
-    },
     {
       "title": "حلقه گمشده پرسپولیس پیدا شد؛ جانشین ترابی اینجاست",
       "url": "https://arteshesorkh.com/post/%D8%AD%D9%84%D9%82%D9%87-%DA%AF%D9%85%D8%B4%D8%AF%D9%87-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D9%BE%DB%8C%D8%AF%D8%A7-%D8%B4%D8%AF%D8%9B-%D8%AC%D8%A7%D9%86%D8%B4%DB%8C%D9%86-%D8%AA%D8%B1%D8%A7%D8%A8%DB%8C-%D8%A7%DB%8C%D9%86%D8%AC%D8%A7%D8%B3%D8%AA",
@@ -86,6 +13,11 @@
     {
       "title": "تغییر محل تمرین پرسپولیس با تصمیم تارتار",
       "url": "https://arteshesorkh.com/post/%D8%AA%D8%BA%DB%8C%DB%8C%D8%B1-%D9%85%D8%AD%D9%84-%D8%AA%D9%85%D8%B1%DB%8C%D9%86-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%A8%D8%A7-%D8%AA%D8%B5%D9%85%DB%8C%D9%85-%D8%AA%D8%A7%D8%B1%D8%AA%D8%A7%D8%B1",
+      "source": "ارتش سرخ"
+    },
+    {
+      "title": "۲ مصدوم پرسپولیس آماده بازی شدند",
+      "url": "https://arteshesorkh.com/post/%DB%B2-%D9%85%D8%B5%D8%AF%D9%88%D9%85-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%A2%D9%85%D8%A7%D8%AF%D9%87-%D8%A8%D8%A7%D8%B2%DB%8C-%D8%B4%D8%AF%D9%86%D8%AF",
       "source": "ارتش سرخ"
     },
     {
