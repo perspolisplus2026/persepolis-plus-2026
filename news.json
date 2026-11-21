@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T18:42:02.458197+00:00",
+  "updated_at": "2026-11-21T23:36:08.746494+00:00",
   "sources": 3,
   "failed_sources": [
     "باشگاه پرسپولیس"
@@ -46,11 +46,6 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "رد شکایت پرسپولیس از فجرسپاسی در کمیته انضباطی",
-      "url": "https://perspolisnews.ir/%d8%b1%d8%af-%d8%b4%da%a9%d8%a7%db%8c%d8%aa-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a7%d8%b2-%d9%81%d8%ac%d8%b1%d8%b3%d9%be%d8%a7%d8%b3%db%8c-%d8%af%d8%b1-%da%a9%d9%85%db%8c%d8%aa%d9%87/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
       "title": "تاریخچه پرسپولیس",
       "url": "https://perspolisnews.ir/%da%a9%d8%a7%d9%85%d9%84-%d8%aa%d8%b1%db%8c%d9%86-%d8%aa%d8%a7%d8%b1%db%8c%d8%ae%da%86%d9%87-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3/",
       "source": "پرسپولیس نیوز"
@@ -73,6 +68,11 @@
     {
       "title": "برتری پرسپولیس مقابل پیکان در نیمه اول",
       "url": "https://perspolisnews.ir/%d8%aa%d8%b1%da%a9%db%8c%d8%a8-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%85%d9%82%d8%a7%d8%a8%d9%84-%d9%be%db%8c%da%a9%d8%a7%d9%86-%d8%a7%d8%b9%d9%84%d8%a7%d9%85-%d8%b4%d8%af/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "رد شکایت پرسپولیس از فجرسپاسی در کمیته انضباطی",
+      "url": "https://perspolisnews.ir/%d8%b1%d8%af-%d8%b4%da%a9%d8%a7%db%8c%d8%aa-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a7%d8%b2-%d9%81%d8%ac%d8%b1%d8%b3%d9%be%d8%a7%d8%b3%db%8c-%d8%af%d8%b1-%da%a9%d9%85%db%8c%d8%aa%d9%87/",
       "source": "پرسپولیس نیوز"
     },
     {
