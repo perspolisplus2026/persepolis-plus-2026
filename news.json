@@ -1,8 +1,38 @@
 {
-  "updated_at": "2026-11-25T08:31:08.001977+00:00",
+  "updated_at": "2026-11-25T18:50:47.786631+00:00",
   "sources": 3,
   "failed_sources": [],
   "news": [
+    {
+      "title": "گزارش تصویری: تمرین چهارشنبه پرسپولیس",
+      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%da%86%d9%87%d8%a7%d8%b1%d8%b4%d9%86%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-24/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "حضور حمید استیلی در تمرین پرسپولیس",
+      "url": "https://perspolisnews.ir/%d8%ad%d8%b6%d9%88%d8%b1-%d8%ad%d9%85%db%8c%d8%af-%d8%a7%d8%b3%d8%aa%db%8c%d9%84%db%8c-%d8%af%d8%b1-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "اصلانیان: پرسپولیس نیاز به ارسال از جناحین دارد/ بعید می‌دانم دستیار خارجی به ایران بیاید",
+      "url": "https://perspolisnews.ir/%d8%a7%d8%b5%d9%84%d8%a7%d9%86%db%8c%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%86%db%8c%d8%a7%d8%b2-%d8%a8%d9%87-%d8%a7%d8%b1%d8%b3%d8%a7%d9%84-%d8%a7%d8%b2-%d8%ac%d9%86%d8%a7/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "کاظمی داور آلومینیوم – پرسپولیس شد!",
+      "url": "https://perspolisnews.ir/%da%a9%d8%a7%d8%b8%d9%85%db%8c-%d8%af%d8%a7%d9%88%d8%b1-%d8%a2%d9%84%d9%88%d9%85%db%8c%d9%86%db%8c%d9%88%d9%85-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%b4%d8%af/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "پرداختی به آکادمی پرسپولیس ۵۰ درصد شد",
+      "url": "https://perspolisnews.ir/%d9%be%d8%b1%d8%af%d8%a7%d8%ae%d8%aa%db%8c-%d8%a8%d9%87-%d8%a2%da%a9%d8%a7%d8%af%d9%85%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%db%b5%db%b0-%d8%af%d8%b1%d8%b5%d8%af-%d8%b4%d8%af/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "مجمع سالیانه باشگاه پرسپولیس برگزار شد",
+      "url": "https://perspolisnews.ir/%d9%85%d8%ac%d9%85%d8%b9-%d8%b3%d8%a7%d9%84%db%8c%d8%a7%d9%86%d9%87-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1-%d8%b4-2/",
+      "source": "پرسپولیس نیوز"
+    },
     {
       "title": "لیست مازاد پرسپولیس تکذیب شد",
       "url": "https://perspolisnews.ir/%d9%84%db%8c%d8%b3%d8%aa-%d9%85%d8%a7%d8%b2%d8%a7%d8%af-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%aa%da%a9%d8%b0%db%8c%d8%a8-%d8%b4%d8%af/",
@@ -11,31 +41,6 @@
     {
       "title": "پیش‌مجمع پرسپولیس برگزار شد",
       "url": "https://perspolisnews.ir/%d9%be%db%8c%d8%b4%d9%85%d8%ac%d9%85%d8%b9-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1-%d8%b4%d8%af/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "دلیل غیبت مدافع پرسپولیس مشخص شد",
-      "url": "https://perspolisnews.ir/%d8%af%d9%84%db%8c%d9%84-%d8%ba%db%8c%d8%a8%d8%aa-%d9%85%d8%af%d8%a7%d9%81%d8%b9-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%85%d8%b4%d8%ae%d8%b5-%d8%b4%d8%af/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "آغاز بلیت فروشی بازی آلومینیوم – پرسپولیس",
-      "url": "https://perspolisnews.ir/%d8%a2%d8%ba%d8%a7%d8%b2-%d8%a8%d9%84%db%8c%d8%aa-%d9%81%d8%b1%d9%88%d8%b4%db%8c-%d8%a8%d8%a7%d8%b2%db%8c-%d8%a2%d9%84%d9%88%d9%85%db%8c%d9%86%db%8c%d9%88%d9%85-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "گزارش تصویری: تمرین سه‌شنبه پرسپولیس",
-      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d8%b3%d9%87%d8%b4%d9%86%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-5/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "دو ستاره پرسپولیس در آستانه محرومیت مقابل سپاهان",
-      "url": "https://perspolisnews.ir/%d8%af%d9%88-%d8%b3%d8%aa%d8%a7%d8%b1%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%af%d8%b1-%d8%a2%d8%b3%d8%aa%d8%a7%d9%86%d9%87-%d9%85%d8%ad%d8%b1%d9%88%d9%85%db%8c%d8%aa-%d9%85%d9%82/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "عیدی: پسر تارتار؟ سلیقه مربی است / خداراشکر نرفتم عراق و پرسپولیسی شدم",
-      "url": "https://perspolisnews.ir/%d8%b9%db%8c%d8%af%db%8c-%d9%be%d8%b3%d8%b1-%d8%aa%d8%a7%d8%b1%d8%aa%d8%a7%d8%b1%d8%9f-%d8%b3%d9%84%db%8c%d9%82%d9%87-%d9%85%d8%b1%d8%a8%db%8c-%d8%a7%d8%b3%d8%aa-%d8%ae%d8%af%d8%a7%d8%b1%d8%a7/",
       "source": "پرسپولیس نیوز"
     },
     {
@@ -49,18 +54,23 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "گزارش تصویری: تمرین پرسپولیس پس از یک روز استراحت",
-      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%be%d8%b3-%d8%a7%d8%b2-%db%8c%da%a9-%d8%b1-4/",
+      "title": "گزارش تصویری: تمرین سه‌شنبه پرسپولیس",
+      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d8%b3%d9%87%d8%b4%d9%86%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-5/",
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "پایان نیم فصل بانوان پرسپولیس با برد شیرین",
-      "url": "https://perspolisnews.ir/%d9%be%d8%a7%db%8c%d8%a7%d9%86-%d9%86%db%8c%d9%85-%d9%81%d8%b5%d9%84-%d8%a8%d8%a7%d9%86%d9%88%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%a7-%d8%a8%d8%b1%d8%af-%d8%b4%db%8c/",
+      "title": "دو ستاره پرسپولیس در آستانه محرومیت مقابل سپاهان",
+      "url": "https://perspolisnews.ir/%d8%af%d9%88-%d8%b3%d8%aa%d8%a7%d8%b1%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%af%d8%b1-%d8%a2%d8%b3%d8%aa%d8%a7%d9%86%d9%87-%d9%85%d8%ad%d8%b1%d9%88%d9%85%db%8c%d8%aa-%d9%85%d9%82/",
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "ویدئو: تماشای ۷ گل پرسپولیس در بازی مقابل کیا",
-      "url": "https://perspolisnews.ir/%d9%88%db%8c%d8%af%d8%a6%d9%88-%d8%aa%d9%85%d8%a7%d8%b4%d8%a7%db%8c-7-%da%af%d9%84-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%af%d8%b1-%d8%a8%d8%a7%d8%b2%db%8c-%d9%85%d9%82%d8%a7%d8%a8/",
+      "title": "دلیل غیبت مدافع پرسپولیس مشخص شد",
+      "url": "https://perspolisnews.ir/%d8%af%d9%84%db%8c%d9%84-%d8%ba%db%8c%d8%a8%d8%aa-%d9%85%d8%af%d8%a7%d9%81%d8%b9-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%85%d8%b4%d8%ae%d8%b5-%d8%b4%d8%af/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "آغاز بلیت فروشی بازی آلومینیوم – پرسپولیس",
+      "url": "https://perspolisnews.ir/%d8%a2%d8%ba%d8%a7%d8%b2-%d8%a8%d9%84%db%8c%d8%aa-%d9%81%d8%b1%d9%88%d8%b4%db%8c-%d8%a8%d8%a7%d8%b2%db%8c-%d8%a2%d9%84%d9%88%d9%85%db%8c%d9%86%db%8c%d9%88%d9%85-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84/",
       "source": "پرسپولیس نیوز"
     },
     {
@@ -69,18 +79,13 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "پرسپولیس ۶۳ ساله شد؛ رونمایی از پوستر سالروز تأسیس سرخها",
-      "url": "https://perspolisnews.ir/%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%db%b6%db%b3-%d8%b3%d8%a7%d9%84%d9%87-%d8%b4%d8%af%d8%9b-%d8%b1%d9%88%d9%86%d9%85%d8%a7%db%8c%db%8c-%d8%a7%d8%b2-%d9%be%d9%88%d8%b3%d8%aa%d8%b1-%d8%b3/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "ثبت رکورد بی‌نظیر در تقابل پرسپولیس – پیکان",
-      "url": "https://perspolisnews.ir/%d8%ab%d8%a8%d8%aa-%d8%b1%da%a9%d9%88%d8%b1%d8%af-%d8%a8%db%8c%d9%86%d8%b8%db%8c%d8%b1-%d8%af%d8%b1-%d8%aa%d9%82%d8%a7%d8%a8%d9%84-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%be/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
       "title": "حلقه گمشده پرسپولیس پیدا شد؛ جانشین ترابی اینجاست",
       "url": "https://arteshesorkh.com/post/%D8%AD%D9%84%D9%82%D9%87-%DA%AF%D9%85%D8%B4%D8%AF%D9%87-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D9%BE%DB%8C%D8%AF%D8%A7-%D8%B4%D8%AF%D8%9B-%D8%AC%D8%A7%D9%86%D8%B4%DB%8C%D9%86-%D8%AA%D8%B1%D8%A7%D8%A8%DB%8C-%D8%A7%DB%8C%D9%86%D8%AC%D8%A7%D8%B3%D8%AA",
+      "source": "ارتش سرخ"
+    },
+    {
+      "title": "مجمع پرسپولیس بالاخره برگزار شد",
+      "url": "https://arteshesorkh.com/post/%D9%85%D8%AC%D9%85%D8%B9-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%A8%D8%A7%D9%84%D8%A7%D8%AE%D8%B1%D9%87-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D8%B4%D8%AF",
       "source": "ارتش سرخ"
     },
     {
@@ -101,11 +106,6 @@
     {
       "title": "غیبت عجیب جلالی در تمرین سه‌شنبه پرسپولیس!",
       "url": "https://arteshesorkh.com/post/%D8%BA%DB%8C%D8%A8%D8%AA-%D8%B9%D8%AC%DB%8C%D8%A8-%D8%AC%D9%84%D8%A7%D9%84%DB%8C-%D8%AF%D8%B1-%D8%AA%D9%85%D8%B1%DB%8C%D9%86-%D8%B3%D9%87-%D8%B4%D9%86%D8%A8%D9%87-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "معمای مارکو باکیچ در پرسپولیس",
-      "url": "https://arteshesorkh.com/post/%D9%85%D8%B9%D9%85%D8%A7%DB%8C-%D9%85%D8%A7%D8%B1%DA%A9%D9%88-%D8%A8%D8%A7%DA%A9%DB%8C%DA%86-%D8%AF%D8%B1-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3",
       "source": "ارتش سرخ"
     },
     {
@@ -149,23 +149,28 @@
       "source": "ارتش سرخ"
     },
     {
-      "title": "پرداختی به اعضای آکادمی پرسپولیس به ۵۰ درصد رسید",
-      "url": "https://fc-perspolis.com/41766-%d9%be%d8%b1%d8%af%d8%a7%d8%ae%d8%aa%db%8c-%d8%a8%d9%87-%d8%a7%d8%b9%d8%b6%d8%a7%db%8c-%d8%a2%da%a9%d8%a7%d8%af%d9%85%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d9%87-%db%b5%db%b0/",
+      "title": "واکنش بزیک به اشتباهات سریالی یک داور علیه پرسپولیس",
+      "url": "https://fc-perspolis.com/41825-%d9%88%d8%a7%da%a9%d9%86%d8%b4-%d8%a8%d8%b2%db%8c%da%a9-%d8%a8%d9%87-%d8%a7%d8%b4%d8%aa%d8%a8%d8%a7%d9%87%d8%a7%d8%aa-%d8%b3%d8%b1%db%8c%d8%a7%d9%84%db%8c-%db%8c%da%a9-%d8%af%d8%a7%d9%88%d8%b1-%d8%b9/",
       "source": "باشگاه پرسپولیس"
     },
     {
-      "title": "آغاز بلیت فروشی بازی پرسپولیس – آلومینیوم",
-      "url": "https://fc-perspolis.com/41760-%d8%a2%d8%ba%d8%a7%d8%b2-%d8%a8%d9%84%db%8c%d8%aa-%d9%81%d8%b1%d9%88%d8%b4%db%8c-%d8%a8%d8%a7%d8%b2%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a2%d9%84%d9%88%d9%85%db%8c/",
+      "title": "حمید استیلی میهمان سرخپوشان در تمرین",
+      "url": "https://fc-perspolis.com/41798-%d8%ad%d9%85%db%8c%d8%af-%d8%a7%d8%b3%d8%aa%db%8c%d9%84%db%8c-%d9%85%db%8c%d9%87%d9%85%d8%a7%d9%86-%d8%b3%d8%b1%d8%ae%d9%be%d9%88%d8%b4%d8%a7%d9%86-%d8%af%d8%b1-%d8%aa%d9%85%d8%b1%db%8c%d9%86/",
       "source": "باشگاه پرسپولیس"
     },
     {
-      "title": "تمرین پرسپولیس – سه‌شنبه 3 آذر 1405 3 آذر 1405",
-      "url": "https://fc-perspolis.com/album/%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%b3%d9%87%d8%b4%d9%86%d8%a8%d9%87-3-%d8%a2%d8%b0%d8%b1-1405/",
+      "title": "نشست عمومی مجمع عادی سالیانه باشگاه پرسپولیس برگزار شد",
+      "url": "https://fc-perspolis.com/41773-%d9%86%d8%b4%d8%b3%d8%aa-%d8%b9%d9%85%d9%88%d9%85%db%8c-%d9%85%d8%ac%d9%85%d8%b9-%d8%b9%d8%a7%d8%af%db%8c-%d8%b3%d8%a7%d9%84%db%8c%d8%a7%d9%86%d9%87-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1/",
       "source": "باشگاه پرسپولیس"
     },
     {
-      "title": "تمرین پرسپولیس – دوشنبه 2 آذر 1405 2 آذر 1405",
-      "url": "https://fc-perspolis.com/album/%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%af%d9%88%d8%b4%d9%86%d8%a8%d9%87-2-%d8%a2%d8%b0%d8%b1-1405/",
+      "title": "تمرین پرسپولیس – چهارشنبه ۴ آذر ۱۴۰۵ 4 آذر 1405",
+      "url": "https://fc-perspolis.com/album/%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%da%86%d9%87%d8%a7%d8%b1%d8%b4%d9%86%d8%a8%d9%87-%db%b4-%d8%a2%d8%b0%d8%b1-%db%b1%db%b4%db%b0%db%b5/",
+      "source": "باشگاه پرسپولیس"
+    },
+    {
+      "title": "مجمع عادی سالیانه باشگاه پرسپولیس – چهارشنبه 4 آذر 1405 4 آذر 1405",
+      "url": "https://fc-perspolis.com/album/%d9%85%d8%ac%d9%85%d8%b9-%d8%b9%d8%a7%d8%af%db%8c-%d8%b3%d8%a7%d9%84%db%8c%d8%a7%d9%86%d9%87-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%da%86%d9%87%d8%a7/",
       "source": "باشگاه پرسپولیس"
     },
     {
