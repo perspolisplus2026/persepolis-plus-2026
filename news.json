@@ -1,8 +1,43 @@
 {
-  "updated_at": "2026-11-26T10:52:45.562432+00:00",
+  "updated_at": "2026-11-26T19:59:04.177082+00:00",
   "sources": 3,
   "failed_sources": [],
   "news": [
+    {
+      "title": "پرسپولیس نیوز را در گوگل دنبال کنید",
+      "url": "https://perspolisnews.ir/%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%86%db%8c%d9%88%d8%b2-%d8%b1%d8%a7-%d8%af%d8%b1-%da%af%d9%88%da%af%d9%84-%d8%af%d9%86%d8%a8%d8%a7%d9%84-%da%a9%d9%86%db%8c%d8%af/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "گزارش تصویری: تمرین پرسپولیس در اراک",
+      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%af%d8%b1-%d8%a7%d8%b1%d8%a7%da%a9/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "درآمد ۴۷۷ میلیارد تومانی پرسپولیس در سال ۱۴۰۵",
+      "url": "https://perspolisnews.ir/%d8%af%d8%b1%d8%a2%d9%85%d8%af-%db%b4%db%b7%db%b7-%d9%85%db%8c%d9%84%db%8c%d8%a7%d8%b1%d8%af-%d8%aa%d9%88%d9%85%d8%a7%d9%86%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%af%d8%b1-%d8%b3/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "پیکان حکم توقیف اموال پرسپولیس را گرفت!",
+      "url": "https://perspolisnews.ir/%d9%be%db%8c%da%a9%d8%a7%d9%86-%d8%ad%da%a9%d9%85-%d8%aa%d9%88%d9%82%db%8c%d9%81-%d8%a7%d9%85%d9%88%d8%a7%d9%84-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%b1%d8%a7-%da%af%d8%b1%d9%81%d8%aa/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "طلب میلیون دلاری پرسپولیس از ای اف سی",
+      "url": "https://perspolisnews.ir/%d8%b7%d9%84%d8%a8-%d9%85%db%8c%d9%84%db%8c%d9%88%d9%86-%d8%af%d9%84%d8%a7%d8%b1%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a7%d8%b2-%d8%a7%db%8c-%d8%a7%d9%81-%d8%b3%db%8c/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "شاه محمدی: مشکل گلزنی پرسپولیس با جذب مهاجم تمام کننده حل می‌شود",
+      "url": "https://perspolisnews.ir/%d8%b4%d8%a7%d9%87-%d9%85%d8%ad%d9%85%d8%af%db%8c-%d9%85%d8%b4%da%a9%d9%84-%da%af%d9%84%d8%b2%d9%86%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%a7-%d8%ac%d8%b0%d8%a8-%d9%85%d9%87/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "آزادی ۴۹ زندانی در اراک با کمک باشگاه پرسپولیس",
+      "url": "https://perspolisnews.ir/%d8%a2%d8%b2%d8%a7%d8%af%db%8c-%db%b4%db%b9-%d8%b2%d9%86%d8%af%d8%a7%d9%86%db%8c-%d8%af%d8%b1-%d8%a7%d8%b1%d8%a7%da%a9-%d8%a8%d8%a7-%da%a9%d9%85%da%a9-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1/",
+      "source": "پرسپولیس نیوز"
+    },
     {
       "title": "حساب دختران پرسپولیس پر شد",
       "url": "https://perspolisnews.ir/%d8%ad%d8%b3%d8%a7%d8%a8-%d8%af%d8%ae%d8%aa%d8%b1%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%be%d8%b1-%d8%b4%d8%af/",
@@ -11,36 +46,6 @@
     {
       "title": "سرمربی پرسپولیس: جای میلاد فراهانی در فوتبال خالی و دردناک است/ بهتر است آدم‌های خوبی باشیم",
       "url": "https://perspolisnews.ir/%d8%b3%d8%b1%d9%85%d8%b1%d8%a8%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%ac%d8%a7%db%8c-%d9%85%db%8c%d9%84%d8%a7%d8%af-%d9%81%d8%b1%d8%a7%d9%87%d8%a7%d9%86%db%8c-%d8%af%d8%b1-%d9%81/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "گزارش تصویری: تمرین چهارشنبه پرسپولیس",
-      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%da%86%d9%87%d8%a7%d8%b1%d8%b4%d9%86%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-24/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "حضور حمید استیلی در تمرین پرسپولیس",
-      "url": "https://perspolisnews.ir/%d8%ad%d8%b6%d9%88%d8%b1-%d8%ad%d9%85%db%8c%d8%af-%d8%a7%d8%b3%d8%aa%db%8c%d9%84%db%8c-%d8%af%d8%b1-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "اصلانیان: پرسپولیس نیاز به ارسال از جناحین دارد/ بعید می‌دانم دستیار خارجی به ایران بیاید",
-      "url": "https://perspolisnews.ir/%d8%a7%d8%b5%d9%84%d8%a7%d9%86%db%8c%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%86%db%8c%d8%a7%d8%b2-%d8%a8%d9%87-%d8%a7%d8%b1%d8%b3%d8%a7%d9%84-%d8%a7%d8%b2-%d8%ac%d9%86%d8%a7/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "کاظمی داور آلومینیوم – پرسپولیس شد!",
-      "url": "https://perspolisnews.ir/%da%a9%d8%a7%d8%b8%d9%85%db%8c-%d8%af%d8%a7%d9%88%d8%b1-%d8%a2%d9%84%d9%88%d9%85%db%8c%d9%86%db%8c%d9%88%d9%85-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%b4%d8%af/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "پرداختی به آکادمی پرسپولیس ۵۰ درصد شد",
-      "url": "https://perspolisnews.ir/%d9%be%d8%b1%d8%af%d8%a7%d8%ae%d8%aa%db%8c-%d8%a8%d9%87-%d8%a2%da%a9%d8%a7%d8%af%d9%85%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%db%b5%db%b0-%d8%af%d8%b1%d8%b5%d8%af-%d8%b4%d8%af/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "مجمع سالیانه باشگاه پرسپولیس برگزار شد",
-      "url": "https://perspolisnews.ir/%d9%85%d8%ac%d9%85%d8%b9-%d8%b3%d8%a7%d9%84%db%8c%d8%a7%d9%86%d9%87-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1-%d8%b4-2/",
       "source": "پرسپولیس نیوز"
     },
     {
@@ -54,18 +59,13 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "لیست مازاد پرسپولیس تکذیب شد",
-      "url": "https://perspolisnews.ir/%d9%84%db%8c%d8%b3%d8%aa-%d9%85%d8%a7%d8%b2%d8%a7%d8%af-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%aa%da%a9%d8%b0%db%8c%d8%a8-%d8%b4%d8%af/",
+      "title": "گزارش تصویری: تمرین چهارشنبه پرسپولیس",
+      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%da%86%d9%87%d8%a7%d8%b1%d8%b4%d9%86%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-24/",
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "گزارش تصویری: تمرین سه‌شنبه پرسپولیس",
-      "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d8%b3%d9%87%d8%b4%d9%86%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-5/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "دو ستاره پرسپولیس در آستانه محرومیت مقابل سپاهان",
-      "url": "https://perspolisnews.ir/%d8%af%d9%88-%d8%b3%d8%aa%d8%a7%d8%b1%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%af%d8%b1-%d8%a2%d8%b3%d8%aa%d8%a7%d9%86%d9%87-%d9%85%d8%ad%d8%b1%d9%88%d9%85%db%8c%d8%aa-%d9%85%d9%82/",
+      "title": "کاظمی داور آلومینیوم – پرسپولیس شد!",
+      "url": "https://perspolisnews.ir/%da%a9%d8%a7%d8%b8%d9%85%db%8c-%d8%af%d8%a7%d9%88%d8%b1-%d8%a2%d9%84%d9%88%d9%85%db%8c%d9%86%db%8c%d9%88%d9%85-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%b4%d8%af/",
       "source": "پرسپولیس نیوز"
     },
     {
@@ -81,6 +81,11 @@
     {
       "title": "حلقه گمشده پرسپولیس پیدا شد؛ جانشین ترابی اینجاست",
       "url": "https://arteshesorkh.com/post/%D8%AD%D9%84%D9%82%D9%87-%DA%AF%D9%85%D8%B4%D8%AF%D9%87-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D9%BE%DB%8C%D8%AF%D8%A7-%D8%B4%D8%AF%D8%9B-%D8%AC%D8%A7%D9%86%D8%B4%DB%8C%D9%86-%D8%AA%D8%B1%D8%A7%D8%A8%DB%8C-%D8%A7%DB%8C%D9%86%D8%AC%D8%A7%D8%B3%D8%AA",
+      "source": "ارتش سرخ"
+    },
+    {
+      "title": "تارتار: هواداران همچنان از پرسپولیس حمایت کنند",
+      "url": "https://arteshesorkh.com/post/%D8%AA%D8%A7%D8%B1%D8%AA%D8%A7%D8%B1--%D9%87%D9%88%D8%A7%D8%AF%D8%A7%D8%B1%D8%A7%D9%86-%D9%87%D9%85%DA%86%D9%86%D8%A7%D9%86-%D8%A7%D8%B2-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%AD%D9%85%D8%A7%DB%8C%D8%AA-%DA%A9%D9%86%D9%86%D8%AF",
       "source": "ارتش سرخ"
     },
     {
@@ -111,11 +116,6 @@
     {
       "title": "مجمع پرسپولیس بالاخره برگزار شد",
       "url": "https://arteshesorkh.com/post/%D9%85%D8%AC%D9%85%D8%B9-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%A8%D8%A7%D9%84%D8%A7%D8%AE%D8%B1%D9%87-%D8%A8%D8%B1%DA%AF%D8%B2%D8%A7%D8%B1-%D8%B4%D8%AF",
-      "source": "ارتش سرخ"
-    },
-    {
-      "title": "زمستان، شاید فصل ریزش خارجی‌های پرسپولیس باشد",
-      "url": "https://arteshesorkh.com/post/%D8%B2%D9%85%D8%B3%D8%AA%D8%A7%D9%86%D8%8C-%D8%B4%D8%A7%DB%8C%D8%AF-%D9%81%D8%B5%D9%84-%D8%B1%DB%8C%D8%B2%D8%B4-%D8%AE%D8%A7%D8%B1%D8%AC%DB%8C-%D9%87%D8%A7%DB%8C-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3-%D8%A8%D8%A7%D8%B4%D8%AF",
       "source": "ارتش سرخ"
     },
     {
@@ -154,33 +154,28 @@
       "source": "ارتش سرخ"
     },
     {
+      "title": "بازتاب بین‌المللی پویش «نبض سرخ» با همکاری پرسپولیس و سازمان انتقال خون",
+      "url": "https://fc-perspolis.com/41838-%d8%a8%d8%a7%d8%b2%d8%aa%d8%a7%d8%a8-%d8%a8%db%8c%d9%86%d8%a7%d9%84%d9%85%d9%84%d9%84%db%8c-%d9%be%d9%88%db%8c%d8%b4-%d9%86%d8%a8%d8%b6-%d8%b3%d8%b1%d8%ae-%d8%a8%d8%a7-%d9%87/",
+      "source": "باشگاه پرسپولیس"
+    },
+    {
+      "title": "نونهالان پرسپولیس مقابل پیکان به تساوی رضایت دادند",
+      "url": "https://fc-perspolis.com/41834-%d9%86%d9%88%d9%86%d9%87%d8%a7%d9%84%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%85%d9%82%d8%a7%d8%a8%d9%84-%d9%be%db%8c%da%a9%d8%a7%d9%86-%d8%a8%d9%87-%d8%aa%d8%b3%d8%a7%d9%88/",
+      "source": "باشگاه پرسپولیس"
+    },
+    {
       "title": "آزادی ۴۹ زندانی در اراک با مشارکت باشگاه پرسپولیس",
       "url": "https://fc-perspolis.com/41830-%d8%a2%d8%b2%d8%a7%d8%af%db%8c-%db%b4%db%b9-%d8%b2%d9%86%d8%af%d8%a7%d9%86%db%8c-%d8%af%d8%b1-%d8%a7%d8%b1%d8%a7%da%a9-%d8%a8%d8%a7-%d9%85%d8%b4%d8%a7%d8%b1%da%a9%d8%aa-%d8%a8%d8%a7%d8%b4%da%af%d8%a7/",
       "source": "باشگاه پرسپولیس"
     },
     {
-      "title": "«کاظمی» داور دیدار پرسپولیس – آلومینیوم",
-      "url": "https://fc-perspolis.com/41828-%da%a9%d8%a7%d8%b8%d9%85%db%8c-%d8%af%d8%a7%d9%88%d8%b1-%d8%af%db%8c%d8%af%d8%a7%d8%b1-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a2%d9%84%d9%88%d9%85%db%8c%d9%86%db%8c/",
-      "source": "باشگاه پرسپولیس"
-    },
-    {
-      "title": "واکنش بزیک به اشتباهات سریالی یک داور علیه پرسپولیس",
-      "url": "https://fc-perspolis.com/41825-%d9%88%d8%a7%da%a9%d9%86%d8%b4-%d8%a8%d8%b2%db%8c%da%a9-%d8%a8%d9%87-%d8%a7%d8%b4%d8%aa%d8%a8%d8%a7%d9%87%d8%a7%d8%aa-%d8%b3%d8%b1%db%8c%d8%a7%d9%84%db%8c-%db%8c%da%a9-%d8%af%d8%a7%d9%88%d8%b1-%d8%b9/",
-      "source": "باشگاه پرسپولیس"
-    },
-    {
-      "title": "حمید استیلی میهمان سرخپوشان در تمرین",
-      "url": "https://fc-perspolis.com/41798-%d8%ad%d9%85%db%8c%d8%af-%d8%a7%d8%b3%d8%aa%db%8c%d9%84%db%8c-%d9%85%db%8c%d9%87%d9%85%d8%a7%d9%86-%d8%b3%d8%b1%d8%ae%d9%be%d9%88%d8%b4%d8%a7%d9%86-%d8%af%d8%b1-%d8%aa%d9%85%d8%b1%db%8c%d9%86/",
+      "title": "تمرین پرسپولیس – پنج شنبه ۵ آذر ۱۴۰۵ 5 آذر 1405",
+      "url": "https://fc-perspolis.com/album/%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%be%d9%86%d8%ac-%d8%b4%d9%86%d8%a8%d9%87-%db%b5-%d8%a2%d8%b0%d8%b1-%db%b1%db%b4%db%b0%db%b5/",
       "source": "باشگاه پرسپولیس"
     },
     {
       "title": "تمرین پرسپولیس – چهارشنبه ۴ آذر ۱۴۰۵ 4 آذر 1405",
       "url": "https://fc-perspolis.com/album/%d8%aa%d9%85%d8%b1%db%8c%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%da%86%d9%87%d8%a7%d8%b1%d8%b4%d9%86%d8%a8%d9%87-%db%b4-%d8%a2%d8%b0%d8%b1-%db%b1%db%b4%db%b0%db%b5/",
-      "source": "باشگاه پرسپولیس"
-    },
-    {
-      "title": "مجمع عادی سالیانه باشگاه پرسپولیس – چهارشنبه 4 آذر 1405 4 آذر 1405",
-      "url": "https://fc-perspolis.com/album/%d9%85%d8%ac%d9%85%d8%b9-%d8%b9%d8%a7%d8%af%db%8c-%d8%b3%d8%a7%d9%84%db%8c%d8%a7%d9%86%d9%87-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%da%86%d9%87%d8%a7/",
       "source": "باشگاه پرسپولیس"
     },
     {
