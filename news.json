@@ -1,8 +1,18 @@
 {
-  "updated_at": "2026-11-25T18:50:47.786631+00:00",
+  "updated_at": "2026-11-26T02:02:04.397090+00:00",
   "sources": 3,
   "failed_sources": [],
   "news": [
+    {
+      "title": "حساب دختران پرسپولیس پر شد",
+      "url": "https://perspolisnews.ir/%d8%ad%d8%b3%d8%a7%d8%a8-%d8%af%d8%ae%d8%aa%d8%b1%d8%a7%d9%86-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%be%d8%b1-%d8%b4%d8%af/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "سرمربی پرسپولیس: جای میلاد فراهانی در فوتبال خالی و دردناک است/ بهتر است آدم‌های خوبی باشیم",
+      "url": "https://perspolisnews.ir/%d8%b3%d8%b1%d9%85%d8%b1%d8%a8%db%8c-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%ac%d8%a7%db%8c-%d9%85%db%8c%d9%84%d8%a7%d8%af-%d9%81%d8%b1%d8%a7%d9%87%d8%a7%d9%86%db%8c-%d8%af%d8%b1-%d9%81/",
+      "source": "پرسپولیس نیوز"
+    },
     {
       "title": "گزارش تصویری: تمرین چهارشنبه پرسپولیس",
       "url": "https://perspolisnews.ir/%da%af%d8%b2%d8%a7%d8%b1%d8%b4-%d8%aa%d8%b5%d9%88%db%8c%d8%b1%db%8c-%d8%aa%d9%85%d8%b1%db%8c%d9%86-%da%86%d9%87%d8%a7%d8%b1%d8%b4%d9%86%d8%a8%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-24/",
@@ -34,16 +44,6 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "لیست مازاد پرسپولیس تکذیب شد",
-      "url": "https://perspolisnews.ir/%d9%84%db%8c%d8%b3%d8%aa-%d9%85%d8%a7%d8%b2%d8%a7%d8%af-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%aa%da%a9%d8%b0%db%8c%d8%a8-%d8%b4%d8%af/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "پیش‌مجمع پرسپولیس برگزار شد",
-      "url": "https://perspolisnews.ir/%d9%be%db%8c%d8%b4%d9%85%d8%ac%d9%85%d8%b9-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%a8%d8%b1%da%af%d8%b2%d8%a7%d8%b1-%d8%b4%d8%af/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
       "title": "تاریخچه پرسپولیس",
       "url": "https://perspolisnews.ir/%da%a9%d8%a7%d9%85%d9%84-%d8%aa%d8%b1%db%8c%d9%86-%d8%aa%d8%a7%d8%b1%db%8c%d8%ae%da%86%d9%87-%d8%a8%d8%a7%d8%b4%da%af%d8%a7%d9%87-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3/",
       "source": "پرسپولیس نیوز"
@@ -51,6 +51,11 @@
     {
       "title": "برنامه بازی‌های پرسپولیس",
       "url": "https://perspolisnews.ir/team/%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "لیست مازاد پرسپولیس تکذیب شد",
+      "url": "https://perspolisnews.ir/%d9%84%db%8c%d8%b3%d8%aa-%d9%85%d8%a7%d8%b2%d8%a7%d8%af-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d8%aa%da%a9%d8%b0%db%8c%d8%a8-%d8%b4%d8%af/",
       "source": "پرسپولیس نیوز"
     },
     {
@@ -64,18 +69,13 @@
       "source": "پرسپولیس نیوز"
     },
     {
-      "title": "دلیل غیبت مدافع پرسپولیس مشخص شد",
-      "url": "https://perspolisnews.ir/%d8%af%d9%84%db%8c%d9%84-%d8%ba%db%8c%d8%a8%d8%aa-%d9%85%d8%af%d8%a7%d9%81%d8%b9-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%d9%85%d8%b4%d8%ae%d8%b5-%d8%b4%d8%af/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
-      "title": "آغاز بلیت فروشی بازی آلومینیوم – پرسپولیس",
-      "url": "https://perspolisnews.ir/%d8%a2%d8%ba%d8%a7%d8%b2-%d8%a8%d9%84%db%8c%d8%aa-%d9%81%d8%b1%d9%88%d8%b4%db%8c-%d8%a8%d8%a7%d8%b2%db%8c-%d8%a2%d9%84%d9%88%d9%85%db%8c%d9%86%db%8c%d9%88%d9%85-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84/",
-      "source": "پرسپولیس نیوز"
-    },
-    {
       "title": "تأثیرگذارترین بازیکن لیگ پرسپولیسی است",
       "url": "https://perspolisnews.ir/%d8%aa%d8%a3%d8%ab%db%8c%d8%b1%da%af%d8%b0%d8%a7%d8%b1%d8%aa%d8%b1%db%8c%d9%86-%d8%a8%d8%a7%d8%b2%db%8c%da%a9%d9%86-%d9%84%db%8c%da%af-%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3%db%8c-%d8%a7/",
+      "source": "پرسپولیس نیوز"
+    },
+    {
+      "title": "پرسپولیس ۶۳ ساله شد؛ رونمایی از پوستر سالروز تأسیس سرخها",
+      "url": "https://perspolisnews.ir/%d9%be%d8%b1%d8%b3%d9%be%d9%88%d9%84%db%8c%d8%b3-%db%b6%db%b3-%d8%b3%d8%a7%d9%84%d9%87-%d8%b4%d8%af%d8%9b-%d8%b1%d9%88%d9%86%d9%85%d8%a7%db%8c%db%8c-%d8%a7%d8%b2-%d9%be%d9%88%d8%b3%d8%aa%d8%b1-%d8%b3/",
       "source": "پرسپولیس نیوز"
     },
     {
